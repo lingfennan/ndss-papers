@@ -1,0 +1,12785 @@
+%PDF-1.2
+%‚„œ”
+2 0 obj
+<<
+/Length 853
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+BT
+/F2 1 Tf
+0 24 -24 0 108.81 348.69 Tm
+0 0 0.398 rg
+0 Tc
+[(NDSS\2229)-4(9)]TJ
+/F1 1 Tf
+0 20.04 -20.04 0 133.77 137.85 Tm
+-0.001 Tc
+-0.002 Tw
+[(Netw)5(ork and Distributed Systems Securi)8(ty Symposium)]TJ
+/F2 1 Tf
+0.1976 -2.6347 TD
+[(Securi)8(ng)-7( )6(the Internet\222)8(s Exterior)5( Routing Infrastructure)]TJ
+/F1 1 Tf
+0 36 -36 0 283.65 117.81 Tm
+0 Tc
+0 Tw
+(Secure Border Gateway Protocol)Tj
+5.89 -1.2033 TD
+(\(S-BGP\))Tj
+/F3 1 Tf
+0 24 -24 0 399.21 306.33 Tm
+0 g
+0.002 Tc
+-0.005 Tw
+[(Dr)5(. Char)5(les Lynn)]TJ
+-0.395 -1.435 TD
+0 Tc
+0.002 Tw
+(BBN Technologies)Tj
+-0.035 -1.44 TD
+0.001 Tc
+[(CLynn@BBN.)4(Com)]TJ
+0 20.04 -20.04 0 518.13 162.21 Tm
+-0.002 Tc
+[(htt)7(p)-3(://ww)-5(w)-5(.)1(net-tech.bbn.com/s)-5(b)3(gp/)7(ndss)-5(9)3(9/index)-5(.)1(html)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+/F3 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Length 2336
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 50.97 Tm
+0 g
+0 Tc
+0 Tw
+(2)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+0.001 Tw
+(Constraints and Goals)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 165.21 124.53 Tm
+0 g
+-0.001 Tw
+(BGP Implementation and Protocol Limitations)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 199.65 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 199.65 124.53 Tm
+0 g
+0.001 Tc
+-0.002 Tw
+(Dynamic - must handle changes in topology and the)Tj
+0 -1.2 TD
+(addition of new networks, routers, and ASes)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 263.01 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 263.01 124.53 Tm
+0 g
+0.001 Tc
+-0.002 Tw
+(Must handle current and projected usage)Tj
+/F6 1 Tf
+0 18 -18 0 292.65 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 292.65 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(E.g., Aggregation, C)-5(o)-3(mmuni)-8(t)1(ies, MP)-6(LS)-6(, Multi)-8(-)2(Protocol, etc.)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 326.25 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 326.25 124.53 Tm
+0 g
+-0.001 Tc
+-0.001 Tw
+[(Sca)-5(l)-4(ab)-5(le)-5( - must h)-5(a)0(n)-5(d)0(l)-4(e)0( forese)-5(ea)-5(bl)-4(e)-5( grow)-4(th)-5(, i)-4(.)2(e)-5(., IPv6)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 360.69 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 360.69 124.53 Tm
+0 g
+0.001 Tc
+-0.004 Tw
+(Deployable - must use available technology that can)Tj
+T*
+-0.001 Tw
+(be incrementally deployed)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 423.93 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 423.93 124.53 Tm
+0 g
+(Avoid Dependency Loops - cannot depend on inter-)Tj
+T*
+-0.001 Tw
+(AS routing when initializing, e.g., non-local databases)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 487.17 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 487.17 124.53 Tm
+0 g
+(Leverage of off existing infrastructure)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 521.73 97.53 Tm
+0 0 0.602 rg
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 521.73 124.53 Tm
+0 g
+0.002 Tc
+-0.003 Tw
+[(No new tr)5(ust)5( relat)5(i)-1(onships;)5( l)4(e)-2(ast)5( privi)4(l)-1(ege desi)4(gn)]TJ
+ET
+endstream
+endobj
+11 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+16 0 obj
+<<
+/Length 1731
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 50.97 Tm
+0 g
+0 Tc
+0 Tw
+(3)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 106.29 96.57 Tm
+0 0 0.398 rg
+-0.001 Tc
+(Correct Operation of BGP)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 160.17 101.49 Tm
+0 0 0.602 rg
+0 Tc
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 160.17 128.49 Tm
+0 g
+0.001 Tc
+-0.002 Tw
+[(Each UPDATE is intact)4(,)4( sent)4( by t)4(h)2(e indicat)4(e)-3(d sender,)]TJ
+0 -1.2 TD
+0 Tc
+0 Tw
+(and is intended for indicated receiver)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 223.41 101.49 Tm
+0 0 0.602 rg
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 223.41 128.49 Tm
+0 g
+-0.001 Tw
+(Neighbor that sent the UPDATE was authorized to act)Tj
+T*
+0.002 Tc
+-0.004 Tw
+[(on behalf)5( of)5( it)5(s AS)4( t)5(o)-2( advert)5(ise t)5(h)3(e rout)5(ing inf)5(o)-2(r)5(m)0(at)5(ion i)4(n)]TJ
+T*
+-0.001 Tc
+-0.002 Tw
+[(th)-5(e U)-4(P)1(D)-4(A)-4(T)5(E)-4( to)-5( th)-5(e B)-4(G)2(P sp)-5(ea)-5(kers i)-4(n)0( the)-5( re)-5(ci)-4(pi)-4(en)-5(t A)-4(S)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 315.45 101.49 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 315.45 128.49 Tm
+0 g
+0.001 Tc
+-0.004 Tw
+(Neighbor withdrawing a route is the advertiser for that)Tj
+T*
+(route)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 378.69 101.49 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 378.69 128.49 Tm
+0 g
+-0.002 Tc
+[(AS)-5( th)-6(at g)-6(e)-1(n)-6(e)-1(rated)-6( the)-6( i)-5(n)-1(i)-5(t)1(i)-5(a)-6(l UP)-5(DA)-5(TE i)-5(s)-2( a)-6(u)-1(th)-6(ori)-5(z)-2(ed)-6( by)]TJ
+T*
+0.001 Tc
+-0.002 Tw
+(the Organization that owns the address space in the)Tj
+0 -1.195 TD
+0 Tc
+(NLRI to represent the address space)Tj
+ET
+endstream
+endobj
+17 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+19 0 obj
+<<
+/Length 1919
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 50.97 Tm
+0 g
+0 Tc
+0 Tw
+(4)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+(Correct Operation of BGP \(nice, but ...\))Tj
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 91.53 Tm
+0 0 0.602 rg
+0 Tc
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 165.21 118.53 Tm
+0 g
+0.001 Tc
+-0.003 Tw
+[(Neighbor t)4(h)2(at)4( sent)4( t)4(h)2(e UPDATE, correct)4(ly applied)]TJ
+0 -1.2 TD
+0 Tc
+-0.001 Tw
+[(BGP rules, loca)-4(l po)-4(licies, etc.)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 228.45 91.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 228.45 118.53 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(BGP sp)-5(eake)-5(r)-3( tha)-5(t)2( rece)-5(i)-4(v)-1(ed)-5( th)-5(e U)-4(P)1(D)-4(A)1(TE)-4(, co)-5(rrectly)]TJ
+T*
+0.001 Tc
+(applied BGP rules, local policies, etc.)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 291.69 91.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 291.69 118.53 Tm
+0 g
+-0.001 Tc
+[(Su)-5(bscri)-4(b)0(e)-5(r)2( tra)-5(ffi)-4(c fo)-5(rwa)-5(r)-3(ded)-5( b)-5(y)-1( a B)-4(G)2(P spea)-5(ker i)-4(s)]TJ
+T*
+0 Tc
+(valid \(not spoofed, duplicated, etc.\))Tj
+/F6 1 Tf
+0 20.04 -20.04 0 404.01 100.89 Tm
+-0.002 Tc
+-0.001 Tw
+(We can\222t enforce these)Tj
+ET
+406.17 305.01 1.32 -48.72 re
+f
+BT
+0 20.04 -20.04 0 404.01 305.13 Tm
+0 Tc
+-0.003 Tw
+[( aspe)5(cts o)5(f)3( corre)5(c)-3(t)9( ope)5(ra)5(tio)5(n)-1( be)5(ca)5(use BGP)]TJ
+-11.2036 -1.1976 TD
+[(aff)9(o)-1(rds sp)5(eakers consid)5(erable latitude)5( with reg)5(a)-1(rd to)5( lo)5(ca)5(l po)5(licy, ASe)5(s)]TJ
+0.2994 -1.1976 TD
+[(do)5( not )6(tend)5( to m)7(a)-1(ke p)5(ublic th)5(eir local policie)5(s,)9( and)5( becau)5(se)5( va)5(lidation)]TJ
+5.2216 -1.1976 TD
+-0.002 Tc
+-0.001 Tw
+[(and tracki)-8(ng of subs)-5(cri)-8(b)3(er traffic i)-8(s)1( impractic)-5(a)3(l)]TJ
+ET
+endstream
+endobj
+20 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+22 0 obj
+<<
+/Length 2274
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 50.97 Tm
+0 g
+0 Tc
+0 Tw
+(5)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+-0.003 Tw
+(Design Overview)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 165.21 124.53 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(IP)-4(sec --> a)-5(u)0(then)-5(ti)-4(ci)-4(ty, i)-4(n)-5(teg)-5(r)2(i)-4(t)2(y, an)-5(d a)-5(n)0(ti-rep)-5(l)1(a)-5(y)]TJ
+0 -1.2 TD
+0.002 Tc
+[(prot)5(ect)5(i)-1(on of)5( peer)5(-t)5(o-)5(peer)5( comm)5(unicat)5(ion)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 228.45 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 228.45 124.53 Tm
+0 g
+-0.003 Tw
+[(Pu)-4(bl)-3(i)-3(c)0( Ke)-4(y In)-4(frastructures \(PK)-3(I)3(s\) --> secu)-4(re)]TJ
+T*
+-0.001 Tc
+-0.001 Tw
+[(i)-4(d)0(e)-5(n)0(ti)-4(fi)-4(ca)-5(ti)-4(on)-5( of BGP)-4( spe)-5(a)0(ke)-5(rs a)-5(n)0(d)-5( of ow)-4(n)-5(e)0(rs of AS)-4(es)]TJ
+0 -1.195 TD
+0 Tc
+(and of address blocks)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 320.49 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 320.49 124.53 Tm
+0 g
+-0.002 Tw
+(Attestations --> authorization of the subject \(by the)Tj
+T*
+0.001 Tc
+-0.004 Tw
+(issuer\) to advertise the specified address blocks, or)Tj
+0 -1.2 TD
+-0.002 Tc
+-0.001 Tw
+[(AS)-5(es i)-5(n)-6( the)-6( AS)-5( Pa)-6(th)]TJ
+/F6 1 Tf
+0 18 -18 0 407.73 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 407.73 156.09 Tm
+0 g
+-0.003 Tw
+[(Can)5( also)5( prote)5(c)-3(t )6(othe)5(r )6(Pat)9(h)-1( Attrib)5(utes)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 441.21 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 441.21 124.53 Tm
+0 g
+0.001 Tc
+-0.004 Tw
+[(Validation of)4( UPDAT)7(Es using cer)4(t)-1(ificat)4(es and)]TJ
+T*
+0 Tc
+(attestations)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 504.45 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 504.45 124.53 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(D)-4(i)-4(s)-1(tri)-4(b)-5(u)0(ti)-4(o)-5(n)0( o)-5(f)2( co)-5(un)-5(termeasu)-5(r)-3(es i)-4(n)-5(formati)-4(on)-5( -->)]TJ
+T*
+0.001 Tw
+[(certi)-4(f)2(i)-4(c)-1(a)-5(t)2(es, CR)-4(L)-5(s)-1(, a)-5(ttestati)-4(o)-5(ns)]TJ
+ET
+endstream
+endobj
+23 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+25 0 obj
+<<
+/Length 2807
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 50.97 Tm
+0 g
+0 Tc
+0 Tw
+(6)Tj
+ET
+0 G
+2.04 w 
+408.45 126.45 m
+438.45 126.45 l
+336.45 480.45 m
+372.45 480.45 l
+336.45 390.45 m
+372.45 390.45 l
+192.45 444.45 m
+228.45 444.45 l
+264.45 576.45 m
+300.45 576.45 l
+S
+BT
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+(IP Address Allocation Example)Tj
+ET
+264.45 174.45 m
+300.45 174.45 l
+264.45 444.45 m
+300.45 396.45 l
+264.45 672.45 m
+300.45 672.45 l
+192.45 444.45 m
+228.45 174.45 l
+228.45 672.45 m
+192.45 444.45 l
+300.45 474.45 m
+264.45 444.45 l
+192.45 444.45 m
+228.45 300.45 l
+192.45 444.45 m
+228.45 576.45 l
+S
+BT
+/F4 1 Tf
+0 24 -24 0 327.09 145.53 Tm
+0 g
+0.001 Tc
+(ISP-2)Tj
+ET
+1 J 0 j 0.96 w 
+300.45 204.45 36 -66 re
+S
+BT
+0 24 -24 0 399.09 91.53 Tm
+0.003 Tc
+[(DSP-)6(D)]TJ
+ET
+372.45 168.81 36 -84 re
+S
+BT
+0 24 -24 0 183.09 409.53 Tm
+0.001 Tc
+-0.001 Tw
+( IANA)Tj
+ET
+156.45 492.45 36 -96 re
+S
+BT
+0 24 -24 0 327.09 451.53 Tm
+(ISP-3)Tj
+ET
+300.45 510.45 36 -66 re
+S
+BT
+0 24 -24 0 255.09 547.53 Tm
+(ISP-1)Tj
+ET
+228.45 606.45 36 -66 re
+S
+BT
+0 24 -24 0 399.09 445.53 Tm
+0.003 Tc
+[(DSP-)6(E)]TJ
+ET
+372.45 522.81 36 -84 re
+S
+BT
+0 24 -24 0 327.09 355.53 Tm
+[(DSP-)6(B)]TJ
+ET
+300.45 432.81 36 -84 re
+S
+BT
+0 24 -24 0 327.09 637.53 Tm
+[(SUB-)5(U)]TJ
+ET
+300.45 714.45 36 -84 re
+S
+BT
+0 24 -24 0 255.09 637.53 Tm
+[(DSP-)6(A)]TJ
+ET
+228.45 714.81 36 -84 re
+S
+BT
+0 24 -24 0 255.09 271.53 Tm
+0 Tc
+(Sub-S)Tj
+ET
+228.45 336.45 36 -72 re
+S
+BT
+0 24 -24 0 327.09 541.53 Tm
+0.003 Tc
+[(DSP-)6(C)]TJ
+ET
+300.45 618.81 36 -84 re
+S
+BT
+0 24 -24 0 399.09 355.53 Tm
+0 Tc
+(Sub-W)Tj
+ET
+372.45 432.45 36 -84 re
+S
+0 J 1 j 2.04 w 
+264.45 444.45 m
+300.45 300.45 l
+498.45 696.45 m
+498.45 288.45 l
+498.45 288.45 m
+480.45 270.45 l
+498.45 696.45 m
+480.45 714.45 l
+S
+BT
+0 24 -24 0 525.21 433.65 Tm
+0.002 Tc
+[(Hi)5(st)5(ori)5(c)1(a)6(l)]TJ
+ET
+372.45 216.45 m
+336.45 174.45 l
+372.45 126.45 m
+336.45 174.45 l
+S
+BT
+0 24 -24 0 255.09 385.53 Tm
+0 Tc
+0 Tw
+( Registry-b)Tj
+ET
+1 J 0 j 0.96 w 
+228.45 501.09 36 -116.64 re
+S
+BT
+0 24 -24 0 255.09 121.53 Tm
+( Registry-a)Tj
+ET
+228.45 237.09 36 -116.64 re
+S
+BT
+0 24 -24 0 399.09 187.53 Tm
+(Sub-V)Tj
+ET
+372.45 252.45 36 -72 re
+S
+BT
+0 24 -24 0 399.09 547.53 Tm
+(Sub-X)Tj
+ET
+372.45 612.45 36 -72 re
+S
+BT
+0 24 -24 0 465.09 97.53 Tm
+(Sub-Y)Tj
+ET
+438.45 162.45 36 -72 re
+S
+BT
+0 24 -24 0 465.09 451.53 Tm
+(Sub-Z)Tj
+ET
+438.45 516.45 36 -72 re
+S
+BT
+0 24 -24 0 327.09 271.53 Tm
+(Sub-T)Tj
+ET
+300.45 336.45 36 -72 re
+S
+0 J 1 j 2.04 w 
+336.45 576.45 m
+372.45 576.45 l
+408.45 480.45 m
+438.45 480.45 l
+S
+endstream
+endobj
+26 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+28 0 obj
+<<
+/Length 1967
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 50.97 Tm
+0 g
+0 Tc
+0 Tw
+(7)Tj
+ET
+0 G
+2.04 w 
+270.45 540.45 m
+312.45 498.45 l
+S
+BT
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+(IP Address Allocation PKI Example)Tj
+ET
+192.45 390.45 m
+234.45 246.45 l
+S
+BT
+/F4 1 Tf
+0 24 -24 0 183.09 355.53 Tm
+0 g
+0.001 Tc
+-0.001 Tw
+( IANA)Tj
+ET
+1 J 0 j 0.96 w 
+156.45 438.45 36 -96 re
+S
+BT
+0 24 -24 0 339.09 457.53 Tm
+0.003 Tc
+[(DSP-)6(A)]TJ
+ET
+312.45 534.81 36 -84 re
+S
+0 J 1 j 2.04 w 
+270.45 246.45 m
+312.45 246.45 l
+390.45 300.45 m
+348.45 246.45 l
+S
+BT
+0 24 -24 0 261.09 187.53 Tm
+0 Tc
+0 Tw
+( Registry-a)Tj
+ET
+1 J 0 j 0.96 w 
+234.45 303.09 36 -116.64 re
+S
+BT
+0 24 -24 0 339.09 217.53 Tm
+0.001 Tc
+(ISP-1)Tj
+ET
+312.45 276.45 36 -66 re
+S
+BT
+0 24 -24 0 417.09 157.53 Tm
+0.003 Tc
+[(DSP-)6(B)]TJ
+ET
+390.45 234.81 36 -84 re
+S
+0 J 1 j 2.04 w 
+348.45 246.45 m
+390.45 192.45 l
+426.45 192.45 m
+456.45 192.45 l
+312.45 582.45 m
+270.45 540.45 l
+192.45 390.45 m
+234.45 540.45 l
+498.45 624.45 m
+498.45 462.45 l
+498.45 462.45 m
+480.45 444.45 l
+498.45 624.45 m
+480.45 642.45 l
+S
+BT
+0 24 -24 0 525.21 493.65 Tm
+[(Hi)5(st)5(ori)5(c)1(a)6(l)]TJ
+-0.505 11.005 TD
+0 Tc
+( Registry-b)Tj
+ET
+1 J 0 j 0.96 w 
+234.45 597.09 36 -116.64 re
+S
+BT
+0 24 -24 0 483.09 163.53 Tm
+(Sub-Z)Tj
+ET
+456.45 228.45 36 -72 re
+S
+BT
+0 24 -24 0 417.09 271.53 Tm
+(Sub-Y)Tj
+ET
+390.45 336.45 36 -72 re
+S
+BT
+0 24 -24 0 339.09 553.53 Tm
+(Sub-X)Tj
+ET
+312.45 618.45 36 -72 re
+S
+BT
+0 20.04 -20.04 0 482.73 271.29 Tm
+-0.004 Tc
+[(on)-7(ly )-6(i)5(f)-6( mu)-7(lt)5(i-h)-7(o)-1(med)]TJ
+ET
+0 J 1 j 
+476.49 248.61 m
+476.49 262.41 l
+S
+472.17 248.85 m
+476.49 240.45 l
+480.69 248.85 l
+f*
+447.57 300.45 m
+463.41 300.45 l
+S
+447.81 304.77 m
+439.41 300.45 l
+447.81 296.25 l
+f*
+endstream
+endobj
+29 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+31 0 obj
+<<
+/Length 2381
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 50.97 Tm
+0 g
+0 Tc
+0 Tw
+(8)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 117.45 91.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+(Address Certificates)Tj
+ET
+0.801 0.801 1 rg
+0 G
+1 J 0 j 
+347.97 684.45 35.04 -119.28 re
+B*
+BT
+/F4 1 Tf
+0 24 -24 0 374.25 569.25 Tm
+0 g
+0 Tc
+(addr blocks)Tj
+ET
+0.801 0.801 1 rg
+347.97 443.73 35.04 -119.28 re
+B*
+BT
+/F7 1 Tf
+0 15.96 -15.96 0 361.65 355.17 Tm
+0 g
+0.002 Tc
+[(Registr)-5(y)]TJ
+-0.3985 -1.2105 TD
+0 Tc
+-0.002 Tw
+[(\(or)-7( IANA\))]TJ
+ET
+0.801 0.801 1 rg
+347.97 564.09 35.04 -119.28 re
+B*
+BT
+/F4 1 Tf
+0 24 -24 0 374.25 461.73 Tm
+0 g
+0.001 Tc
+(ISP/DSP)Tj
+-4.415 8.01 TD
+-0.001 Tc
+[(I)-3(ssuer)-1568(Subj)-3(ect)]TJ
+8.99 -0.045 TD
+(Extensions)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 236.01 168.33 Tm
+(Root Certificate)Tj
+-1.8263 -6.8323 TD
+-0.002 Tc
+-0.001 Tw
+[(ISP)-6(/DS)-6(P C)-5(e)-3(rtifi)-8(c)1(at)7(e)]TJ
+0.2814 3.1557 TD
+0 Tw
+[(R)-6(e)-4(gi)-9(stry C)-6(e)-4(rtifi)-9(c)0(ate)]TJ
+ET
+0.801 0.801 1 rg
+284.73 443.73 34.92 -119.28 re
+B*
+BT
+/F4 1 Tf
+0 24 -24 0 311.01 353.97 Tm
+0 g
+0.002 Tc
+(IANA)Tj
+ET
+0.801 0.801 1 rg
+284.73 564.09 34.92 -119.28 re
+B*
+BT
+0 24 -24 0 311.01 463.89 Tm
+0 g
+0 Tc
+(Registry)Tj
+ET
+0.801 0.801 1 rg
+284.73 684.45 34.92 -119.28 re
+B*
+BT
+0 24 -24 0 311.01 569.25 Tm
+0 g
+(addr blocks)Tj
+ET
+0.801 0.801 1 rg
+413.97 684.45 35.04 -119.28 re
+B*
+BT
+0 24 -24 0 440.25 569.25 Tm
+0 g
+(addr blocks)Tj
+ET
+0.801 0.801 1 rg
+413.97 443.73 35.04 -119.28 re
+B*
+BT
+/F7 1 Tf
+0 15.96 -15.96 0 427.65 342.09 Tm
+0 g
+-0.002 Tw
+[(ISP/)-8(DSP \(or)]TJ
+-0.8722 -1.2105 TD
+0.001 Tc
+[(Registr)-6(y,)-5( IANA\))]TJ
+ET
+0.801 0.801 1 rg
+413.97 564.09 35.04 -119.28 re
+B*
+BT
+/F4 1 Tf
+0 24 -24 0 440.25 453.09 Tm
+0 g
+0 Tc
+[(Subs)-6(criber)]TJ
+/F3 1 Tf
+0 20.04 -20.04 0 438.93 115.05 Tm
+-0.001 Tc
+[(Subscriber Ce)4(rtificate)]TJ
+ET
+0.801 0.801 1 rg
+210.45 443.73 35.04 -119.28 re
+B*
+BT
+/F4 1 Tf
+0 24 -24 0 236.73 353.97 Tm
+0 g
+0.002 Tc
+(IANA)Tj
+ET
+0.801 0.801 1 rg
+210.45 564.09 35.04 -119.28 re
+B*
+BT
+0 24 -24 0 236.73 474.33 Tm
+0 g
+(IANA)Tj
+ET
+0.801 0.801 1 rg
+210.45 684.45 35.04 -119.28 re
+B*
+BT
+0 24 -24 0 236.73 588.57 Tm
+0 g
+-0.001 Tc
+0.001 Tw
+(all addr)Tj
+ET
+endstream
+endobj
+32 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F7 33 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+35 0 obj
+<<
+/Length 2222
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 50.97 Tm
+0 g
+0 Tc
+0 Tw
+(9)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+0.001 Tw
+(AS # Allocation and Router Example)Tj
+/F4 1 Tf
+0 24 -24 0 429.09 91.53 Tm
+0 g
+0.001 Tc
+(ISP-2)Tj
+ET
+0 G
+1 J 0 j 
+402.45 150.45 36 -66 re
+S
+BT
+0 24 -24 0 429.09 181.53 Tm
+0.003 Tc
+[(DSP-)6(B)]TJ
+ET
+402.45 258.81 36 -84 re
+S
+BT
+0 24 -24 0 183.09 349.53 Tm
+0.001 Tc
+-0.001 Tw
+( IANA)Tj
+ET
+156.45 432.45 36 -96 re
+S
+BT
+0 24 -24 0 297.09 157.53 Tm
+0 Tc
+0 Tw
+( Registry-a)Tj
+ET
+270.45 273.09 36 -116.64 re
+S
+BT
+0 24 -24 0 429.09 283.53 Tm
+(Sub-Z)Tj
+ET
+402.45 348.45 36 -72 re
+S
+BT
+0 24 -24 0 297.09 409.53 Tm
+0.001 Tc
+(ISP-1)Tj
+ET
+270.45 468.45 36 -66 re
+S
+BT
+0 24 -24 0 297.09 511.53 Tm
+0.003 Tc
+[(DSP-)6(A)]TJ
+ET
+270.45 588.81 36 -84 re
+S
+BT
+0 24 -24 0 297.09 619.53 Tm
+0 Tc
+(Sub-Y)Tj
+ET
+270.45 684.45 36 -72 re
+S
+0 J 1 j 2.04 w 
+270.45 216.45 m
+192.45 390.45 l
+270.45 546.45 m
+192.45 390.45 l
+270.45 654.45 m
+192.45 390.45 l
+402.45 120.45 m
+306.45 216.45 l
+270.45 438.45 m
+192.45 390.45 l
+402.45 312.45 m
+306.45 216.45 l
+402.45 216.45 m
+306.45 216.45 l
+498.45 684.45 m
+498.45 408.45 l
+498.45 408.45 m
+480.45 390.45 l
+498.45 684.45 m
+480.45 702.45 l
+S
+BT
+0 24 -24 0 525.21 499.65 Tm
+0.002 Tc
+[(Hi)5(st)5(ori)5(c)1(a)6(l)]TJ
+-17.75 1.25 TD
+-0.001 Tc
+(Router-4)Tj
+ET
+1 J 0 j 0.96 w 
+468.57 162.45 36.48 -96 re
+S
+BT
+0 24 -24 0 495.21 283.65 Tm
+(Router-6)Tj
+ET
+468.57 372.45 36.48 -96 re
+S
+BT
+0 24 -24 0 495.21 175.65 Tm
+(Router-5)Tj
+ET
+468.57 264.45 36.48 -96 re
+S
+BT
+0 24 -24 0 429.21 613.65 Tm
+(Router-3)Tj
+ET
+402.57 702.45 36.48 -96 re
+S
+BT
+0 24 -24 0 429.21 505.65 Tm
+(Router-2)Tj
+ET
+402.57 594.45 36.48 -96 re
+S
+BT
+0 24 -24 0 429.21 397.65 Tm
+(Router-1)Tj
+ET
+402.57 486.45 36.48 -96 re
+S
+0 J 1 j 2.04 w 
+468.45 312.45 m
+438.45 312.45 l
+468.45 216.45 m
+438.45 216.45 l
+468.45 120.45 m
+438.45 120.45 l
+402.45 438.45 m
+306.45 438.45 l
+402.45 546.45 m
+306.45 546.45 l
+402.45 654.45 m
+306.45 654.45 l
+S
+endstream
+endobj
+36 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+38 0 obj
+<<
+/Length 1826
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(10)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 91.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(AS # Allocation and Router PKI Example)Tj
+/F4 1 Tf
+0 24 -24 0 183.09 349.53 Tm
+0 g
+0.001 Tc
+-0.001 Tw
+( IANA)Tj
+ET
+0 G
+1 J 0 j 
+156.45 432.45 36 -96 re
+S
+BT
+0 24 -24 0 261.09 331.53 Tm
+0 Tc
+0 Tw
+( Registry-a)Tj
+ET
+234.45 447.09 36 -116.64 re
+S
+0 J 1 j 2.04 w 
+234.45 390.45 m
+192.45 390.45 l
+S
+BT
+0 24 -24 0 405.09 157.53 Tm
+0.001 Tc
+(ISP-1)Tj
+ET
+1 J 0 j 0.96 w 
+378.45 216.45 36 -66 re
+S
+BT
+0 24 -24 0 405.09 355.53 Tm
+0.003 Tc
+[(DSP-)6(A)]TJ
+ET
+378.45 432.81 36 -84 re
+S
+BT
+0 24 -24 0 405.09 565.53 Tm
+0 Tc
+(Sub-Z)Tj
+ET
+378.45 630.45 36 -72 re
+S
+0 J 1 j 2.04 w 
+378.45 186.45 m
+270.45 390.45 l
+378.45 594.45 m
+270.45 390.45 l
+378.45 390.45 m
+270.45 390.45 l
+456.45 228.45 m
+414.45 186.45 l
+456.45 144.45 m
+414.45 186.45 l
+S
+BT
+0 24 -24 0 483.21 115.65 Tm
+0.002 Tc
+(AS-a)Tj
+ET
+1 J 0 j 0.96 w 
+456.45 174.45 36 -66 re
+S
+BT
+0 24 -24 0 483.21 187.65 Tm
+-0.001 Tc
+(Router-1)Tj
+ET
+456.45 276.45 36 -96 re
+S
+0 J 1 j 2.04 w 
+457.05 432.45 m
+414.45 390.45 l
+457.05 348.45 m
+414.45 390.45 l
+S
+BT
+0 24 -24 0 483.69 323.01 Tm
+0.002 Tc
+(AS-b)Tj
+ET
+1 J 0 j 0.96 w 
+457.05 378.45 36.48 -66 re
+S
+BT
+0 24 -24 0 483.69 391.65 Tm
+-0.001 Tc
+(Router-2)Tj
+ET
+457.05 480.45 36.48 -96 re
+S
+0 J 1 j 2.04 w 
+456.45 636.45 m
+414.45 594.45 l
+456.45 552.45 m
+414.45 594.45 l
+S
+BT
+0 24 -24 0 483.21 523.65 Tm
+0.002 Tc
+(AS-c)Tj
+ET
+1 J 0 j 0.96 w 
+456.45 582.45 36 -66 re
+S
+BT
+0 24 -24 0 483.21 595.65 Tm
+-0.001 Tc
+(Router-3)Tj
+ET
+456.45 684.45 36 -96 re
+S
+endstream
+endobj
+39 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+41 0 obj
+<<
+/Length 3027
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(11)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(AS and Router Certificates)Tj
+/F4 1 Tf
+0 24 -24 0 188.01 349.77 Tm
+0 g
+0 Tc
+[(Issuer)-1567(Subject)-1057(E)1(xtensions)]TJ
+ET
+0.801 0.801 1 rg
+0 G
+1 J 0 j 
+390.45 650.25 35.04 -107.04 re
+B*
+390.45 434.25 35.04 -107.04 re
+B*
+BT
+/F7 1 Tf
+0 15.96 -15.96 0 404.25 341.25 Tm
+0 g
+-0.002 Tw
+[(ISP/)-8(DSP or)]TJ
+0.1278 -1.203 TD
+[(Subscr)-7(ibe)-7(r)]TJ
+ET
+0.801 0.801 1 rg
+390.45 542.25 35.04 -107.04 re
+B*
+BT
+/F4 1 Tf
+0 24 -24 0 416.73 470.25 Tm
+0 g
+0.001 Tc
+(AS )Tj
+ET
+0.801 0.801 1 rg
+456.45 434.25 35.04 -107.04 re
+B*
+BT
+/F7 1 Tf
+0 15.96 -15.96 0 470.25 341.25 Tm
+0 g
+0 Tc
+[(ISP/)-8(DSP or)]TJ
+0.1278 -1.203 TD
+[(Subscr)-7(ibe)-7(r)]TJ
+ET
+0.801 0.801 1 rg
+456.45 542.25 35.04 -107.04 re
+B*
+BT
+/F4 1 Tf
+0 24 -24 0 482.73 446.97 Tm
+0 g
+(Router* )Tj
+ET
+0.801 0.801 1 rg
+456.45 650.25 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 482.73 550.17 Tm
+0 g
+0.001 Tc
+-0.001 Tw
+[(AS, Rt)4(r)4(I)-1(d)]TJ
+ET
+0.801 0.801 1 rg
+270.45 434.25 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 296.73 350.49 Tm
+0 g
+0.002 Tc
+(IANA)Tj
+ET
+0.801 0.801 1 rg
+270.45 542.25 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 296.73 448.05 Tm
+0 g
+0 Tc
+(Registry)Tj
+ET
+0.801 0.801 1 rg
+270.45 650.25 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 296.73 571.41 Tm
+0 g
+0.001 Tc
+(ASes)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 353.49 115.53 Tm
+-0.003 Tc
+0 Tw
+[(AS)-7( Ow)-6(ner C)-6(e)-4(rtifi)-9(c)0(ate)]TJ
+1.497 -6.2874 TD
+0.003 Tc
+-0.006 Tw
+[(Rou)8(t)6(er)7( Ce)8(rt)12(if)6(ica)8(t)6(e)]TJ
+1.7964 2.994 TD
+0 Tc
+-0.003 Tw
+[(AS Cert)9(i)-6(f)3(icate)]TJ
+/F4 1 Tf
+0 24 -24 0 527.01 148.17 Tm
+-0.001 Tc
+0.001 Tw
+(* the subject name could be fully-qualified DNS name)Tj
+ET
+0.801 0.801 1 rg
+208.41 434.25 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 234.69 350.49 Tm
+0 g
+0.002 Tc
+(IANA)Tj
+ET
+0.801 0.801 1 rg
+208.41 542.25 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 234.69 458.49 Tm
+0 g
+(IANA)Tj
+ET
+0.801 0.801 1 rg
+208.41 650.25 35.04 -107.04 re
+B*
+BT
+/F3 1 Tf
+0 20.04 -20.04 0 233.49 157.53 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+(Root Certificate)Tj
+/F4 1 Tf
+0 24 -24 0 237.21 557.13 Tm
+0.001 Tw
+[(all A)-4(S)0(es)]TJ
+ET
+0.801 0.801 1 rg
+330.45 434.25 35.04 -107.04 re
+B*
+BT
+/F7 1 Tf
+0 15.96 -15.96 0 344.25 351.69 Tm
+0 g
+0.002 Tc
+[(Registr)-5(y)]TJ
+-0.3985 -1.203 TD
+0 Tc
+-0.002 Tw
+[(\(or)-7( IANA\))]TJ
+ET
+0.801 0.801 1 rg
+330.45 542.25 35.04 -107.04 re
+B*
+BT
+0 15.96 -15.96 0 344.25 449.25 Tm
+0 g
+[(ISP/)-8(DSP or)]TJ
+0.1278 -1.203 TD
+[(Subscr)-7(ibe)-7(r)]TJ
+ET
+0.801 0.801 1 rg
+330.45 650.25 35.04 -107.04 re
+B*
+BT
+/F4 1 Tf
+0 24 -24 0 356.73 571.41 Tm
+0 g
+0.001 Tc
+(ASes)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 293.49 139.53 Tm
+-0.003 Tc
+0 Tw
+[(R)-6(e)-4(gi)-9(stry C)-6(e)-4(rtifi)-9(c)0(ate)]TJ
+ET
+endstream
+endobj
+42 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F7 33 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+46 0 obj
+<<
+/Length 1764
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(12)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+-0.001 Tw
+(Attestations -- Overview)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 165.21 124.53 Tm
+0 g
+0.002 Tw
+(Address Attestations)Tj
+/F6 1 Tf
+0 18 -18 0 194.97 133.53 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 194.97 156.09 Tm
+0 g
+-0.003 Tw
+[(Used )6(to valida)5(te t)9(hat a)5( destinat)9(ion)5( add)5(re)5(ss b)5(l)-6(ock is be)5(in)5(g)]TJ
+0 -1.1976 TD
+[(origin)5(ated)5( by an)5( auth)5(o)-1(rized)5( AS)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 252.45 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 252.45 124.53 Tm
+0 g
+0.002 Tw
+(Route Attestations)Tj
+/F6 1 Tf
+0 18 -18 0 282.21 133.53 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 282.21 156.09 Tm
+0 g
+-0.003 Tw
+[(Used )6(to valida)5(te t)9(hat a)5(n)-1( AS is aut)9(horized)5( to u)5(s)-3(e)5( an )6(AS Pa)5(th)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 315.69 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 315.69 124.53 Tm
+0 g
+0.001 Tc
+-0.003 Tw
+[(E)3(a)-3(ch UPD)3(ATE)3( includes one or)4( m)4(o)-3(r)4(e)-3( A)3(d)-3(dress)]TJ
+0 -1.2 TD
+0 Tc
+-0.001 Tw
+(Attestations and a set of Route Attestations)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 378.93 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 378.93 124.53 Tm
+0 g
+0.002 Tc
+-0.005 Tw
+[(These are car)5(r)0(ied in a new,)5( opt)5(i)-1(onal)4(, t)5(r)0(ansi)4(ti)4(ve B)4(G)0(P)]TJ
+T*
+-0.001 Tc
+0.003 Tw
+[(Pa)-5(th Attri)-4(b)0(u)-5(t)2(e)]TJ
+ET
+endstream
+endobj
+47 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+49 0 obj
+<<
+/Length 2311
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(13)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+0.001 Tw
+(Address Attestation)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 153.21 99.57 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 153.21 126.57 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(In)-6(clu)-6(d)-1(e)-6(s)-2( i)-5(d)-1(e)-6(n)-1(ti)-5(fi)-5(ca)-6(ti)-5(on)-6( of:)]TJ
+/F6 1 Tf
+0 18 -18 0 182.97 135.57 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 182.97 158.13 Tm
+0 g
+-0.003 Tw
+[(ad)5(dress b)5(l)-6(o)5(c)-3(ks)]TJ
+/F6 1 Tf
+0 18 -18 0 211.65 135.57 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+0 20.04 -20.04 0 211.65 158.13 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(the)4(i)-7(r owner\222s certificat)8(e)]TJ
+0 18 -18 0 240.45 135.57 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 240.45 158.13 Tm
+0 g
+-0.003 Tw
+[(AS a)5(u)-1(tho)5(r)-2(ized to)5( orig)5(in)5(ate \(a)5(dvertise\) th)5(e ad)5(dress )6(blo)5(c)-3(ks)]TJ
+/F6 1 Tf
+0 18 -18 0 269.25 135.57 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 269.25 158.13 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(expirati)-8(on date/t)7(i)-8(m)5(e)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 302.73 99.57 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 302.73 126.57 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(In)-5(di)-4(cates th)-5(at the)-5( AS)-4( l)-4(i)-4(s)-1(ted)-5( i)-4(n)0( the)-5( attesta)-5(t)2(i)-4(o)0(n)-5( i)-4(s)]TJ
+0 -1.195 TD
+0 Tc
+0 Tw
+(authorized by the owner to originate/advertise the)Tj
+0 -1.2 TD
+-0.001 Tw
+(address blocks in an UPDATE)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 394.65 99.57 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 394.65 126.57 Tm
+0 g
+0.001 Tc
+-0.004 Tw
+(Digitally signed by owner of the address blocks,)Tj
+T*
+0 Tc
+-0.001 Tw
+(traceable up to the IANA via a certification path)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 458.01 99.57 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 458.01 126.57 Tm
+0 g
+-0.002 Tw
+(Used to protect BGP from erroneous UPDATEs)Tj
+0 -1.195 TD
+-0.001 Tw
+(\(authenticated but misbehaving or misconfigured)Tj
+0 -1.2 TD
+-0.001 Tc
+-0.002 Tw
+[(BGP sp)-5(eake)-5(r)-3(s\))]TJ
+ET
+endstream
+endobj
+50 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+52 0 obj
+<<
+/Length 2437
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(14)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+0.001 Tw
+(Route Attestation)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 165.21 124.53 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(In)-6(clu)-6(d)-1(e)-6(s)-2( i)-5(d)-1(e)-6(n)-1(ti)-5(fi)-5(ca)-6(ti)-5(on)-6( of:)]TJ
+/F6 1 Tf
+0 18 -18 0 194.97 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+0 20.04 -20.04 0 194.97 156.09 Tm
+0 g
+-0.003 Tw
+[(AS\222s o)5(r)-2( )6(BG)6(P sp)5(eaker\222s certificat)9(e issued)5( by the)5( AS owner)]TJ
+0 18 -18 0 223.65 133.53 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 223.65 156.09 Tm
+0 g
+-0.003 Tw
+[(the)5( add)5(ress b)5(l)-6(ocks )6(and )6(the )6(AS Pa)5(th \(ASes\) in the)5( UPDATE)]TJ
+/F6 1 Tf
+0 18 -18 0 252.45 133.53 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 252.45 156.09 Tm
+0 g
+-0.003 Tw
+[(the)5( AS nu)5(mbe)5(r)4( of t)9(he receiving)5( \(next\) neigh)5(bor)]TJ
+/F6 1 Tf
+0 18 -18 0 281.25 133.53 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 281.25 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(expirati)-8(on date/t)7(i)-8(m)5(e)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 314.73 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 314.73 124.53 Tm
+0 g
+-0.001 Tc
+-0.001 Tw
+[(In)-5(di)-4(cates th)-5(at the)-5( BGP sp)-5(ea)-5(ker or i)-4(t)2(s A)-4(S)1( a)-5(u)0(th)-5(ori)-4(z)-1(es the)]TJ
+/F6 1 Tf
+0 -1.195 TD
+0 Tc
+-0.002 Tw
+[(rece)-4(ive)-4(r)-2(\222s AS to u)-4(s)0(e the)-4( AS Path & NLRI in)-4( the)]TJ
+0 -1.2 TD
+(UPDATE)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 406.65 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F6 1 Tf
+0 24 -24 0 406.65 124.53 Tm
+0 g
+0.002 Tc
+-0.005 Tw
+[(Digit)5(al)4(ly signed by owner of t)5(h)3(e B)4(G)0(P)4( speaker \(or it)5(s)]TJ
+T*
+-0.001 Tc
+0 Tw
+[(AS)-4(\) di)-4(strib)-5(u)0(tin)-5(g)0( the)-5( U)-4(P)1(D)-4(A)1(TE, trace)-5(abl)-4(e)-5( to)-5( the)-5( IA)-4(NA)-4( ...)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 470.01 97.53 Tm
+0 0 0.602 rg
+0 Tc
+(l)Tj
+/F6 1 Tf
+0 24 -24 0 470.01 124.53 Tm
+0 g
+-0.002 Tw
+(Used to protect BGP from erroneous UPDATEs)Tj
+0 -1.195 TD
+(\(authenticated but misbehaving or misconfigured BGP)Tj
+0 -1.2 TD
+0.001 Tc
+(speakers\))Tj
+ET
+endstream
+endobj
+53 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+55 0 obj
+<<
+/Length 3970
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(15)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+-0.003 Tw
+(Encoding of Attestations)Tj
+/F4 1 Tf
+0 20.04 -20.04 0 518.37 104.25 Tm
+0 g
+0.002 Tw
+[(*ex)-5(plici)7(t)1( in the aggreg)-5(at)7(io)-5(n case, o)-5(r)2( i)7(f)-4( Path A)-5(t)1(t)7(r)-4(i)7(b)-5(ute ch)-5(anges unp)-5(redictably)]TJ
+ET
+0.801 0.801 1 rg
+0 G
+1 J 0 j 
+164.01 315.93 46.92 -88.92 re
+B*
+BT
+0 20.04 -20.04 0 182.73 251.97 Tm
+0 g
+0.001 Tc
+(BGP)Tj
+-0.5928 -1.1976 TD
+-0.001 Tc
+(Header )Tj
+ET
+0.801 0.801 1 rg
+164.01 483.45 46.92 -167.04 re
+B*
+BT
+0 20.04 -20.04 0 182.73 324.93 Tm
+0 g
+0.003 Tc
+-0.007 Tw
+[(Ad)6(dr)7( Bl)6(k)6(s)3( of)7( Rt)6(es)9( )]TJ
+0.1856 -1.1976 TD
+-0.003 Tc
+0.004 Tw
+[(Bein)-6(g Withdraw)-6(n)]TJ
+ET
+0.801 0.801 1 rg
+164.01 579.45 46.92 -95.04 re
+B*
+BT
+0 20.04 -20.04 0 182.73 492.21 Tm
+0 g
+-0.001 Tc
+0.002 Tw
+(BGP Path)Tj
+-0.006 -1.1976 TD
+-0.003 Tc
+[(A)-6(ttributes)]TJ
+ET
+0.801 0.801 1 rg
+164.01 705.45 46.92 -125.04 re
+B*
+BT
+0 20.04 -20.04 0 182.73 599.13 Tm
+0 g
+[(D)-5(e)-1(st. Ad)-5(dr)]TJ
+-0.5928 -1.1976 TD
+[( Blks  \(N)-5(LR)-6(I\))]TJ
+ET
+0.801 0.801 1 rg
+248.01 470.97 46.92 -101.04 re
+B*
+BT
+0 20.04 -20.04 0 266.73 384.45 Tm
+0 g
+[(A)-6(ttribute)]TJ
+0.3593 -1.1976 TD
+-0.001 Tc
+(Header)Tj
+ET
+0.801 0.801 1 rg
+248.01 705.45 46.92 -233.52 re
+B*
+BT
+0 20.04 -20.04 0 266.73 518.97 Tm
+0 g
+0.001 Tc
+0 Tw
+[(Rou)4(t)4(e)2( +)8( Ad)4(dr)5(es)7(s )]TJ
+1.1078 -1.1976 TD
+-0.003 Tc
+[(A)-6(ttestations)]TJ
+/F7 1 Tf
+-22.0778 1.3653 TD
+0.003 Tw
+[(Pat)-4(h)3( A)-5(ttribut)-4(e)]TJ
+0 -1.1976 TD
+-0.002 Tw
+[(fo)-5(r A)-5(ttesta)-5(t)2(ions)]TJ
+0 -2.6946 TD
+-0.004 Tc
+[(A)-7(ttestat)-6(io)-7(n:)]TJ
+0 -1.1976 TD
+0.001 Tc
+0 Tw
+[(Ro)4(ut)5(e o)4(r)]TJ
+T*
+-0.001 Tc
+(Address)Tj
+0 -2.6946 TD
+-0.002 Tc
+0.003 Tw
+(Signed Info)Tj
+0 12.5748 TD
+0.001 Tc
+(UPDATE)Tj
+ET
+0 J 1 j 
+247.41 369.93 m
+211.41 530.97 l
+247.41 705.45 m
+210.45 541.41 l
+330.45 228.93 m
+295.41 542.97 l
+331.41 705.45 m
+295.41 627.45 l
+415.41 704.49 m
+376.41 704.49 l
+415.41 228.93 m
+377.49 620.97 l
+S
+0.801 0.801 1 rg
+1 J 0 j 
+330.45 337.41 47.04 -106.92 re
+B*
+BT
+/F4 1 Tf
+0 20.04 -20.04 0 349.17 240.21 Tm
+0 g
+-0.003 Tc
+[(A)-6(ttestation)]TJ
+0.7425 -1.1976 TD
+-0.001 Tc
+(Header)Tj
+ET
+0.801 0.801 1 rg
+330.45 403.41 47.04 -64.92 re
+B*
+BT
+0 20.04 -20.04 0 361.17 347.01 Tm
+0 g
+-0.003 Tc
+[(Issu)-6(er)]TJ
+ET
+0.801 0.801 1 rg
+330.45 705.45 47.04 -83.64 re
+B*
+BT
+0 20.04 -20.04 0 349.17 633.33 Tm
+0 g
+[(Signed)-5( )]TJ
+0.6826 -1.1976 TD
+-0.004 Tc
+[(In)-7(fo)]TJ
+ET
+0.801 0.801 1 rg
+330.45 620.49 47.04 -131.04 re
+B*
+BT
+0 20.04 -20.04 0 349.17 500.37 Tm
+0 g
+-0.001 Tc
+-0.003 Tw
+[(A)-4(lgori)8(t)2(h)-4(m)5( ID)]TJ
+0.3054 -1.1976 TD
+-0.003 Tc
+0.004 Tw
+[(& Si)6(g)-6(n)0(ature)]TJ
+ET
+0.801 0.801 1 rg
+330.45 488.01 47.04 -84 re
+B*
+BT
+0 20.04 -20.04 0 361.17 415.65 Tm
+0 g
+-0.001 Tc
+0.002 Tw
+[(Cert)8( ID)]TJ
+ET
+0.801 0.801 1 rg
+416.49 392.01 46.92 -89.04 re
+B*
+BT
+0 20.04 -20.04 0 447.21 317.37 Tm
+0 g
+-0.002 Tc
+(Subject)Tj
+ET
+0.801 0.801 1 rg
+416.49 302.01 46.92 -72.24 re
+B*
+BT
+0 20.04 -20.04 0 435.21 249.69 Tm
+0 g
+(Exp)Tj
+-0.1377 -1.1976 TD
+0.001 Tc
+[(Dat)4(e)]TJ
+ET
+0.801 0.801 1 rg
+416.49 488.13 46.92 -94.68 re
+B*
+BT
+0 20.04 -20.04 0 435.21 407.73 Tm
+0 g
+-0.005 Tw
+[(AS Pat)4(h)]TJ
+0.4431 -1.1976 TD
+-0.003 Tc
+0.004 Tw
+[(In)-6(fo *)]TJ
+ET
+0.801 0.801 1 rg
+416.49 704.49 46.92 -67.08 re
+B*
+BT
+0 20.04 -20.04 0 435.21 647.61 Tm
+0 g
+0 Tc
+(NLRI)Tj
+-0.0359 -1.1976 TD
+-0.003 Tc
+[(In)-6(fo *)]TJ
+ET
+0.801 0.801 1 rg
+416.49 636.45 46.92 -147 re
+B*
+BT
+0 20.04 -20.04 0 435.21 500.61 Tm
+0 g
+[(O)-6(ther pro)-6(t)0(ected)]TJ
+-0.2635 -1.1976 TD
+[(Path Attribu)-6(tes *)]TJ
+ET
+endstream
+endobj
+56 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+/F7 33 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+58 0 obj
+<<
+/Length 5783
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(16)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(Detail of Attestation Path Attribute)Tj
+/F4 1 Tf
+0 12 -12 0 452.25 99.69 Tm
+0 g
+0.001 Tc
+-0.001 Tw
+[(Expl)-11(icit P)7(a)-5(th Attribut)-11(e)5(s)]TJ
+ET
+0.699 g
+436.41 568.29 64.92 -343.8 re
+f
+0.02 0.563 0.758 rg
+243.45 568.29 85.92 -343.8 re
+f
+0 0.801 0.602 rg
+286.41 568.29 20.88 -343.8 re
+f
+0.98 0.992 0 rg
+0.98 0.992 0 RG
+1 J 0 j 
+371.49 568.41 64.92 -343.92 re
+B*
+178.41 568.41 65.04 -343.92 re
+B*
+0 G
+1 j 0.72 w 
+135.45 225.45 m
+135.45 569.49 l
+178.41 225.45 m
+178.41 569.49 l
+200.49 225.45 m
+200.49 569.49 l
+221.49 225.45 m
+221.49 569.49 l
+243.45 225.45 m
+243.45 569.49 l
+264.45 225.45 m
+264.45 569.49 l
+286.41 225.45 m
+286.41 569.49 l
+307.41 225.45 m
+307.41 569.49 l
+329.49 225.45 m
+329.49 569.49 l
+350.49 225.45 m
+350.49 569.49 l
+372.45 225.45 m
+372.45 569.49 l
+393.45 225.45 m
+393.45 569.49 l
+415.41 225.45 m
+415.41 569.49 l
+436.41 225.45 m
+436.41 569.49 l
+458.49 225.45 m
+458.49 569.49 l
+479.49 225.45 m
+479.49 569.49 l
+S
+0 J 3 w 
+157.41 225.45 m
+157.41 568.41 l
+501.45 225.45 m
+501.45 568.41 l
+522.45 225.45 m
+522.45 567.45 l
+S
+0.96 w 
+136.41 224.49 m
+523.41 224.49 l
+136.41 568.41 m
+522.45 568.41 l
+437.49 396.45 m
+459.45 396.45 l
+436.41 267.45 m
+458.49 267.45 l
+371.49 267.45 m
+393.45 267.45 l
+329.49 321.45 m
+351.45 321.45 l
+329.49 310.41 m
+351.45 310.41 l
+329.49 267.45 m
+351.45 267.45 l
+264.45 482.49 m
+286.41 482.49 l
+158.49 407.49 m
+177.45 407.49 l
+243.45 267.45 m
+265.41 267.45 l
+157.41 267.45 m
+199.41 267.45 l
+135.45 396.45 m
+200.49 396.45 l
+136.41 310.41 m
+156.45 310.41 l
+327.45 396.45 m
+392.49 396.45 l
+329.49 353.49 m
+371.49 353.49 l
+244.41 396.45 m
+286.41 396.45 l
+329.49 504.45 m
+371.49 504.45 l
+330.45 450.45 m
+372.45 450.45 l
+S
+[3.84 2.88 ]0 d
+435.45 590.49 m
+487.29 590.49 l
+S
+0 g
+487.05 586.17 m
+495.45 590.49 l
+487.05 594.69 l
+f*
+[]0 d
+340.65 590.49 m
+373.41 590.49 l
+S
+340.89 594.81 m
+332.49 590.49 l
+340.89 586.29 l
+f*
+391.41 590.49 m
+437.49 590.49 l
+501.45 576.45 m
+501.45 605.49 l
+329.49 575.49 m
+329.49 604.41 l
+S
+BT
+0 12 -12 0 151.17 118.65 Tm
+0.002 Tc
+-0.002 Tw
+[(P)8(a)-4(th Attribute)-5604(F)8(lags)-3819(Attes)11(t)-10(a)6(t)-10(ion)-3728(L)3(en)]TJ
+/F7 1 Tf
+29.59 0 TD
+0 Tc
+0 Tw
+(:)Tj
+/F4 1 Tf
+1.9 0 TD
+-0.001 Tc
+0.001 Tw
+[(\(E)-10(xt Le)-7(n\))]TJ
+-29.87 -1.92 TD
+0 Tc
+0 Tw
+[(RA=8 or AA=9)-1740(T)1(ype)-2746(Atte)-6(s)9(t)-12(at)-12(ion Le)-6(n)-2700(L)-1919(# Atte)-6(s)9(t)-12(at)-12(ions)9( f)-7(o)0(llowing)]TJ
+23.08 -8.83 TD
+-0.001 Tc
+0.001 Tw
+[(Ke)-7(y Hash)]TJ
+-13.94 0 TD
+0 Tc
+0 Tw
+[(Ac)-6(tua)-6(l)-2( Dat)-12(a)4( L)-9(e)-6(ngth S)6(i)-2(gne)-6(d)]TJ
+-6.7 1.75 TD
+[(S)6(i)-2(gna)-6(tur)-7(e)-1386(0 0 1 0)]TJ
+/F8 1 Tf
+5.17 -3.59 TD
+[(N 1 1 0 0 0 1 1 1 0 0 1 0 0 1 0 \205 P)6(a)-6(th Attri)-12(bute)-6( bit ma)-6(s)9(k)]TJ
+-5.17 0 TD
+[(Cover)-7(a)-6(ge)]TJ
+12.52 -1.66 TD
+[(S)6(i)-2(gna)-6(tur)-7(e)4( byt)-12(es  \(DS)6(A)2( 40 byte)-6(s)-1(\))]TJ
+-15.64 -2 TD
+0.001 Tc
+-0.001 Tw
+[(Not Valid Be)5(fore)-5495(Len)]TJ
+0.62 -1.67 TD
+(Not Valid After)Tj
+22.63 8.92 TD
+0.002 Tc
+-0.002 Tw
+[(S)8(i)0(gnature)6( Algorithm Identifier)]TJ
+6.92 -1.75 TD
+-0.001 Tc
+0.001 Tw
+[(Cover)-8(a)-7(ge L)-10(e)-7(n)]TJ
+-6.62 3.58 TD
+0.001 Tc
+-0.001 Tw
+[(DNS)7( Name \(nil term)-11(ina)5(t)-11(e)5(d)1(\))]TJ
+-10.67 0 TD
+0 Tc
+0 Tw
+[(IPv6 A)12(ddr)-7(e)-6(s)9(s)]TJ
+12.91 -14.33 TD
+[(IPv4 A)12(ddr)-7(e)-6(s)9(s)]TJ
+-12.44 0 TD
+-0.001 Tc
+0.001 Tw
+[(AS Numbe)-7(r)]TJ
+-5.09 1.83 TD
+0 Tc
+0 Tw
+(0 1 0 0)Tj
+-4.31 0 TD
+[(S)6(ubje)-6(c)-6(t)-20232(AF)6(/T)-9(ype)]TJ
+10.31 0 TD
+0.001 Tc
+-0.001 Tw
+[(S)7(ubje)-5(c)-5(t)-1( L)-8(e)5(n)]TJ
+-9.69 16.08 TD
+0 Tc
+0 Tw
+[(Iss)9(u)0(e)-6(r)-1397(0 0 0 1)]TJ
+9.44 -5.41 TD
+[(S)6(i)-2(gna)-6(tur)-7(e)4( L)-9(e)-6(n)]TJ
+0.64 5.41 TD
+-0.001 Tc
+0.001 Tw
+[(Iss)8(u)-1(e)-7(r)-8( Le)-7(n)-8841(A)1(F)5(/)-3(T)-10(ype)]TJ
+-1.72 -1.83 TD
+0 Tc
+0 Tw
+[(AS)6( Numbe)-6(r)-8557(IPv4 A)12(ddr)-7(e)-6(s)9(s)]TJ
+0.11 -17.83 TD
+0.001 Tc
+-0.001 Tw
+[(IPv6 A)13(ddres)10(s)-5100(DNS)7( Name \(nil term)-11(ina)5(t)-11(e)5(d)1(\))]TJ
+-4.61 7 TD
+0 Tc
+0 Tw
+[(0 0 1 1)-4040(R)-173(YrBe)-6(f)]TJ
+10.72 -1.67 TD
+0.001 Tc
+(Month)Tj
+-6.39 0 TD
+-0.003 Tc
+[(Ye)-9(ar)-8950(Da)-9(y)]TJ
+6.39 1.67 TD
+0.001 Tc
+[(Month)-1739(D)3(a)-5(y)]TJ
+-5 -8.84 TD
+-0.001 Tc
+0.001 Tw
+[(Le)-7(n pr)-8(ese)-7(n)-1(t)]TJ
+-5.8 0 TD
+0 Tc
+0 Tw
+(0 1 0 1)Tj
+19.52 8.84 TD
+-0.001 Tc
+(Hour)Tj
+4.32 -1.67 TD
+0.001 Tc
+[(Minute)-5(s)]TJ
+-4.24 0 TD
+-0.001 Tc
+(Hour)Tj
+4.24 1.67 TD
+0.001 Tc
+[(Minute)-5(s)]TJ
+9.48 -5.17 TD
+0 Tc
+[(S)6(i)-2(gna)-6(tur)-7(e)]TJ
+0.62 -1.2 TD
+-0.001 Tc
+[(c)-7(ove)-7(rs)]TJ
+0.06 -1.2 TD
+0.002 Tc
+-0.002 Tw
+(all the)Tj
+-0.76 -1.19 TD
+0.001 Tc
+[(Attri)-11(butes)]TJ
+0.05 -1.2 TD
+0.002 Tc
+(Identified)Tj
+-0.8 -1.2 TD
+0 Tc
+0 Tw
+[(By C)7(ove)-6(ra)-6(ge)-6(,)]TJ
+1.26 -1.2 TD
+0.001 Tc
+-0.001 Tw
+(not just)Tj
+-0.02 -1.19 TD
+0.003 Tc
+(explicit)Tj
+-0.73 -1.2 TD
+0 Tc
+0 Tw
+[(da)-6(ta)-6(, if a)-6(n)0(y)]TJ
+-4.47 11.41 TD
+[(S)6(i)-2(gne)-6(d Da)-6(ta)]TJ
+-19.19 -10.91 TD
+0.002 Tc
+-0.002 Tw
+(Additional Attestations)Tj
+-5.62 2 TD
+0 Tc
+0 Tw
+[(\(NL)-9(R)7(I)-7( enc)-6(ode)-6(d a)-6(s)9(:)-12( x50, x00, 16-bit le)-6(ngth, P)6(r)-7(ef)-7(ixe)-6(s)9(\))]TJ
+-0.96 1.58 TD
+[(fr)-7(om UP)6(DATE)-9(,)0( incl)-12(uding F)6(l)-2(a)-6(g)0(s)9( a)-6(nd Attr)-7(ibute)-6( Number)]TJ
+11.92 1.83 TD
+[(Ac)-6(tua)-6(l)-2( c)-6(over)-7(e)4(d Pat)-12(h)0( A)12(t)-12(tribute)-6(s)]TJ
+ET
+endstream
+endobj
+59 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+/F7 33 0 R
+/F8 60 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+62 0 obj
+<<
+/Length 5950
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(17)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+-0.001 Tw
+(Propagation of an S-BGP UPDATE)Tj
+/F4 1 Tf
+0 20.04 -20.04 0 201.69 437.13 Tm
+0 g
+-0.002 Tc
+0.004 Tw
+[($ seq:322)-5(21,nlri:a,b)]TJ
+7.0541 -1.497 TD
+-0.002 Tw
+[(= seq:21)-5(,n)-5(lri:a,b)]TJ
+-14.8027 2.8444 TD
+[(% seq:43)-5(222)-5(,n)-5(l)7(r)-4(i)7(:)1(a,b)]TJ
+-8.7188 1 TD
+0.005 Tw
+[(# seq:543)-6(222)-6(1,nlri:a,b)]TJ
+ET
+0.801 0.801 1 rg
+0 G
+1 J 0 j 
+252.33 705.21 152.28 -116.64 re
+B*
+BT
+0 20.04 -20.04 0 275.73 631.41 Tm
+0 g
+0.003 Tc
+[(Hd)6(r)]TJ
+-0.2755 -1.1976 TD
+-0.002 Tc
+(seq:1)Tj
+-1.2276 -1.1976 TD
+0.004 Tw
+[(RA)-5(:as1 2 =)]TJ
+-0.1916 -1.1976 TD
+[(A)-5(A)-5(:orga 1 a)]TJ
+-0.0539 -1.1976 TD
+-0.001 Tw
+[(A)-6(A)-6(:orgb)-6( 1)-6( b)]TJ
+0.3773 -1.1976 TD
+0.001 Tc
+0.001 Tw
+[(NLRI:)10( a,b)4( )]TJ
+ET
+0.801 0.801 1 rg
+228.33 561.93 176.28 -116.64 re
+B*
+BT
+0 20.04 -20.04 0 251.73 488.13 Tm
+0 g
+0.003 Tc
+[(Hd)6(r)]TJ
+-1.024 -1.1976 TD
+-0.002 Tc
+[(seq:222)-5(1)]TJ
+-0.1976 -1.1976 TD
+0.002 Tc
+-0.006 Tw
+[(RA:)5(r)6(3 3 $)]TJ
+-0.4072 -1.1976 TD
+0 Tc
+-0.004 Tw
+[( )-6(RA:as1 2 =)]TJ
+-0.0659 -1.1976 TD
+-0.002 Tc
+0.004 Tw
+[(A)-5(A)-5(:orga 1 a)]TJ
+-0.0539 -1.1976 TD
+-0.001 Tw
+[(A)-6(A)-6(:orgb)-6( 1)-6( b)]TJ
+0.3773 -1.1976 TD
+0 Tc
+0.002 Tw
+[( NLRI)4(:)3( a,)4(b)]TJ
+ET
+0.801 0.801 1 rg
+204.33 416.13 200.28 -116.64 re
+B*
+BT
+0 20.04 -20.04 0 227.73 342.21 Tm
+0 g
+0.003 Tc
+[(Hd)6(r)]TJ
+-1.2755 -1.1976 TD
+-0.002 Tc
+[(seq:322)-5(21)]TJ
+-0.1138 -1.1976 TD
+0.002 Tc
+-0.006 Tw
+[(RA:)5(r)6(5 4 %)]TJ
+0.0419 -1.1976 TD
+-0.002 Tc
+0.004 Tw
+[( RA)-5(:r3 3 $)]TJ
+-0.1557 -1.1976 TD
+[(RA)-5(:as1 2 =)]TJ
+-0.1916 -1.1976 TD
+[(A)-5(A)-5(:orga 1 a)]TJ
+-0.0539 -1.1976 TD
+-0.001 Tw
+[(A)-6(A)-6(:orgb)-6( 1)-6( b)]TJ
+0.497 -1.1976 TD
+0.001 Tc
+0.001 Tw
+[(NLRI:)10( a,b)]TJ
+ET
+0.801 0.801 1 rg
+180.33 267.81 224.28 -116.64 re
+B*
+BT
+0 20.04 -20.04 0 203.73 194.01 Tm
+0 g
+0.003 Tc
+[(Hd)6(r)]TJ
+-1.521 -1.1976 TD
+-0.003 Tc
+[(seq:432)-6(221)]TJ
+0.2994 -1.1976 TD
+0.002 Tc
+-0.006 Tw
+[(RA:)5(r)6(7 5 #)]TJ
+-0.1677 -1.1976 TD
+[(RA:)5(r)6(5 4 %)]TJ
+0.0419 -1.1976 TD
+-0.002 Tc
+0.004 Tw
+[( RA)-5(:r3 3 $)]TJ
+-0.1557 -1.1976 TD
+[(RA)-5(:as1 2 =)]TJ
+-0.1916 -1.1976 TD
+[(A)-5(A)-5(:orga 1 a)]TJ
+-0.0539 -1.1976 TD
+-0.001 Tw
+[(A)-6(A)-6(:orgb)-6( 1)-6( b)]TJ
+0.497 -1.1976 TD
+0 Tc
+0.002 Tw
+[( NLRI)4(:a,b)]TJ
+ET
+437.37 254.49 32.16 -32.16 re
+S
+BT
+0 20.04 -20.04 0 460.65 230.13 Tm
+-0.004 Tc
+(r6)Tj
+ET
+437.37 200.37 32.16 -32.16 re
+S
+BT
+0 20.04 -20.04 0 460.65 176.01 Tm
+(r7)Tj
+ET
+1 j 1.44 w 
+455.37 271.41 m
+436.29 271.41 420.93 244.53 420.93 211.41 c
+420.93 178.17 436.29 151.41 455.37 151.41 c
+474.45 151.41 489.93 178.17 489.93 211.41 c
+489.93 244.53 474.45 271.41 455.37 271.41 c
+s
+0 j 0.96 w 
+437.37 403.41 32.16 -32.04 re
+S
+BT
+0 20.04 -20.04 0 460.65 379.05 Tm
+(r4)Tj
+ET
+437.37 349.41 32.16 -32.04 re
+S
+BT
+0 20.04 -20.04 0 460.65 325.05 Tm
+(r5)Tj
+ET
+1 j 1.44 w 
+455.37 418.41 m
+436.29 418.41 420.93 391.53 420.93 358.41 c
+420.93 325.17 436.29 298.41 455.37 298.41 c
+474.45 298.41 489.93 325.17 489.93 358.41 c
+489.93 391.53 474.45 418.41 455.37 418.41 c
+s
+0 j 0.96 w 
+437.37 492.45 32.16 -32.16 re
+S
+BT
+0 20.04 -20.04 0 460.65 468.09 Tm
+(r3)Tj
+ET
+437.37 550.41 32.16 -32.04 re
+S
+BT
+0 20.04 -20.04 0 460.65 526.05 Tm
+(r2)Tj
+ET
+1 j 1.44 w 
+455.37 563.49 m
+436.29 563.49 420.93 536.61 420.93 503.49 c
+420.93 470.25 436.29 443.49 455.37 443.49 c
+474.45 443.49 489.93 470.25 489.93 503.49 c
+489.93 536.61 474.45 563.49 455.37 563.49 c
+s
+0 j 0.96 w 
+437.37 634.41 32.16 -32.04 re
+S
+BT
+0 20.04 -20.04 0 460.65 610.05 Tm
+(r1)Tj
+ET
+1 j 1.44 w 
+455.37 705.45 m
+436.29 705.45 420.93 678.57 420.93 645.45 c
+420.93 612.21 436.29 585.45 455.37 585.45 c
+474.45 585.45 489.93 612.21 489.93 645.45 c
+489.93 678.57 474.45 705.45 455.37 705.45 c
+s
+0 J 0.96 w 
+453.09 128.61 m
+453.93 169.41 l
+S
+448.77 128.97 m
+452.97 120.45 l
+457.29 128.73 l
+f*
+453.09 261.57 m
+453.93 317.49 l
+S
+448.77 261.93 m
+452.97 253.41 l
+457.29 261.69 l
+f*
+454.05 411.57 m
+454.89 460.41 l
+S
+449.73 411.93 m
+453.93 403.41 l
+458.25 411.69 l
+f*
+455.01 559.65 m
+455.97 602.49 l
+S
+450.69 560.01 m
+454.89 551.49 l
+459.21 559.77 l
+f*
+BT
+0 20.04 -20.04 0 523.17 93.21 Tm
+0.001 Tc
+-0.005 Tw
+[(AS 5)-2960(A)-2(S 4)-5409(A)-2(S 3)-5158(A)-2(S 2)-5056(A)-2(S 1)]TJ
+ET
+0 0.801 0.602 rg
+1 J 0 j 
+426.33 666.69 26.52 -24.36 re
+B*
+BT
+0 20.04 -20.04 0 446.85 650.13 Tm
+0 g
+0 Tc
+0 Tw
+(a)Tj
+ET
+0 0.801 0.602 rg
+458.37 666.69 26.4 -24.36 re
+B*
+BT
+0 20.04 -20.04 0 478.77 649.53 Tm
+0 g
+(b)Tj
+ET
+437.85 121.65 32.28 -32.04 re
+S
+BT
+0 20.04 -20.04 0 461.25 97.29 Tm
+-0.004 Tc
+(r8)Tj
+ET
+0 J 1 j 1.44 w 
+419.97 86.73 m
+420.81 89.61 420.93 93.09 421.17 96.21 c
+421.41 97.65 421.65 99.09 421.89 100.65 c
+422.73 103.89 424.05 107.37 424.89 110.73 c
+425.25 112.05 425.61 114.33 426.45 115.65 c
+426.93 116.49 427.53 117.09 427.89 117.93 c
+428.97 121.05 430.29 124.05 432.21 126.93 c
+433.17 127.53 434.25 129.09 434.73 130.41 c
+435.45 130.89 435.81 131.49 436.17 132.45 c
+437.13 132.93 437.73 133.29 438.45 134.49 c
+438.69 134.97 439.41 135.93 y
+440.61 136.29 441.33 137.37 442.41 137.73 c
+444.33 138.33 445.77 139.29 447.69 139.89 c
+448.65 140.25 449.73 140.61 450.69 140.97 c
+451.17 141.09 452.25 141.45 y
+456.45 140.97 465.93 139.65 468.69 135.69 c
+470.37 134.49 469.77 135.09 470.73 133.89 c
+471.93 133.05 473.49 130.89 474.45 129.69 c
+477.33 127.65 479.13 123.33 480.45 120.21 c
+484.41 110.73 487.65 101.61 488.49 91.17 c
+488.73 89.61 488.49 86.49 y
+S
+BT
+0 20.04 -20.04 0 155.73 496.65 Tm
+-0.002 Tc
+0.004 Tw
+[(si)7(g)-5(n)1(ed data \(implicit\))]TJ
+ET
+endstream
+endobj
+63 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+65 0 obj
+<<
+/Length 2208
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(18)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+0.001 Tw
+(Validating a Route)Tj
+/F6 1 Tf
+0 18 -18 0 199.41 139.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 199.41 162.09 Tm
+0 g
+-0.003 Tw
+[(1 a)5(ddress att)9(e)-1(st)9(ation f)9(r)-2(o)5(m)1( e)5(a)-1(ch)5( orga)5(nizat)9(i)-6(on)5( own)5(i)-6(ng)5( an)]TJ
+0 -1.1976 TD
+[(ad)5(dress b)5(l)-6(o)5(c)-3(k\(s\) in th)5(e NL)5(RI)]TJ
+/F6 1 Tf
+0 18 -18 0 252.21 139.53 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 252.21 162.09 Tm
+0 g
+-0.003 Tw
+[(1 a)5(ddress allocat)9(i)-6(on)5( certificate )6(fro)5(m)1( e)5(a)-1(ch orga)5(niza)5(tion)]TJ
+T*
+0.001 Tc
+-0.004 Tw
+[(own)6(i)-5(n)6(g)0( ad)6(dress b)6(l)-5(o)6(c)-2(ks in )6(the )6(NLRI)]TJ
+/F6 1 Tf
+0 18 -18 0 305.01 139.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 305.01 162.09 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(1 ro)4(ute a)4(ttestat)8(i)-7(on)4( from)6( every )6(AS along)4( the )6(path)4( \(AS1 to)]TJ
+T*
+0 Tc
+[(ASn\), where t)9(he rou)5(t)3(e a)5(ttestat)9(i)-6(on)5( for ASk specifie)5(s t)9(h)-1(e)]TJ
+T*
+-0.002 Tc
+-0.001 Tw
+[(N)-5(L)-3(RI and the A)-6(S)0( Path )6(up t)7(o)-3( that poi)-8(n)-3(t)7( \(A)-6(S1 through A)-6(S)0(k)-5(+)7(1\))]TJ
+/F6 1 Tf
+0 18 -18 0 381.69 139.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 381.69 162.09 Tm
+0 g
+-0.003 Tw
+[(1 certificat)9(e fo)5(r )6(each AS o)5(r)4( route)5(r)-2( )6(alo)5(ng t)9(he p)5(a)-1(th \(AS1)5( to)]TJ
+T*
+-0.001 Tc
+[(ASn\) to)4( use t)8(o)-2( check signa)4(tures on)4( the)4( route)4( atte)4(st)8(ations)]TJ
+/F6 1 Tf
+0 18 -18 0 434.49 139.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 434.49 162.09 Tm
+0 g
+0.001 Tc
+-0.004 Tw
+[(an)6(d, of)10( co)6(urse, all )6(the )6(re)6(levan)6(t)4( CRL)6(s m)8(u)0(st ha)6(ve)6( bee)6(n)]TJ
+T*
+-0.001 Tc
+[(veri)-7(fied)]TJ
+/F4 1 Tf
+0 24 -24 0 162.93 99.93 Tm
+0 Tc
+0 Tw
+(To validate a route from ASn, ASn+1 needs:)Tj
+ET
+endstream
+endobj
+66 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+68 0 obj
+<<
+/Length 5655
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(19)Tj
+ET
+0.801 0.801 1 rg
+0 G
+1 J 0 j 
+354.45 702.45 54.96 -618 re
+B*
+BT
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 85.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(S- BGP Path Aggregation Example)Tj
+/F4 1 Tf
+0 24 -24 0 185.25 85.65 Tm
+0 g
+(Receiving)Tj
+0.35 -1.195 TD
+0.001 Tc
+-0.001 Tw
+(AS, k+1)Tj
+4.195 1.195 TD
+[(Curre)5(nt)]TJ
+0.385 -1.195 TD
+(AS, k)Tj
+4.99 1.155 TD
+0 Tc
+(Sending)Tj
+0.08 -1.2 TD
+0.001 Tc
+(AS, k-1)Tj
+5.335 1.24 TD
+-0.001 Tc
+[(O)-4(r)2(iginating)]TJ
+1.16 -1.195 TD
+0.001 Tc
+(AS, 1)Tj
+0 54 -54 0 197.25 409.65 Tm
+0 Tc
+(...)Tj
+0 24 -24 0 185.25 578.13 Tm
+0.001 Tc
+(Prefix)Tj
+-0.335 -1.195 TD
+0.002 Tc
+[(Owne)6(r)0(s)]TJ
+0 20.04 -20.04 0 530.97 392.49 Tm
+-0.003 Tc
+0.005 Tw
+[(A)-6(ttestation Pat)6(h)-6( )6(A)-6(ttribu)-6(t)6(e)]TJ
+ET
+0 J 1 j 3 w [3 3 ]0 d
+355.41 329.49 m
+410.49 329.49 l
+S
+BT
+0 24 -24 0 380.49 208.17 Tm
+(Ra)Tj
+/F7 1 Tf
+0 15.96 -15.96 0 386.49 234.81 Tm
+0 Tc
+0 Tw
+(k)Tj
+0 18 -18 0 380.49 243.69 Tm
+({)Tj
+/F4 1 Tf
+0.3933 0 TD
+-0.001 Tc
+-0.002 Tw
+(expl data)Tj
+/F7 1 Tf
+3.64 0 TD
+0 Tc
+0 Tw
+(})Tj
+/F4 1 Tf
+-5.5267 -1.2933 TD
+-0.001 Tc
+(\(k-1+n+)Tj
+/F9 1 Tf
+3.2933 0 TD
+(d+)Tj
+/F4 1 Tf
+1.04 0 TD
+0.002 Tc
+(m\))Tj
+ET
+2.04 w []0 d
+539.49 620.37 m
+539.49 376.53 l
+539.49 376.53 m
+523.41 365.49 l
+539.49 620.37 m
+523.41 631.41 l
+S
+2.28 w 
+220.29 225.45 m
+334.77 225.45 l
+S
+334.53 219.57 m
+346.05 225.45 l
+334.53 231.21 l
+f*
+220.29 397.41 m
+239.85 397.41 l
+S
+239.61 391.53 m
+251.13 397.41 l
+239.61 403.17 l
+f*
+220.29 620.49 m
+239.85 620.49 l
+S
+239.61 614.61 m
+251.13 620.49 l
+239.61 626.25 l
+f*
+220.29 577.41 m
+239.85 577.41 l
+S
+239.61 571.53 m
+251.13 577.41 l
+239.61 583.17 l
+f*
+BT
+0 48 -48 0 234.45 581.73 Tm
+0 Tc
+(...)Tj
+ET
+220.29 531.45 m
+239.85 531.45 l
+S
+239.61 525.57 m
+251.13 531.45 l
+239.61 537.21 l
+f*
+3 w 
+145.17 177.69 m
+145.89 209.49 l
+S
+138.33 178.05 m
+144.93 164.49 l
+151.89 177.81 l
+f*
+1.44 w 
+231.93 119.49 m
+342.45 119.49 l
+S
+232.17 124.41 m
+222.45 119.49 l
+232.17 114.69 l
+f*
+3 w [24 9 ]0 d
+355.41 162.45 m
+410.49 162.45 l
+356.49 201.45 m
+410.49 201.45 l
+356.49 603.45 m
+409.41 603.45 l
+S
+[3 3 ]0 d
+355.41 465.45 m
+410.49 465.45 l
+S
+1.44 w []0 d
+424.89 659.49 m
+443.49 659.49 l
+S
+425.13 664.41 m
+415.41 659.49 l
+425.13 654.69 l
+f*
+BT
+0 20.04 -20.04 0 380.85 99.09 Tm
+0.001 Tc
+(BGP)Tj
+-0.4671 -1.1976 TD
+-0.001 Tc
+(Header)Tj
+0 32.04 -32.04 0 386.49 167.73 Tm
+(...)Tj
+0 24 -24 0 390.93 628.65 Tm
+(NLRI)Tj
+-12.12 0 TD
+[(Aggregated)-1041(Attestations)]TJ
+ET
+0.801 0.801 1 rg
+1 J 0 j 0.96 w 
+258.45 700.77 54.96 -456.96 re
+B*
+0 J 1 j 3 w [24 9 ]0 d
+258.45 319.77 m
+313.41 319.77 l
+259.41 363.81 m
+313.41 363.81 l
+259.41 627.81 m
+313.41 627.81 l
+S
+[3 3 ]0 d
+258.45 439.77 m
+313.41 439.77 l
+258.45 502.77 m
+313.41 502.77 l
+259.41 559.77 m
+315.45 559.77 l
+S
+BT
+0 20.04 -20.04 0 281.85 261.45 Tm
+0 g
+0.001 Tc
+(BGP)Tj
+-0.4671 -1.1976 TD
+-0.001 Tc
+(Header)Tj
+0 24 -24 0 294.45 374.97 Tm
+-0.002 Tc
+(RA)Tj
+/F7 1 Tf
+0 15.96 -15.96 0 300.45 408.33 Tm
+0.003 Tc
+(k-1)Tj
+/F4 1 Tf
+0 24 -24 0 294.45 515.13 Tm
+-0.002 Tc
+(RA)Tj
+/F7 1 Tf
+0 15.96 -15.96 0 300.45 548.49 Tm
+0 Tc
+(1)Tj
+1.203 0.3759 TD
+(n)Tj
+/F4 1 Tf
+0 24 -24 0 294.45 576.57 Tm
+0.001 Tc
+-0.001 Tw
+[( AAs)-450(NLRI)]TJ
+0 32.04 -32.04 0 289.41 329.13 Tm
+-0.001 Tc
+(...)Tj
+0 54 -54 0 294.21 448.05 Tm
+0 Tc
+(...)Tj
+ET
+0.801 0.801 1 rg
+1 J 0 j 0.96 w []0 d
+450.45 701.85 54.96 -457.08 re
+B*
+0 J 1 j 3 w [24 9 ]0 d
+450.45 320.85 m
+505.41 320.85 l
+451.41 364.77 m
+505.41 364.77 l
+451.41 628.77 m
+505.41 628.77 l
+S
+[3 3 ]0 d
+450.45 440.85 m
+505.41 440.85 l
+450.45 498.81 m
+505.41 498.81 l
+450.45 561.81 m
+506.49 561.81 l
+S
+BT
+0 20.04 -20.04 0 473.85 262.41 Tm
+0 g
+0.001 Tc
+(BGP)Tj
+-0.4671 -1.1976 TD
+-0.001 Tc
+(Header)Tj
+0 24 -24 0 486.45 382.17 Tm
+-0.002 Tc
+(RA)Tj
+/F9 1 Tf
+0 15.96 -15.96 0 492.45 415.53 Tm
+0 Tc
+0 Tw
+(d)Tj
+/F4 1 Tf
+0 24 -24 0 486.45 514.05 Tm
+-0.002 Tc
+(RA)Tj
+/F9 1 Tf
+0 15.96 -15.96 0 492.45 547.41 Tm
+0 Tc
+(a)Tj
+/F7 1 Tf
+1.1278 0.3759 TD
+(m)Tj
+/F4 1 Tf
+0 24 -24 0 486.45 578.73 Tm
+0.001 Tc
+-0.001 Tw
+[( AAs)-360(NLRI)]TJ
+0 32.04 -32.04 0 481.41 330.09 Tm
+-0.001 Tc
+(...)Tj
+0 54 -54 0 486.21 449.13 Tm
+0 Tc
+(...)Tj
+ET
+1.44 w []0 d
+409.41 603.45 m
+450.45 628.41 l
+312.45 363.45 m
+354.45 329.49 l
+409.41 466.41 m
+450.45 363.45 l
+312.45 627.45 m
+355.41 464.49 l
+312.45 628.41 m
+354.45 603.45 l
+313.41 701.49 m
+355.41 701.49 l
+410.49 701.49 m
+449.49 701.49 l
+320.49 399.45 m
+338.97 399.45 l
+S
+338.73 394.53 m
+348.45 399.45 l
+338.73 404.25 l
+f*
+320.49 661.41 m
+338.97 661.41 l
+S
+338.73 656.49 m
+348.45 661.41 l
+338.73 666.21 l
+f*
+426.93 519.45 m
+445.41 519.45 l
+S
+427.17 524.37 m
+417.45 519.45 l
+427.17 514.65 l
+f*
+307.41 341.49 m
+359.37 187.41 l
+S
+354.69 186.09 m
+362.49 178.41 l
+363.93 189.21 l
+f*
+405.69 190.29 m
+457.41 338.49 l
+S
+401.01 192.21 m
+402.45 181.41 l
+410.25 188.97 l
+f*
+BT
+/F7 1 Tf
+0 15.96 -15.96 0 439.41 117.81 Tm
+0.001 Tc
+-0.003 Tw
+(AS Path Attribute)Tj
+ET
+1 J 0 j 0.96 w 
+161.49 185.49 57.96 -105 re
+161.49 275.49 57.96 -84 re
+161.49 406.41 57.96 -90 re
+161.49 567.45 57.96 -117 re
+S
+0 J 1 j 3 w 
+145.17 271.65 m
+145.89 327.45 l
+S
+138.33 272.01 m
+144.93 258.45 l
+151.89 271.77 l
+f*
+[12 9 ]0 d
+145.17 406.65 m
+145.89 462.45 l
+S
+138.33 407.01 m
+144.93 393.45 l
+151.89 406.77 l
+f*
+endstream
+endobj
+69 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+/F7 33 0 R
+/F9 70 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+72 0 obj
+<<
+/Length 2747
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(20)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(Performance Issues -- Resources)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 165.21 124.53 Tm
+0 g
+0.002 Tc
+-0.004 Tw
+[(Cert)5(if)5(icates \(gener)5(at)5(ion and si)4(gning done of)5(f)5(line\))]TJ
+/F6 1 Tf
+0 18 -18 0 194.97 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 194.97 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(dis)-5(k)1( spac)-5(e )6(for stori)-8(ng certifi)-8(c)1(ates)]TJ
+/F6 1 Tf
+0 18 -18 0 223.65 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 223.65 156.09 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(C)-4(P)1(U)-4( resources for vali)-7(dating certifi)-7(c)2(at)8(es)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 257.25 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 257.25 124.53 Tm
+0 g
+0.002 Tc
+-0.004 Tw
+[(CRLs \(gener)5(at)5(ion and si)4(gning done of)5(f)5(line\))]TJ
+/F6 1 Tf
+0 18 -18 0 287.01 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 287.01 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(dis)-5(k)1( spac)-5(e )6(for stori)-8(ng C)-5(R)1(Ls)]TJ
+/F6 1 Tf
+0 18 -18 0 315.69 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 315.69 156.09 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(C)-4(P)1(U)-4( resources for vali)-7(dating C)-4(R)2(Ls)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 349.17 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 349.17 124.53 Tm
+0 g
+0.002 Tc
+[(A)4(t)0(t)5(e)3(st)5(at)5(ions)]TJ
+/F6 1 Tf
+0 18 -18 0 378.93 133.53 Tm
+0 0 0.602 rg
+0 Tc
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 378.93 156.09 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(R)-4(I)2(B memory space )6(for stori)-7(ng at)8(testations)]TJ
+/F6 1 Tf
+0 18 -18 0 407.73 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 407.73 156.09 Tm
+0 g
+-0.003 Tw
+[(disk spa)5(c)-3(e )6(for fa)5(ste)5(r)-2( )6(re)5(co)5(ve)5(ry from)7( rout)9(er rebo)5(ot \(op)5(t)3(io)5(nal\))]TJ
+/F6 1 Tf
+0 18 -18 0 436.41 133.53 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 436.41 156.09 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(C)-4(P)1(U)-4( resources for signing and vali)-7(dating attestat)8(i)-7(ons)]TJ
+/F6 1 Tf
+0 18 -18 0 465.21 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 465.21 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(resources for transmi)-8(t)7(ti)-8(ng at)7(testations \(to )6(make t)7(h)-3(i)-8(s)1( a)]TJ
+0 -1.1976 TD
+[(dynami)-8(c sys)-5(tem\))]TJ
+ET
+endstream
+endobj
+73 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+75 0 obj
+<<
+/Length 2257
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(21)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(Performance -- Certificates)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 165.21 124.53 Tm
+0 g
+0.001 Tc
+-0.003 Tw
+(Processing -- certificates and CRLs are signed)Tj
+0 -1.2 TD
+-0.001 Tc
+0 Tw
+[(i)-4(n)0(fre)-5(q)0(u)-5(ently; th)-5(is shou)-5(l)-4(d)0( b)-5(e)0( d)-5(o)0(n)-5(e)0( off-l)-4(i)-4(n)0(e)-5( \(a)-5(nd)-5( no)-5(t b)-5(y)]TJ
+0 -1.195 TD
+0 Tc
+(routers\))Tj
+/F5 1 Tf
+0 21.96 -21.96 0 257.25 97.53 Tm
+0 0 0.602 rg
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 257.25 124.53 Tm
+0 g
+(Storage:)Tj
+/F6 1 Tf
+0 18 -18 0 287.01 133.53 Tm
+0 0 0.602 rg
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 287.01 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(~30 Mby)-5(t)1(es)-5( )6(for ~65K)-6( Certi)-8(f)1(icates)]TJ
+/F6 1 Tf
+0 18 -18 0 315.69 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 315.69 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(~2 )6(Mbytes for ~3K C)-5(R)-5(L)-3(s)]TJ
+/F6 1 Tf
+0 18 -18 0 344.49 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 344.49 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(D)-5(N)-5(S)0( or C)-5(e)3(rti)-8(f)1(icate server -- 1 entry/addres)-5(s)1( block, 1)]TJ
+0 -1.1976 TD
+[(entry)-5(/)1(AS)-6(,)7( 1 entry)-5(/)7(B)-6(G)4(P-speaker i)-8(n)3( an AS)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 401.97 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 401.97 124.53 Tm
+0 g
+-0.001 Tw
+(Transmission bandwidth -- An UPDATE will not hold)Tj
+0 -1.195 TD
+(the certificates needed to validate an average route.)Tj
+0 -1.2 TD
+0.001 Tc
+[(Ther)4(e)-3(f)4(o)-3(r)4(e)-3(,)4( cer)4(t)4(i)-2(f)4(i)-2(cat)4(e)2(s will have t)4(o)2( be cached.)]TJ
+T*
+-0.002 Tw
+[(Cert)4(if)4(icates will be t)4(r)-1(ansm)4(it)4(t)4(e)-3(d at)4( a low fr)4(equency)]TJ
+0 -1.195 TD
+0 Tc
+(except at startup \(or preloaded from the NOC\).)Tj
+/F7 1 Tf
+0 18 -18 0 548.61 157.65 Tm
+0.003 Tw
+[(* Estimates )6(are based )6(on observed )6(MRT data from Jan 1998)]TJ
+ET
+endstream
+endobj
+76 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+/F7 33 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+79 0 obj
+<<
+/Length 2843
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(22)Tj
+/F2 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+0.001 Tw
+[(Performance -- Attest.\222s \(wor)-6(st case\))]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 165.21 124.53 Tm
+0 g
+0.001 Tc
+-0.004 Tw
+(Transmission bandwidth)Tj
+/F6 1 Tf
+0 18 -18 0 194.97 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 194.97 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(countermeas)-5(u)3(res i)-8(n)-3(f)7(o)-3(rmat)7(i)-8(o)-3(n adds)-5( )6(~400 bytes to )6(a typic)-5(al)]TJ
+0 -1.1976 TD
+0 Tc
+-0.003 Tw
+[(\(2.6)5( ASes in)5( pat)9(h\) UPDATE of )6(63 b)5(y)-3(te)5(s,)9( but )6(UPDATEs)]TJ
+T*
+[(represen)5(t a very small )6(portion o)5(f)3( all )6(tra)5(ffic)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 276.45 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 276.45 124.53 Tm
+0 g
+0.001 Tc
+-0.004 Tw
+(Processing \()Tj
+0 20.04 -20.04 0 276.45 258.09 Tm
+0 Tc
+-0.003 Tw
+[(u)5(s)-3(ing)5( DSA/SHA-1,)9( ~ 0.)9(15 second)5( ea)5(ch/)9(75 M)7(H)-3(z)]TJ
+0 24 -24 0 276.45 677.37 Tm
+0 Tw
+(\))Tj
+/F6 1 Tf
+0 18 -18 0 306.21 133.53 Tm
+0 0 0.602 rg
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 306.21 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(Per boot: ~7.5 hours to vali)-8(date LOC)-5(-)2(R)-5(I)1(B)-6( )6(w)-5(i)-8(th 50000 )6(N)-5(L)-3(R)-5(I)]TJ
+/F6 1 Tf
+0 18 -18 0 335.01 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 335.01 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(    )6(      )6(      )6(~1.8 hours to generate and s)-5(i)-2(gn )6(route )6(attes)-5(t)1(ati)-8(o)3(ns)]TJ
+/F6 1 Tf
+0 18 -18 0 363.69 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 363.69 156.09 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(Per day: 5-6 minut)8(es to vali)-7(date )6(U)-4(P)-5(D)-4(A)1(TE)-5(s; 5-6 minut)8(es to)]TJ
+T*
+0 Tc
+[(ge)5(nerate)5(/sign)5( atte)5(st)9(atio)5(ns \(assu)5(m)1(ing 1)5(0)-1( UPDATEs/se)5(c)-3(o)5(nd\))]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 421.17 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 421.17 124.53 Tm
+0 g
+0.001 Tc
+(Storage)Tj
+/F6 1 Tf
+0 18 -18 0 450.93 133.53 Tm
+0 0 0.602 rg
+0 Tc
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 450.93 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(address)-5( attestat)7(i)-8(ons)-5( )6(-- ~7 Mby)-5(t)1(es)]TJ
+/F6 1 Tf
+0 18 -18 0 479.73 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 479.73 156.09 Tm
+0 g
+-0.003 Tw
+[(rout)9(e att)9(e)-1(stations -- ~20)5( Mbyte)5(s f)9(o)-1(r ADJ-RIB pe)5(r )6(BG)6(P pee)5(r;)]TJ
+T*
+-0.001 Tc
+[(80)4( Mbyte)4(s \(4)4( pee)4(rs\) to )6(500 )6(Mbyte)4(s \(25)4( pee)4(rs\))]TJ
+ET
+endstream
+endobj
+80 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 5 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+82 0 obj
+<<
+/Length 2211
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(23)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+(Optimizations)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 165.21 124.53 Tm
+0 g
+-0.002 Tw
+(Cache previously validated routes \(attestations\) to)Tj
+0 -1.2 TD
+(avoid re-validation, e.g., if router crashes or link to)Tj
+0 -1.195 TD
+0.002 Tc
+-0.005 Tw
+[(neighbor)5( is lost)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 257.25 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 257.25 124.53 Tm
+0 g
+0.001 Tc
+-0.003 Tw
+[(Required BG)4(P caching cover)4(e)-3(d ~89% of)4( UPDATEs)]TJ
+/F6 1 Tf
+0 18 -18 0 287.01 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 287.01 156.09 Tm
+0 g
+-0.003 Tw
+[(cachin)5(g last two)5( distinct pa)5(ths from)7( each )6(peer h)5(i)-6(t )6(anot)9(her 6%)]TJ
+0 -1.1976 TD
+0.002 Tc
+-0.011 Tw
+[(of)5( UPDATEs)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 344.49 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F6 1 Tf
+0 24 -24 0 344.49 124.53 Tm
+0 g
+-0.001 Tc
+[(Mark rou)-5(t)2(es \223w)-4(i)-4(t)2(hd)-5(raw)-4(n)0(\224 fo)-5(r use)-5( l)-4(a)0(te)-5(r, e.g)-5(., if l)-4(i)1(n)-5(k)]TJ
+0 -1.195 TD
+0 Tc
+-0.001 Tw
+(flapped, to speed up validation for reinstated routes)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 407.73 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F6 1 Tf
+0 24 -24 0 407.73 124.53 Tm
+0 g
+-0.001 Tc
+[(D)-4(e)0(fe)-5(r veri)-4(fi)-4(cati)-4(o)-5(n)0( u)-5(n)0(ti)-4(l)-4( rou)-5(t)2(e is pu)-5(t i)-4(n)0(to)-5( L)-5(O)2(C)-4(-)2(R)-4(I)2(B)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 442.17 97.53 Tm
+0 0 0.602 rg
+0 Tc
+(l)Tj
+/F6 1 Tf
+0 24 -24 0 442.17 124.53 Tm
+0 g
+0.002 Tc
+-0.005 Tw
+[(B)4(a)-2(ckground verif)5(i)-1(cati)4(on of)5( alt)5(e)3(rnat)5(e r)5(o)-2(utes)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 476.73 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F6 1 Tf
+0 24 -24 0 476.73 124.53 Tm
+0 g
+0.002 Tc
+-0.004 Tw
+[(E)4(x)2(ploit)5( pr)5(eviousl)4(y)2( validat)5(ed common t)5(a)3(il at)5(t)5(e)-2(st)5(at)5(ions)]TJ
+ET
+endstream
+endobj
+83 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+85 0 obj
+<<
+/Length 1824
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(24)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+0.001 Tw
+(Optimizations \(continued\))Tj
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 165.21 124.53 Tm
+0 g
+0.002 Tc
+-0.005 Tw
+[(A)4(t)0(t)5(e)3(st)5(at)5(ion design elimi)4(n)-2(at)5(es redundant)5( inf)5(o)3(rmat)5(i)-1(on in)]TJ
+0 -1.2 TD
+-0.001 Tc
+-0.002 Tw
+[(common)-5( case)-5(, i)-4(.)2(e)-5(., j)-4(u)-5(st pre)-5(p)0(e)-5(ndi)-4(n)-5(g)0( l)-4(o)-5(cal)-4( AS)-4( to)-5( pa)-5(th)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 228.45 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 228.45 124.53 Tm
+0 g
+-0.002 Tw
+(Keep only needed certificate fields in S-BGP databases)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 263.01 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 263.01 124.53 Tm
+0 g
+-0.002 Tw
+(Offload generation/signing of route attestations, e.g.,)Tj
+0 -1.195 TD
+(from routers to AS)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 326.25 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 326.25 124.53 Tm
+0 g
+0.002 Tc
+-0.004 Tw
+[(Heur)5(ist)5(i)-1(cs to guide which prefi)4(x)2(es ar)5(e aggregat)5(ed i)4(n)-2( an)]TJ
+T*
+-0.001 Tc
+-0.001 Tw
+[(U)-4(P)1(D)-4(A)1(TE -- th)-5(i)-4(s)-1( i)-4(s)-1( ai)-4(med)-5( at re)-5(du)-5(ci)-4(ng)-5( the)-5( a)-5(m)2(o)-5(u)0(n)-5(t)2( o)-5(f)]TJ
+0 -1.2 TD
+-0.002 Tc
+0.001 Tw
+[(i)-5(n)-1(fo)-6(rma)-6(t)1(i)-5(o)-1(n)-6( th)-6(at h)-6(a)-1(s to b)-6(e)-1( ma)-6(de)-6( exp)-6(l)0(i)-5(c)-2(i)-5(t)1( w)-5(h)-6(en)-6( an)]TJ
+0 -1.195 TD
+0.001 Tc
+-0.003 Tw
+(aggregate encounters a preferred more-specific route)Tj
+ET
+endstream
+endobj
+86 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+88 0 obj
+<<
+/Length 2048
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(25)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(Other Performance Savings)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 156.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 156.21 124.53 Tm
+0 g
+0.001 Tc
+-0.002 Tw
+[(Most)4( organizations will obt)4(a)2(in t)4(h)-3(eir)4( address blocks)]TJ
+0 -1.2 TD
+-0.001 Tc
+[(from th)-5(ei)-4(r pro)-5(v)-1(id)-5(er --> the)-5(y)-1( do)-5( no)-5(t n)-5(e)0(e)-5(d)0( to)-5( p)-5(r)2(o)-5(v)-1(id)-5(e)]TJ
+0 -1.195 TD
+0 Tc
+(address attestations and do not need certificates)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 248.25 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 248.25 124.53 Tm
+0 g
+0.001 Tc
+-0.002 Tw
+(Most organizations/users are singly homed )Tj
+0 18 -18 0 248.25 587.73 Tm
+-0.001 Tc
+0.003 Tw
+(\(see above\))Tj
+/F5 1 Tf
+0 21.96 -21.96 0 282.69 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 282.69 124.53 Tm
+0 g
+-0.002 Tw
+(Limit where UPDATE validation occurs, e.g., not)Tj
+0 -1.2 TD
+0.001 Tc
+-0.004 Tw
+(needed for)Tj
+/F6 1 Tf
+0 18 -18 0 341.25 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 341.25 156.09 Tm
+0 g
+-0.003 Tw
+[(O)6(r)4(ganizations tha)5(t)3( use )6(defa)5(u)-1(lt)9( ro)5(uting, )6(e,g,)9(, sing)5(ly ho)5(med)]TJ
+/F6 1 Tf
+0 -1.1976 TD
+[(\223le)5(a)-1(f\224 orga)5(nizat)9(i)-6(on)5(s o)5(r)4( singly hom)7(ed )6(DSPs)]TJ
+0 18 -18 0 393.93 133.53 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 393.93 156.09 Tm
+0 g
+-0.003 Tw
+[(mu)5(lti-hom)7(ed DSP -- )6( ch)5(eck )6(only if receive >1 )6(ro)5(ute )6(to sam)7(e)]TJ
+T*
+[(ad)5(dress b)5(l)-6(o)5(c)-3(ks)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 451.41 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 451.41 124.53 Tm
+0 g
+0.001 Tc
+-0.004 Tw
+(Cryptographic hardware for signing and verification)Tj
+ET
+endstream
+endobj
+89 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+91 0 obj
+<<
+/Length 2985
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(26)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 111.93 98.85 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(Proof of Concept)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 165.21 124.53 Tm
+0 g
+0.002 Tc
+-0.005 Tw
+[(DA)4(RP)4(A and NSA)4( ar)5(e f)5(u)-2(nding pr)5(ot)5(ot)5(ype development)]TJ
+/F6 1 Tf
+0 18 -18 0 194.97 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 194.97 156.09 Tm
+0 g
+-0.003 Tw
+[(Pro)5(t)3(otype )6(co)5(de will be)5( availab)5(l)-6(e)5(,)3( e.g)5(., in G)6(a)-1(te)5(D)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 228.45 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 228.45 124.53 Tm
+0 g
+-0.003 Tw
+(Replay some of the Merit historical data)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 263.01 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 263.01 124.53 Tm
+0 g
+0.001 Tc
+-0.003 Tw
+[(Deploy in t)4(h)2(e wide-ar)4(ea DARPA CAIRN test)4(bed)]TJ
+/F6 1 Tf
+0 18 -18 0 292.65 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 292.65 156.09 Tm
+0 g
+-0.003 Tw
+[(PC-b)5(ased ro)5(uters runn)5(ing)5( FreeBSD/)9(m)1(rtd/g)5(a)-1(ted)]TJ
+/F6 1 Tf
+0 18 -18 0 321.45 133.53 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 321.45 156.09 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(Parti)-7(t)2(ion testbed into several AS)-5(es or )6(a confederat)8(i)-7(o)-2(n)]TJ
+/F6 1 Tf
+0 18 -18 0 350.25 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 350.25 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(Peer w)-5(i)-2(th \(import)7( from\) di)-8(verse BGP)-6( speak)-5(e)3(rs)-5( in the Internet)]TJ
+/F6 1 Tf
+0 18 -18 0 378.93 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+0 20.04 -20.04 0 378.93 156.09 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(Insert )6(\223mi)-7(ssi)-7(ng\224 )6(attes)-4(t)2(ati)-7(o)4(ns on )6(the f)8(l)-7(y, e.)8(g., f)8(r)-3(om local)-7( )6(c)-4(a)4(c)-4(h)4(e)]TJ
+0 18 -18 0 407.73 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 407.73 156.09 Tm
+0 g
+-0.002 Tc
+-0.001 Tw
+[(D)-5(o)-3( )6(nasty things to routers, li)-8(nk)-5(s, BGP)-6( )6(s)-5(e)-3(ssi)-8(ons \(w)-5(/IPS)-6(e)-3(c of)7(f :-\))]TJ
+/F6 1 Tf
+0 18 -18 0 436.41 133.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 436.41 156.09 Tm
+0 g
+-0.003 Tw
+[(Fin)5(d)-1( pe)5(rforma)5(nce)5( prob)5(lem)7(s)3( and)5( devise )6(optimiza)5(t)3(io)5(ns for th)5(em)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 470.01 97.53 Tm
+0 0 0.602 rg
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 470.01 124.53 Tm
+0 g
+-0.003 Tw
+(Have some ISPs evaluate it)Tj
+/F6 1 Tf
+0 18 -18 0 499.65 133.53 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 499.65 156.09 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(Mo)4(nitorin)4(g)-2( mo)4(de )6(vs. en)4(forceme)4(n)-2(t m)6(ode)]TJ
+ET
+endstream
+endobj
+92 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+94 0 obj
+<<
+/Length 1511
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(27)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(Benefits of S-BGP)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 165.21 124.53 Tm
+0 g
+-0.001 Tc
+[(Se)-5(cure id)-5(en)-5(ti)-4(fi)-4(cati)-4(o)-5(n)0( o)-5(f)2( e)-5(n)0(ti)-4(ti)-4(e)-5(s)-1( pa)-5(rtici)-4(p)-5(ati)-4(n)-5(g i)-4(n)0( gl)-4(ob)-5(al)]TJ
+0 -1.2 TD
+0 Tc
+(internet routing, e.g., prefix owners, AS number)Tj
+0 -1.195 TD
+-0.002 Tw
+(owners, AS administrations, routers speaking for an)Tj
+0 -1.2 TD
+-0.002 Tc
+(AS)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 285.93 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 285.93 124.53 Tm
+0 g
+0.002 Tw
+(Secure authorization of:)Tj
+/F6 1 Tf
+0 18 -18 0 315.69 133.53 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 315.69 156.09 Tm
+0 g
+-0.003 Tw
+[(AS to)5( advertise an)5( add)5(re)5(ss pre)5(f)3(ix)]TJ
+/F6 1 Tf
+0 18 -18 0 344.49 133.53 Tm
+0 0 0.602 rg
+0 Tw
+(\226)Tj
+/F3 1 Tf
+0 20.04 -20.04 0 344.49 156.09 Tm
+0 g
+-0.001 Tc
+-0.002 Tw
+[(AS to)4( use a)4( route)]TJ
+/F5 1 Tf
+0 21.96 -21.96 0 377.97 97.53 Tm
+0 0 0.602 rg
+0 Tc
+0 Tw
+(l)Tj
+/F3 1 Tf
+0 24 -24 0 377.97 124.53 Tm
+0 g
+-0.001 Tw
+(Integrity of peer communications and advertised)Tj
+0 -1.195 TD
+(routes)Tj
+ET
+endstream
+endobj
+95 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F3 6 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+97 0 obj
+<<
+/Length 297
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(28)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+(Questions?)Tj
+ET
+endstream
+endobj
+98 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+100 0 obj
+<<
+/Length 6775
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(29)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+0.001 Tw
+(An Example BGP Topology)Tj
+ET
+0 G
+342.93 300.45 m
+383.97 258.45 l
+438.45 354.45 m
+342.45 354.45 l
+336.45 438.93 m
+336.45 515.97 l
+258.93 396.45 m
+335.97 396.45 l
+330.45 198.93 m
+330.45 311.97 l
+288.93 594.93 m
+383.97 683.97 l
+396.45 684.45 m
+396.45 594.45 l
+468.45 546.93 m
+468.45 635.97 l
+474.93 516.45 m
+533.97 516.45 l
+534.45 432.93 m
+462.45 503.97 l
+462.93 366.45 m
+533.97 294.45 l
+528.45 282.45 m
+456.45 210.45 l
+465.45 108.93 m
+465.45 191.97 l
+402.93 183.45 m
+527.97 183.45 l
+360.93 96.93 m
+389.97 125.97 l
+222.45 624.93 m
+222.45 671.97 l
+180.93 612.45 m
+221.97 612.45 l
+174.93 516.45 m
+215.97 516.45 l
+204.93 450.93 m
+227.97 485.97 l
+240.93 504.45 m
+281.97 504.45 l
+234.93 606.45 m
+275.97 606.45 l
+198.93 240.45 m
+233.97 240.45 l
+186.45 180.93 m
+186.45 323.97 l
+324.93 396.93 m
+401.97 497.97 l
+252.93 426.93 m
+287.97 479.97 l
+306.93 534.45 m
+401.97 534.45 l
+330.93 180.45 m
+383.97 180.45 l
+264.93 198.45 m
+317.97 198.45 l
+252.45 324.93 m
+252.45 383.97 l
+S
+0.5 g
+1 J 0 j 
+312.93 209.97 29.04 -53.04 re
+B*
+BT
+/F4 1 Tf
+0 24 -24 0 336.21 159.45 Tm
+0 g
+0.003 Tc
+(NAP)Tj
+ET
+0.5 g
+234.93 425.97 29.04 -53.04 re
+B*
+BT
+0 24 -24 0 258.21 375.45 Tm
+0 g
+(NAP)Tj
+ET
+0.5 g
+324.93 557.97 29.04 -53.04 re
+B*
+BT
+0 24 -24 0 348.21 507.45 Tm
+0 g
+(NAP)Tj
+ET
+0.988 0.004 0.156 rg
+1 j 
+249.45 335.97 m
+234.81 335.97 222.93 294.45 222.93 243.45 c
+222.93 192.33 234.81 150.93 249.45 150.93 c
+264.09 150.93 275.97 192.33 275.97 243.45 c
+275.97 294.45 264.09 335.97 249.45 335.97 c
+b*
+BT
+0 24 -24 0 258.21 216.09 Tm
+0 g
+0.001 Tc
+(ISP-1)Tj
+ET
+0.988 0.004 0.156 rg
+396.45 275.97 m
+381.81 275.97 369.93 234.45 369.93 183.45 c
+369.93 132.33 381.81 90.93 396.45 90.93 c
+411.09 90.93 422.97 132.33 422.97 183.45 c
+422.97 234.45 411.09 275.97 396.45 275.97 c
+b*
+BT
+0 24 -24 0 405.21 156.09 Tm
+0 g
+(ISP-4)Tj
+ET
+0.988 0.004 0.156 rg
+396.45 629.97 m
+381.81 629.97 369.93 588.45 369.93 537.45 c
+369.93 486.33 381.81 444.93 396.45 444.93 c
+411.09 444.93 422.97 486.33 422.97 537.45 c
+422.97 588.45 411.09 629.97 396.45 629.97 c
+b*
+BT
+0 24 -24 0 405.21 510.09 Tm
+0 g
+(ISP-3)Tj
+ET
+0.988 0.004 0.156 rg
+285.45 635.97 m
+270.81 635.97 258.93 594.45 258.93 543.45 c
+258.93 492.33 270.81 450.93 285.45 450.93 c
+300.09 450.93 311.97 492.33 311.97 543.45 c
+311.97 594.45 300.09 635.97 285.45 635.97 c
+b*
+BT
+0 24 -24 0 294.21 516.09 Tm
+0 g
+(ISP-2)Tj
+ET
+0 0.801 0.602 rg
+225.45 539.97 m
+210.81 539.97 198.93 522.69 198.93 501.45 c
+198.93 480.09 210.81 462.93 225.45 462.93 c
+240.09 462.93 251.97 480.09 251.97 501.45 c
+251.97 522.69 240.09 539.97 225.45 539.97 c
+b*
+BT
+0 24 -24 0 234.21 470.13 Tm
+0 g
+0.003 Tc
+[(DSP-)6(a)]TJ
+ET
+0 0.801 0.602 rg
+468.45 557.97 m
+453.81 557.97 441.93 540.69 441.93 519.45 c
+441.93 498.09 453.81 480.93 468.45 480.93 c
+483.09 480.93 494.97 498.09 494.97 519.45 c
+494.97 540.69 483.09 557.97 468.45 557.97 c
+b*
+BT
+0 24 -24 0 477.21 487.53 Tm
+0 g
+[(DSP-)6(d)]TJ
+ET
+0 0.801 0.602 rg
+222.45 647.97 m
+207.81 647.97 195.93 630.69 195.93 609.45 c
+195.93 588.09 207.81 570.93 222.45 570.93 c
+237.09 570.93 248.97 588.09 248.97 609.45 c
+248.97 630.69 237.09 647.97 222.45 647.97 c
+b*
+BT
+0 24 -24 0 231.21 577.53 Tm
+0 g
+[(DSP-)6(b)]TJ
+ET
+0 0.801 0.602 rg
+462.45 221.97 m
+447.81 221.97 435.93 204.69 435.93 183.45 c
+435.93 162.09 447.81 144.93 462.45 144.93 c
+477.09 144.93 488.97 162.09 488.97 183.45 c
+488.97 204.69 477.09 221.97 462.45 221.97 c
+b*
+BT
+0 24 -24 0 471.21 153.45 Tm
+0 g
+[(DSP-)6(f)]TJ
+ET
+0 0.801 0.602 rg
+462.45 389.97 m
+447.81 389.97 435.93 372.69 435.93 351.45 c
+435.93 330.09 447.81 312.93 462.45 312.93 c
+477.09 312.93 488.97 330.09 488.97 351.45 c
+488.97 372.69 477.09 389.97 462.45 389.97 c
+b*
+BT
+0 24 -24 0 471.21 320.13 Tm
+0 g
+[(DSP-)6(e)]TJ
+ET
+0 0.801 0.602 rg
+184.89 281.97 m
+170.25 281.97 158.49 264.69 158.49 243.45 c
+158.49 222.09 170.25 204.93 184.89 204.93 c
+199.53 204.93 211.41 222.09 211.41 243.45 c
+211.41 264.69 199.53 281.97 184.89 281.97 c
+b*
+BT
+0 24 -24 0 193.65 211.53 Tm
+0 g
+[(DSP-)6(g)]TJ
+ET
+0.031 0.113 0.344 rg
+0 j 
+138.93 612.45 m
+165.45 576.93 l
+191.97 612.45 l
+165.45 647.97 l
+b*
+BT
+0 18 -18 0 171.93 590.85 Tm
+1 g
+-0.001 Tc
+(Sub-5)Tj
+ET
+0.031 0.113 0.344 rg
+138.93 516.45 m
+165.45 480.93 l
+191.97 516.45 l
+165.45 551.97 l
+b*
+BT
+0 18 -18 0 171.93 494.85 Tm
+1 g
+(Sub-4)Tj
+ET
+0.031 0.113 0.344 rg
+162.93 432.45 m
+189.45 396.93 l
+215.97 432.45 l
+189.45 467.97 l
+b*
+BT
+0 18 -18 0 195.93 410.85 Tm
+1 g
+(Sub-3)Tj
+ET
+0.031 0.113 0.344 rg
+158.49 162.45 m
+184.89 126.93 l
+211.41 162.45 l
+184.89 197.97 l
+b*
+BT
+0 18 -18 0 191.49 140.85 Tm
+1 g
+(Sub-2)Tj
+ET
+0.031 0.113 0.344 rg
+158.49 324.45 m
+184.89 288.93 l
+211.41 324.45 l
+184.89 359.97 l
+b*
+BT
+0 18 -18 0 191.49 302.85 Tm
+1 g
+(Sub-1)Tj
+ET
+0.031 0.113 0.344 rg
+324.93 84.45 m
+351.45 48.93 l
+377.97 84.45 l
+351.45 119.97 l
+b*
+BT
+0 18 -18 0 357.93 62.85 Tm
+1 g
+(Sub-7)Tj
+ET
+0.031 0.113 0.344 rg
+195.93 690.45 m
+222.45 654.93 l
+248.97 690.45 l
+222.45 725.97 l
+b*
+BT
+0 18 -18 0 228.93 668.85 Tm
+1 g
+(Sub-6)Tj
+ET
+0.031 0.113 0.344 rg
+498.93 183.45 m
+525.45 147.93 l
+551.97 183.45 l
+525.45 218.97 l
+b*
+BT
+0 18 -18 0 531.93 161.85 Tm
+1 g
+(Sub-9)Tj
+ET
+0.031 0.113 0.344 rg
+438.93 96.45 m
+465.45 60.93 l
+491.97 96.45 l
+465.45 131.97 l
+b*
+BT
+0 18 -18 0 471.93 74.85 Tm
+1 g
+(Sub-8)Tj
+ET
+0.031 0.113 0.344 rg
+504.93 300.45 m
+532.89 264.93 l
+560.97 300.45 l
+532.89 335.97 l
+b*
+BT
+0 18 -18 0 539.49 274.41 Tm
+1 g
+(Sub-10)Tj
+ET
+0.031 0.113 0.344 rg
+504.93 426.45 m
+532.89 390.93 l
+560.97 426.45 l
+532.89 461.97 l
+b*
+BT
+0 18 -18 0 539.49 400.41 Tm
+1 g
+(Sub-11)Tj
+ET
+0.031 0.113 0.344 rg
+504.93 516.45 m
+532.89 480.93 l
+560.97 516.45 l
+532.89 551.97 l
+b*
+BT
+0 18 -18 0 539.49 490.41 Tm
+1 g
+(Sub-12)Tj
+ET
+0.031 0.113 0.344 rg
+366.93 690.45 m
+394.89 654.93 l
+422.97 690.45 l
+394.89 725.97 l
+b*
+BT
+0 18 -18 0 401.49 664.41 Tm
+1 g
+(Sub-14)Tj
+ET
+0.031 0.113 0.344 rg
+438.93 630.45 m
+466.89 594.93 l
+494.97 630.45 l
+466.89 665.97 l
+b*
+BT
+0 18 -18 0 473.49 604.41 Tm
+1 g
+(Sub-13)Tj
+ET
+0.988 0.004 0.156 rg
+1 j 
+330.45 449.97 m
+315.81 449.97 303.93 408.45 303.93 357.45 c
+303.93 306.33 315.81 264.93 330.45 264.93 c
+345.09 264.93 356.97 306.33 356.97 357.45 c
+356.97 408.45 345.09 449.97 330.45 449.97 c
+b*
+BT
+0 24 -24 0 339.21 330.09 Tm
+0 g
+0.001 Tc
+(ISP-5)Tj
+ET
+endstream
+endobj
+101 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+103 0 obj
+<<
+/Length 4887
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(30)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+-0.002 Tw
+(Basic BGP Model)Tj
+ET
+0 G
+298.89 278.49 m
+332.97 215.49 l
+164.97 392.49 m
+274.89 352.41 l
+273.45 394.41 m
+162.45 354.45 l
+275.49 392.49 m
+275.49 347.49 l
+181.89 304.41 m
+255.93 304.41 l
+183.93 149.97 m
+275.97 255.93 l
+336.45 597.45 m
+299.49 305.49 l
+273.93 492.93 m
+316.89 598.89 l
+181.89 440.49 m
+251.97 440.49 l
+161.49 181.89 m
+161.49 586.89 l
+182.97 641.49 m
+311.97 641.49 l
+S
+0 0.801 0.602 rg
+1 J 
+158.25 688.17 m
+147.45 688.17 138.81 667.29 138.81 641.61 c
+138.81 615.93 147.45 595.17 158.25 595.17 c
+169.05 595.17 177.81 615.93 177.81 641.61 c
+177.81 667.29 169.05 688.17 158.25 688.17 c
+b*
+BT
+/F4 1 Tf
+0 24 -24 0 167.13 614.49 Tm
+0 g
+0.003 Tc
+[(DSP-)6(A)]TJ
+ET
+0.988 0.004 0.156 rg
+0 j 
+157.17 599.97 12 -11.04 re
+B*
+0 0.801 0.602 rg
+1 j 
+158.25 355.41 m
+147.45 355.41 138.81 334.53 138.81 308.85 c
+138.81 283.17 147.45 262.41 158.25 262.41 c
+169.05 262.41 177.81 283.17 177.81 308.85 c
+177.81 334.53 169.05 355.41 158.25 355.41 c
+b*
+BT
+0 24 -24 0 167.13 281.73 Tm
+0 g
+0.001 Tc
+(ISP-2)Tj
+ET
+0 0.801 0.602 rg
+325.41 690.81 m
+314.61 690.81 305.97 669.93 305.97 644.25 c
+305.97 618.57 314.61 597.81 325.41 597.81 c
+336.21 597.81 344.97 618.57 344.97 644.25 c
+344.97 669.93 336.21 690.81 325.41 690.81 c
+b*
+BT
+0 24 -24 0 334.17 617.13 Tm
+0 g
+0.003 Tc
+[(DSP-)6(B)]TJ
+ET
+0.988 0.004 0.156 rg
+0 j 
+311.97 604.77 12 -10.92 re
+B*
+329.97 604.77 12 -10.92 re
+B*
+0 0.801 0.602 rg
+1 j 
+158.25 191.73 m
+147.45 191.73 138.81 170.85 138.81 145.17 c
+138.81 119.49 147.45 98.73 158.25 98.73 c
+169.05 98.73 177.81 119.49 177.81 145.17 c
+177.81 170.85 169.05 191.73 158.25 191.73 c
+b*
+BT
+0 24 -24 0 167.13 113.97 Tm
+0 g
+0 Tc
+(Sub-X)Tj
+ET
+0.988 0.004 0.156 rg
+0 j 
+155.49 198.93 12 -10.92 re
+B*
+0 0.801 0.602 rg
+1 j 
+239.37 689.37 m
+228.57 689.37 219.93 668.49 219.93 642.81 c
+219.93 617.13 228.57 596.37 239.37 596.37 c
+250.17 596.37 258.93 617.13 258.93 642.81 c
+258.93 668.49 250.17 689.37 239.37 689.37 c
+b*
+BT
+0 24 -24 0 248.25 611.61 Tm
+0 g
+(Sub-Z)Tj
+ET
+0.988 0.004 0.156 rg
+0 j 
+173.49 155.01 12 -11.04 re
+B*
+154.41 263.97 12 -11.04 re
+B*
+155.49 357.93 12 -10.92 re
+B*
+174.45 308.97 12 -11.04 re
+B*
+0 0.801 0.602 rg
+1 j 
+275.37 350.97 m
+264.57 350.97 255.93 330.09 255.93 304.41 c
+255.93 278.73 264.57 257.97 275.37 257.97 c
+286.17 257.97 294.93 278.73 294.93 304.41 c
+294.93 330.09 286.17 350.97 275.37 350.97 c
+b*
+BT
+0 24 -24 0 284.25 277.17 Tm
+0 g
+0.001 Tc
+(ISP-3)Tj
+ET
+0.988 0.004 0.156 rg
+0 j 
+270.45 263.97 12 -11.04 re
+B*
+269.49 356.97 12 -11.04 re
+B*
+250.41 308.97 12 -11.04 re
+B*
+290.49 308.97 12 -11.04 re
+B*
+0 0.801 0.602 rg
+1 j 
+274.41 487.41 m
+263.61 487.41 254.97 466.53 254.97 440.85 c
+254.97 415.17 263.61 394.41 274.41 394.41 c
+285.21 394.41 293.97 415.17 293.97 440.85 c
+293.97 466.53 285.21 487.41 274.41 487.41 c
+b*
+BT
+0 24 -24 0 283.17 413.73 Tm
+0 g
+(ISP-4)Tj
+ET
+0.988 0.004 0.156 rg
+0 j 
+248.49 446.49 12 -11.04 re
+B*
+267.45 494.97 12 -11.04 re
+B*
+269.49 401.97 12 -11.04 re
+B*
+211.41 648.33 12 -11.04 re
+B*
+256.41 648.33 12 -11.04 re
+B*
+301.41 648.33 12 -11.04 re
+B*
+173.97 647.01 12 -11.04 re
+B*
+0 0.801 0.602 rg
+1 j 
+158.25 486.93 m
+147.45 486.93 138.81 466.05 138.81 440.37 c
+138.81 414.69 147.45 393.93 158.25 393.93 c
+169.05 393.93 177.81 414.69 177.81 440.37 c
+177.81 466.05 169.05 486.93 158.25 486.93 c
+b*
+BT
+0 24 -24 0 167.13 413.25 Tm
+0 g
+(ISP-1)Tj
+ET
+0.988 0.004 0.156 rg
+0 j 
+155.01 398.97 12 -11.04 re
+B*
+175.41 446.01 12 -11.04 re
+B*
+155.01 494.01 12 -11.04 re
+B*
+0 J 1 j 
+355.89 166.41 m
+390.93 166.41 l
+S
+0 0.801 0.602 rg
+1 J 
+412.41 213.21 m
+401.61 213.21 392.97 192.33 392.97 166.65 c
+392.97 140.97 401.61 120.21 412.41 120.21 c
+423.21 120.21 431.97 140.97 431.97 166.65 c
+431.97 192.33 423.21 213.21 412.41 213.21 c
+b*
+BT
+0 24 -24 0 421.17 135.45 Tm
+0 g
+0 Tc
+(Sub-Y)Tj
+ET
+0 1 0 rg
+0 j 
+384.45 172.17 12 -10.92 re
+B*
+0 0.801 0.602 rg
+1 j 
+334.41 211.65 m
+323.61 211.65 314.97 190.77 314.97 165.09 c
+314.97 139.41 323.61 118.65 334.41 118.65 c
+345.21 118.65 353.97 139.41 353.97 165.09 c
+353.97 190.77 345.21 211.65 334.41 211.65 c
+b*
+BT
+0 24 -24 0 343.17 137.97 Tm
+0 g
+0.003 Tc
+[(DSP-)6(C)]TJ
+ET
+0 1 0 rg
+0 j 
+349.41 171.21 12 -11.04 re
+B*
+328.41 220.65 12 -10.92 re
+B*
+288.45 284.73 12 -11.04 re
+B*
+416.01 407.73 12 -11.04 re
+B*
+BT
+0 18 -18 0 428.61 413.49 Tm
+0 g
+0.001 Tc
+-0.004 Tw
+(non-BGP Router)Tj
+ET
+0.988 0.004 0.156 rg
+416.01 282.69 12 -11.04 re
+B*
+BT
+0 18 -18 0 428.61 291.45 Tm
+0 g
+(BGP Router)Tj
+ET
+endstream
+endobj
+104 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+106 0 obj
+<<
+/Length 46503
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(31)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(Format of Attestation Path Attribute)Tj
+/F10 1 Tf
+0 9 -9 0 139.41 179.13 Tm
+0 g
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(+)Tj
+-24.56 -1.2 TD
+0.067 Tc
+[(Pa)107(t)]TJ
+1.5067 0 TD
+-0.053 Tc
+[(hA)-120(t)]TJ
+1.4933 0 TD
+0 Tc
+(t)Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2533 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+0.013 Tc
+(Fl)Tj
+0.84 0 TD
+-0.053 Tc
+[(ag)-13(s)40( )]TJ
+1.88 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.013 Tc
+[(Ty)120(p)53(e)66( )]TJ
+2.4933 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+-0.04 Tc
+[(Len)13( )]TJ
+1.9467 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(\()Tj
+0.3333 0 TD
+0.067 Tc
+[(Ex)174(t)]TJ
+1.44 0 TD
+-0.04 Tc
+[(Le)13(n\))]TJ
+2 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+-25.8533 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.013 Tc
+[(+)14(====)14(===+)14(====)14(===+)14(====)14(====)14(====)14(===+)14(=+==)14(====)14(====)14(===+)14(====)14(====)14(====)14(===+)]TJ
+-2.2267 -1.1867 TD
+0 Tc
+( )Tj
+0.28 0 TD
+-0.04 Tc
+[(T)-53(y)67(pe )]TJ
+2.4933 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+0.12 Tc
+[(RA)53(8)160(/)]TJ
+2.2133 0 TD
+0.067 Tc
+[(AA9)107(|)]TJ
+2.16 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+(At)Tj
+0.9467 0 TD
+0 Tc
+(t)Tj
+0.2667 0 TD
+-0.04 Tc
+[(es)53( )]TJ
+1.3333 0 TD
+[(Len)13( )]TJ
+1.9467 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+-0.04 Tc
+(L|)Tj
+0.8267 0 TD
+0 Tc
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.04 Tc
+(# )Tj
+0.84 0 TD
+0.067 Tc
+(At)Tj
+0.9333 0 TD
+-0.04 Tc
+[(es)53(t)]TJ
+1.3333 0 TD
+(at)Tj
+0.84 0 TD
+0 Tc
+(i)Tj
+0.2267 0 TD
+-0.053 Tc
+[(on)-13(s)54( )]TJ
+1.88 0 TD
+0 Tc
+(f)Tj
+0.28 0 TD
+-0.04 Tc
+(ol)Tj
+0.7733 0 TD
+0 Tc
+(l)Tj
+0.2267 0 TD
+-0.04 Tc
+[(ow)-160(i)]TJ
+1.5067 0 TD
+-0.053 Tc
+[(ng)-13( )]TJ
+1.3867 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+(|)Tj
+-28.7733 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(+)Tj
+-25.0533 -1.1867 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+(Si)Tj
+0.8933 0 TD
+-0.04 Tc
+[(g)13(ner)]TJ
+2 0 TD
+0 Tc
+( )Tj
+0.2667 0 TD
+(|)Tj
+0.2667 0 TD
+-0.04 Tc
+(0 )Tj
+0.84 0 TD
+-0.053 Tc
+(0 )Tj
+0.8267 0 TD
+-0.04 Tc
+(0 )Tj
+0.84 0 TD
+-0.053 Tc
+(1|)Tj
+0.8133 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.04 Tc
+[(Le)13(n )]TJ
+1.9467 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+[(AF)54(/)]TJ
+1.56 0 TD
+0.013 Tc
+[(Ty)120(p)53(e)66( )]TJ
+2.4933 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+-24.96 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(+)Tj
+-24.8 -1.1867 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2533 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+(AS )Tj
+1.6133 0 TD
+0.12 Tc
+[(Nu)160(m)-107( )]TJ
+2.3867 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+(:)Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(I)Tj
+0.28 0 TD
+0.067 Tc
+[(Pv)174(4)107( )]TJ
+2 0 TD
+0 Tc
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+-22.9333 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(+)Tj
+-24.56 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(I)Tj
+0.28 0 TD
+0.067 Tc
+[(Pv)174(6)107( )]TJ
+2 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+0.133 Tc
+[(DN)13(S)66( )]TJ
+2.4 0 TD
+0.12 Tc
+[(Na)173(m)-120(e)160( )]TJ
+2.9333 0 TD
+0 Tc
+(\()Tj
+0.3333 0 TD
+-0.04 Tc
+(ni)Tj
+0.7867 0 TD
+0 Tc
+(l)Tj
+0.2133 0 TD
+( )Tj
+0.28 0 TD
+(t)Tj
+0.28 0 TD
+-0.04 Tc
+(er)Tj
+0.8933 0 TD
+0.227 Tc
+(mi)Tj
+1.0533 0 TD
+-0.04 Tc
+[(na)13(t)]TJ
+1.3867 0 TD
+[(ed)13(\))]TJ
+1.44 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+-25.9467 -1.1867 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(+)Tj
+-24.8 -1.2 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+(Si)Tj
+0.8933 0 TD
+-0.053 Tc
+(g )Tj
+0.8267 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2533 0 TD
+-0.04 Tc
+(0 )Tj
+0.84 0 TD
+-0.053 Tc
+(0 )Tj
+0.8267 0 TD
+-0.04 Tc
+(1 )Tj
+0.84 0 TD
+-0.053 Tc
+(0|)Tj
+0.8133 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.04 Tc
+[(Le)13(n )]TJ
+1.9467 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+(Si)Tj
+0.8933 0 TD
+-0.053 Tc
+(g )Tj
+0.8267 0 TD
+0.067 Tc
+(Al)Tj
+0.8933 0 TD
+-0.04 Tc
+(g )Tj
+0.8267 0 TD
+0 Tc
+(I)Tj
+0.28 0 TD
+-0.04 Tc
+(d )Tj
+0.84 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+-24.0133 -1.1867 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(+)Tj
+-24.8 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2533 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+[(Ac)174(t)]TJ
+1.44 0 TD
+-0.04 Tc
+(ual)Tj
+1.3333 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+0.12 Tc
+[(Da)160(t)]TJ
+1.56 0 TD
+-0.053 Tc
+(a )Tj
+0.8267 0 TD
+-0.04 Tc
+[(Len)13(gt)]TJ
+2.5067 0 TD
+-0.053 Tc
+(h )Tj
+0.8267 0 TD
+0.067 Tc
+(Si)Tj
+0.8933 0 TD
+-0.04 Tc
+[(gn)13(ed )]TJ
+2.4933 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+[(Ke)107(y)174( )]TJ
+2 0 TD
+0.12 Tc
+[(Ha)160(s)213(h)173( )]TJ
+2.6133 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+0.12 Tc
+[(Co)160(v)213(e)173(r)]TJ
+2.6667 0 TD
+-0.04 Tc
+[(age)13( )]TJ
+1.9467 0 TD
+[(Le)13(n )]TJ
+1.9467 0 TD
+0 Tc
+(|)Tj
+-29.96 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(+)Tj
+-24.56 -1.1867 TD
+( )Tj
+0.28 0 TD
+(\()Tj
+0.3333 0 TD
+-0.107 Tc
+[(cv)-14(r)]TJ
+1.3333 0 TD
+-0.04 Tc
+(g\))Tj
+0.8933 0 TD
+0 Tc
+( )Tj
+0.2667 0 TD
+(|)Tj
+0.2667 0 TD
+0.12 Tc
+(N )Tj
+1 0 TD
+-0.04 Tc
+(1 )Tj
+0.84 0 TD
+-0.053 Tc
+(1 )Tj
+0.8267 0 TD
+-0.04 Tc
+(0 )Tj
+0.84 0 TD
+-0.053 Tc
+(0 )Tj
+0.8267 0 TD
+-0.04 Tc
+(0 )Tj
+0.84 0 TD
+-0.053 Tc
+(1 )Tj
+0.8267 0 TD
+-0.04 Tc
+(1 )Tj
+0.84 0 TD
+-0.053 Tc
+(1 )Tj
+0.8267 0 TD
+-0.04 Tc
+(0 )Tj
+0.84 0 TD
+-0.053 Tc
+(0 )Tj
+0.8267 0 TD
+-0.04 Tc
+(1 )Tj
+0.84 0 TD
+-0.053 Tc
+(0 )Tj
+0.8267 0 TD
+-0.04 Tc
+(0 )Tj
+0.84 0 TD
+-0.053 Tc
+(1 )Tj
+0.8267 0 TD
+-0.04 Tc
+(0 )Tj
+0.84 0 TD
+0 Tc
+(.)Tj
+0.2667 0 TD
+(.)Tj
+0.28 0 TD
+(.)Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+[(Pa)120(t)]TJ
+1.4933 0 TD
+-0.04 Tc
+(h )Tj
+0.84 0 TD
+0.067 Tc
+(At)Tj
+0.9467 0 TD
+0 Tc
+(t)Tj
+0.2667 0 TD
+(r)Tj
+0.3333 0 TD
+(i)Tj
+0.2267 0 TD
+-0.04 Tc
+[(bu)13(t)]TJ
+1.3867 0 TD
+(e )Tj
+0.84 0 TD
+-0.053 Tc
+(bi)Tj
+0.7733 0 TD
+0 Tc
+(t)Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.227 Tc
+[(ma)267(s)334(k)320( )]TJ
+2.6667 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+(|)Tj
+-29.1467 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(+)Tj
+-24.56 -1.1867 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+(Si)Tj
+0.8933 0 TD
+-0.04 Tc
+[(g)13(nat)]TJ
+1.9467 0 TD
+-0.053 Tc
+(ur)Tj
+0.88 0 TD
+-0.04 Tc
+(e )Tj
+0.84 0 TD
+0.067 Tc
+[(By)174(t)]TJ
+1.44 0 TD
+-0.04 Tc
+[(es)67( )]TJ
+1.3333 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(\()Tj
+0.3333 0 TD
+0.067 Tc
+[(D)-53(SA )]TJ
+2.3333 0 TD
+-0.053 Tc
+[(40)-13( )]TJ
+1.3867 0 TD
+-0.04 Tc
+[(by)67(t)]TJ
+1.3333 0 TD
+[(es)67(\))]TJ
+1.3867 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+(:)Tj
+-25.7733 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+ )Tj
+0.8667 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+-27.6667 -1.1867 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+[(N)-53(VB )]TJ
+2.3333 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+(|)Tj
+0.2667 0 TD
+-0.04 Tc
+(0 )Tj
+0.84 0 TD
+-0.053 Tc
+(0 )Tj
+0.8267 0 TD
+-0.04 Tc
+(1 )Tj
+0.84 0 TD
+-0.053 Tc
+(1|)Tj
+0.8133 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.04 Tc
+[(L)13(en )]TJ
+1.9467 0 TD
+0 Tc
+( )Tj
+0.2667 0 TD
+(|)Tj
+0.2667 0 TD
+0.12 Tc
+(R|)Tj
+0.9867 0 TD
+0.067 Tc
+(Yr)Tj
+1 0 TD
+(P:)Tj
+0.9467 0 TD
+-0.04 Tc
+(3|)Tj
+0.8133 0 TD
+0.24 Tc
+[(Mo)280(n)293(t)]TJ
+2.2267 0 TD
+-0.04 Tc
+(h:)Tj
+0.84 0 TD
+-0.053 Tc
+(4|)Tj
+0.8133 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.12 Tc
+[(Da)160(y)227(:)]TJ
+2.0533 0 TD
+-0.04 Tc
+(5 )Tj
+0.8267 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.12 Tc
+[(Ho)160(u)173(r)]TJ
+2.16 0 TD
+0 Tc
+(:)Tj
+0.28 0 TD
+-0.04 Tc
+(5 )Tj
+0.84 0 TD
+0 Tc
+(|)Tj
+0.2533 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.24 Tc
+(Mi)Tj
+1.0533 0 TD
+-0.04 Tc
+(nut)Tj
+1.3867 0 TD
+(e:)Tj
+0.84 0 TD
+(6 )Tj
+0.8267 0 TD
+0 Tc
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(^)Tj
+-31.5467 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+ )Tj
+0.8667 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+-27.2267 -1.2 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+[(N)-53(VA )]TJ
+2.3333 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+[(Ye)120(a)107(r)]TJ
+2.1067 0 TD
+0 Tc
+(:)Tj
+0.28 0 TD
+-0.04 Tc
+[(12)13( )]TJ
+1.3867 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+-0.04 Tc
+[(M)-267(ont)]TJ
+2.2133 0 TD
+(h:)Tj
+0.84 0 TD
+(4|)Tj
+0.8133 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.12 Tc
+[(Da)160(y)227(:)]TJ
+2.0533 0 TD
+-0.04 Tc
+(5 )Tj
+0.84 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2533 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.04 Tc
+[(H)-160(our)]TJ
+2.1733 0 TD
+0 Tc
+(:)Tj
+0.2667 0 TD
+-0.04 Tc
+(5 )Tj
+0.84 0 TD
+0 Tc
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+0.24 Tc
+(Mi)Tj
+1.0533 0 TD
+-0.04 Tc
+(nut)Tj
+1.4 0 TD
+-0.053 Tc
+(e:)Tj
+0.8267 0 TD
+-0.04 Tc
+(6 )Tj
+0.84 0 TD
+0 Tc
+(|)Tj
+0.2533 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+-29.64 -1.1867 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+ )Tj
+0.8533 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+-26.9733 -1.2 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+[(Su)107(b)120(j)]TJ
+2 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+(|)Tj
+0.2667 0 TD
+-0.04 Tc
+(0 )Tj
+0.84 0 TD
+-0.053 Tc
+(1 )Tj
+0.8267 0 TD
+-0.04 Tc
+(0 )Tj
+0.84 0 TD
+-0.053 Tc
+(0|)Tj
+0.8133 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.04 Tc
+[(Le)13(n )]TJ
+1.9467 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+[(AF)67(/)]TJ
+1.5467 0 TD
+0.013 Tc
+[(Ty)106(p)66(e)53( )]TJ
+2.5067 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+0.067 Tc
+(Si)Tj
+0.88 0 TD
+-0.04 Tc
+[(gne)13(d)]TJ
+-25.7733 -1.1867 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+ )Tj
+0.8667 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+-26.2267 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2533 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+(AS )Tj
+1.6133 0 TD
+0.12 Tc
+[(Nu)160(m)-107( )]TJ
+2.3867 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+(:)Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(I)Tj
+0.28 0 TD
+0.067 Tc
+[(Pv)174(4)107( )]TJ
+2 0 TD
+0 Tc
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+-24.04 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+ )Tj
+0.8533 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+-25.9733 -1.1867 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(I)Tj
+0.28 0 TD
+0.067 Tc
+[(Pv)174(6)107( )]TJ
+2 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+0.133 Tc
+[(DN)13(S)66( )]TJ
+2.4 0 TD
+0.12 Tc
+[(Na)173(m)-120(e)160( )]TJ
+2.9333 0 TD
+0 Tc
+(\()Tj
+0.3333 0 TD
+-0.04 Tc
+(ni)Tj
+0.7867 0 TD
+0 Tc
+(l)Tj
+0.2133 0 TD
+( )Tj
+0.28 0 TD
+(t)Tj
+0.28 0 TD
+-0.04 Tc
+(er)Tj
+0.8933 0 TD
+0.227 Tc
+(mi)Tj
+1.0533 0 TD
+-0.04 Tc
+[(na)13(t)]TJ
+1.3867 0 TD
+[(ed)13(\))]TJ
+1.44 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+-27.04 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+ )Tj
+0.8667 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+-26.2267 -1.1867 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+[(Ex)174(p)107(PA )]TJ
+3.3333 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2533 0 TD
+-0.04 Tc
+(0 )Tj
+0.84 0 TD
+(1 )Tj
+0.8267 0 TD
+(0 )Tj
+0.84 0 TD
+(1|)Tj
+0.8133 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+-0.04 Tc
+[(Len)13( )]TJ
+1.9467 0 TD
+0 Tc
+(\()Tj
+0.3333 0 TD
+-0.04 Tc
+[(he)13(r)]TJ
+1.44 0 TD
+(e\))Tj
+0.8933 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+[(Ac)174(t)]TJ
+1.44 0 TD
+-0.04 Tc
+[(ua)13(l)]TJ
+1.3333 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+0.12 Tc
+[(Co)160(v)227(e)160(r)]TJ
+2.6667 0 TD
+-0.04 Tc
+[(ed)13( )]TJ
+1.3867 0 TD
+0.067 Tc
+[(Pa)107(t)]TJ
+1.5067 0 TD
+-0.053 Tc
+(h )Tj
+0.8267 0 TD
+0.067 Tc
+(At)Tj
+0.9467 0 TD
+0 Tc
+(t)Tj
+0.28 0 TD
+(r)Tj
+0.3333 0 TD
+(i)Tj
+0.2133 0 TD
+-0.04 Tc
+(but)Tj
+1.4 0 TD
+-0.053 Tc
+[(es)40(:)]TJ
+1.3333 0 TD
+0 Tc
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+-31.0133 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+ )Tj
+0.8667 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+-26.2267 -1.1867 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+(f)Tj
+0.28 0 TD
+(r)Tj
+0.3333 0 TD
+-0.04 Tc
+[(om)-267( )]TJ
+1.6667 0 TD
+0 Tc
+[(U)-120(P)-67(D)-133(A)-67(TE)-67(,)]TJ
+4.3333 0 TD
+( )Tj
+0.28 0 TD
+(i)Tj
+0.2267 0 TD
+-0.053 Tc
+[(nc)40(l)]TJ
+1.28 0 TD
+[(ud)-13(i)]TJ
+1.3333 0 TD
+[(ng)-13( )]TJ
+1.3867 0 TD
+0.013 Tc
+(Fl)Tj
+0.8267 0 TD
+-0.04 Tc
+[(ags)67( )]TJ
+1.8933 0 TD
+[(an)13(d )]TJ
+1.9467 0 TD
+0.067 Tc
+(At)Tj
+0.9467 0 TD
+0 Tc
+(t)Tj
+0.2667 0 TD
+(r)Tj
+0.3333 0 TD
+(i)Tj
+0.2267 0 TD
+-0.04 Tc
+[(bu)13(t)]TJ
+1.3867 0 TD
+(e )Tj
+0.84 0 TD
+0.12 Tc
+[(Nu)160(m)-107(b)160(e)173(r)]TJ
+3.5467 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+(\()Tj
+0.3333 0 TD
+0.24 Tc
+[(ma)293(y)333( )]TJ
+2.1733 0 TD
+-0.053 Tc
+[(om)-293(i)]TJ
+1.6133 0 TD
+0 Tc
+(t)Tj
+0.2667 0 TD
+(\))Tj
+0.3333 0 TD
+(;)Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+(:)Tj
+-32.7733 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.027 Tc
+(+-)Tj
+0.9067 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.013 Tc
+(+-)Tj
+0.92 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+-0.027 Tc
+(+ )Tj
+0.8533 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+-25.9733 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+-0.24 Tc
+[("x)-147(5)-200(0)-187( )]TJ
+2.2533 0 TD
+-0.093 Tc
+[(x0)-40(0)-53(,)]TJ
+1.8933 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+-0.053 Tc
+[(16)-13(-)]TJ
+1.44 0 TD
+-0.04 Tc
+(bi)Tj
+0.7733 0 TD
+0 Tc
+(t)Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(l)Tj
+0.2267 0 TD
+-0.053 Tc
+[(en)-13(,)]TJ
+1.3867 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+0.12 Tc
+[(NL)173(R)-13(I)]TJ
+2.2667 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+(\()Tj
+0.3333 0 TD
+0.24 Tc
+[(ma)293(y)333( )]TJ
+2.1733 0 TD
+-0.053 Tc
+[(om)-293(i)]TJ
+1.6133 0 TD
+0 Tc
+(t)Tj
+0.2667 0 TD
+(\))Tj
+0.3333 0 TD
+(;)Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+(|)Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(v)Tj
+-27.1867 -1.1867 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.013 Tc
+[(+)14(====)14(====)14(====)14(===+)14(====)14(====)14(====)14(===+)14(====)14(====)14(====)14(===+)14(====)14(====)14(====)14(===+)14( )]TJ
+38.1867 0 TD
+0 Tc
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+0.3333 0 TD
+(-)Tj
+-41.4133 -1.2 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+0.067 Tc
+[(Ad)107(d)120(i)]TJ
+2 0 TD
+0 Tc
+(t)Tj
+0.28 0 TD
+(i)Tj
+0.2267 0 TD
+-0.04 Tc
+[(o)13(nal)]TJ
+1.88 0 TD
+0 Tc
+( )Tj
+0.28 0 TD
+0.067 Tc
+(At)Tj
+0.9467 0 TD
+0 Tc
+(t)Tj
+0.28 0 TD
+-0.053 Tc
+[(es)40(t)]TJ
+1.3333 0 TD
+(at)Tj
+0.8267 0 TD
+0 Tc
+(i)Tj
+0.2267 0 TD
+-0.04 Tc
+[(on)13(s)53( )]TJ
+1.8933 0 TD
+0 Tc
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+(:)Tj
+-23.5067 -1.1867 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.2667 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+( )Tj
+0.28 0 TD
+-0.013 Tc
+[(+)14(====)14(====)14(====)14(===+)14(====)14(====)14(====)14(===+)14(====)14(====)14(====)14(===+)14(====)14(====)14(====)14(===+)]TJ
+ET
+endstream
+endobj
+107 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+/F10 108 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+111 0 obj
+<<
+/Length 3937
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(32)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(PKI: Certificates)Tj
+ET
+0.801 0.801 1 rg
+0 G
+1 J 0 j 
+192.93 239.97 35.04 -107.04 re
+B*
+BT
+/F4 1 Tf
+0 24 -24 0 219.21 156.33 Tm
+0 g
+0.002 Tc
+(IANA)Tj
+ET
+0.801 0.801 1 rg
+192.93 347.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 219.21 264.33 Tm
+0 g
+(IANA)Tj
+ET
+0.801 0.801 1 rg
+192.93 455.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 219.21 372.33 Tm
+0 g
+(IANA)Tj
+ET
+0.801 0.801 1 rg
+192.93 563.97 35.04 -107.04 re
+B*
+192.93 671.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 219.21 588.33 Tm
+0 g
+(IANA)Tj
+-17.94 2.05 TD
+-0.001 Tc
+[(I)-3(ssuer)-1568(Subj)-3(ect)]TJ
+9.11 -0.25 TD
+0.003 Tc
+[(Ke)7(y)]TJ
+-0.44 1 TD
+-0.001 Tc
+(Public)Tj
+3.84 -0.75 TD
+[(Extensions)-1002(Signer)]TJ
+ET
+0.801 0.801 1 rg
+246.93 239.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 273.21 156.33 Tm
+0 g
+0.002 Tc
+(IANA)Tj
+ET
+0.801 0.801 1 rg
+246.93 347.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 273.21 253.89 Tm
+0 g
+0 Tc
+(Registry)Tj
+ET
+0.801 0.801 1 rg
+246.93 455.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 273.21 361.89 Tm
+0 g
+(Registry)Tj
+ET
+0.801 0.801 1 rg
+192.93 563.97 35.04 -107.04 re
+B*
+246.93 671.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 273.21 588.33 Tm
+0 g
+0.002 Tc
+(IANA)Tj
+ET
+0.801 0.801 1 rg
+300.93 239.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 327.21 145.17 Tm
+0 g
+0 Tc
+(Reg/Org)Tj
+ET
+0.801 0.801 1 rg
+300.93 347.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 327.21 253.77 Tm
+0 g
+(Org/Sub)Tj
+ET
+0.801 0.801 1 rg
+300.93 455.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 327.21 361.77 Tm
+0 g
+(Org/Sub)Tj
+ET
+0.801 0.801 1 rg
+300.93 563.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 327.21 466.17 Tm
+0 g
+-0.001 Tc
+0.001 Tw
+(addr blks)Tj
+ET
+0.801 0.801 1 rg
+300.93 671.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 327.21 577.17 Tm
+0 g
+0 Tc
+(Reg/Org)Tj
+ET
+0.801 0.801 1 rg
+354.93 239.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 381.21 145.89 Tm
+0 g
+(Registry)Tj
+ET
+0.801 0.801 1 rg
+354.93 347.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 381.21 252.81 Tm
+0 g
+(Organiz.)Tj
+ET
+0.801 0.801 1 rg
+354.93 455.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 381.21 360.81 Tm
+0 g
+(Organiz.)Tj
+ET
+0.801 0.801 1 rg
+354.93 671.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 381.21 577.89 Tm
+0 g
+(Registry)Tj
+ET
+0.801 0.801 1 rg
+408.93 239.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 435.21 144.81 Tm
+0 g
+(Organiz.)Tj
+ET
+0.801 0.801 1 rg
+408.93 347.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 435.21 276.09 Tm
+0 g
+0.001 Tc
+(AS )Tj
+ET
+0.801 0.801 1 rg
+408.93 455.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 435.21 387.09 Tm
+0 g
+0.003 Tc
+(AS)Tj
+ET
+0.801 0.801 1 rg
+408.93 671.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 435.21 576.81 Tm
+0 g
+0 Tc
+(Organiz.)Tj
+ET
+0.801 0.801 1 rg
+462.93 239.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 489.21 144.81 Tm
+0 g
+(Organiz.)Tj
+ET
+0.801 0.801 1 rg
+462.93 347.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 489.21 258.81 Tm
+0 g
+(Router )Tj
+ET
+0.801 0.801 1 rg
+462.93 455.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 489.21 369.81 Tm
+0 g
+-0.001 Tc
+(Router)Tj
+ET
+0.801 0.801 1 rg
+462.93 563.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 489.21 495.09 Tm
+0 g
+0.003 Tc
+(AS)Tj
+ET
+0.801 0.801 1 rg
+462.93 671.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 489.21 576.81 Tm
+0 g
+0 Tc
+(Organiz.)Tj
+ET
+0.801 0.801 1 rg
+246.93 563.97 35.04 -107.04 re
+B*
+354.93 563.97 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 381.21 495.09 Tm
+0 g
+0.003 Tc
+(AS)Tj
+-16.235 6.8 TD
+0 Tc
+(1.)Tj
+0 -2.5 TD
+(2.)Tj
+0 -2 TD
+(3.)Tj
+0 -2.25 TD
+(4.)Tj
+T*
+(5.)Tj
+T*
+(6.)Tj
+ET
+0.801 0.801 1 rg
+408.93 563.97 35.04 -107.04 re
+B*
+409.41 563.49 35.04 -107.04 re
+B*
+BT
+0 24 -24 0 435.69 482.61 Tm
+0 g
+0.001 Tc
+(AS**)Tj
+ET
+endstream
+endobj
+112 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+114 0 obj
+<<
+/Length 3870
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(33)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(UPDATE Processing)Tj
+ET
+0.801 0.801 1 rg
+0 G
+1 J 0 j 
+144.93 719.97 329.04 -491.04 re
+B*
+1 g
+252.93 575.97 113.04 -155.04 re
+B*
+270.93 713.97 71.04 -95.04 re
+B*
+BT
+/F4 1 Tf
+0 24 -24 0 315.21 623.85 Tm
+0 g
+(Loc-RIB)Tj
+ET
+0.801 0.801 1 rg
+150.93 167.97 65.04 -65.04 re
+B*
+BT
+0 24 -24 0 192.21 114.09 Tm
+0 g
+-0.002 Tc
+(Rtr1)Tj
+ET
+0.801 0.801 1 rg
+396.93 167.97 65.04 -65.04 re
+B*
+BT
+0 24 -24 0 438.21 114.09 Tm
+0 g
+(Rtr3)Tj
+ET
+0.801 0.801 1 rg
+270.93 167.97 65.04 -65.04 re
+B*
+BT
+0 24 -24 0 312.21 114.09 Tm
+0 g
+(Rtr2)Tj
+ET
+1 g
+150.93 371.97 29.04 -131.04 re
+B*
+BT
+0 24 -24 0 174.21 250.53 Tm
+0 g
+0 Tc
+(Adj-RIB-In)Tj
+ET
+1 g
+396.93 371.97 29.04 -131.04 re
+B*
+BT
+0 24 -24 0 420.21 250.53 Tm
+0 g
+(Adj-RIB-In)Tj
+ET
+1 g
+270.93 371.97 29.04 -131.04 re
+B*
+BT
+0 24 -24 0 294.21 250.53 Tm
+0 g
+(Adj-RIB-In)Tj
+ET
+1 g
+192.93 371.97 29.04 -131.04 re
+B*
+BT
+0 24 -24 0 216.21 242.49 Tm
+0 g
+(Adj-RIB-Out)Tj
+ET
+1 g
+312.93 371.97 29.04 -131.04 re
+B*
+BT
+0 24 -24 0 336.21 242.49 Tm
+0 g
+(Adj-RIB-Out)Tj
+ET
+1 g
+438.93 371.97 29.04 -131.04 re
+B*
+BT
+0 24 -24 0 462.21 242.49 Tm
+0 g
+(Adj-RIB-Out)Tj
+ET
+0.988 0.004 0.156 RG
+0 J 1 j 2.04 w 
+162.45 169.41 m
+162.45 228.81 l
+S
+0.988 0.004 0.156 rg
+167.97 228.57 m
+162.45 239.49 l
+157.05 228.57 l
+f*
+0.199 0.199 0.801 RG
+204.45 180.09 m
+204.45 239.49 l
+S
+0.199 0.199 0.801 rg
+198.93 180.33 m
+204.45 169.41 l
+209.85 180.33 l
+f*
+0.988 0.004 0.156 RG
+163.41 373.41 m
+243.69 448.29 l
+S
+0.988 0.004 0.156 rg
+247.17 443.97 m
+251.49 455.49 l
+239.85 452.01 l
+f*
+0.199 0.199 0.801 RG
+212.85 380.85 m
+323.49 491.49 l
+S
+0.199 0.199 0.801 rg
+209.25 385.05 m
+205.41 373.41 l
+216.93 377.37 l
+f*
+0.988 0.004 0.156 RG
+288.45 169.41 m
+288.45 228.81 l
+S
+0.988 0.004 0.156 rg
+293.97 228.57 m
+288.45 239.49 l
+283.05 228.57 l
+f*
+0.199 0.199 0.801 RG
+324.45 180.09 m
+324.45 239.49 l
+S
+0.199 0.199 0.801 rg
+318.93 180.33 m
+324.45 169.41 l
+329.85 180.33 l
+f*
+0.988 0.004 0.156 RG
+408.45 169.41 m
+408.45 228.81 l
+S
+0.988 0.004 0.156 rg
+413.97 228.57 m
+408.45 239.49 l
+403.05 228.57 l
+f*
+0.199 0.199 0.801 RG
+450.45 180.09 m
+450.45 239.49 l
+S
+0.199 0.199 0.801 rg
+444.93 180.33 m
+450.45 169.41 l
+455.85 180.33 l
+f*
+0.988 0.004 0.156 RG
+288.45 373.41 m
+288.45 408.81 l
+S
+0.988 0.004 0.156 rg
+293.97 408.57 m
+288.45 419.49 l
+283.05 408.57 l
+f*
+0.199 0.199 0.801 RG
+324.45 384.09 m
+324.45 485.49 l
+S
+0.199 0.199 0.801 rg
+318.93 384.33 m
+324.45 373.41 l
+329.85 384.33 l
+f*
+0.988 0.004 0.156 RG
+414.45 373.41 m
+374.13 412.17 l
+S
+0.988 0.004 0.156 rg
+378.21 415.89 m
+366.45 419.49 l
+370.65 408.09 l
+f*
+0.199 0.199 0.801 RG
+448.53 380.49 m
+324.45 491.49 l
+S
+0.199 0.199 0.801 rg
+444.69 376.65 m
+456.45 373.41 l
+451.89 384.69 l
+f*
+0.988 0.004 0.156 RG
+288.45 421.41 m
+288.45 606.81 l
+S
+0.988 0.004 0.156 rg
+293.97 606.57 m
+288.45 617.49 l
+283.05 606.57 l
+f*
+0 G
+0.96 w [7.68 2.88 ]0 d
+126.93 204.45 m
+557.97 204.45 l
+S
+BT
+0 24 -24 0 194.01 579.21 Tm
+0 g
+-0.002 Tc
+(Rtr4)Tj
+ET
+0.199 0.199 0.801 RG
+2.04 w []0 d
+324.45 588.09 m
+324.45 617.49 l
+S
+0.199 0.199 0.801 rg
+318.93 588.33 m
+324.45 577.41 l
+329.85 588.33 l
+f*
+324.45 493.41 m
+324.45 575.49 l
+S
+0.988 0.004 0.156 RG
+253.41 457.41 m
+287.49 491.49 l
+366.45 421.41 m
+288.45 491.49 l
+S
+BT
+/F7 1 Tf
+0 15.96 -15.96 0 277.41 491.01 Tm
+0 g
+0 Tc
+-0.002 Tw
+[(BGP Rul)-8(es)]TJ
+0 18 -18 0 313.53 527.01 Tm
+0 Tw
+(&)Tj
+0 15.96 -15.96 0 355.41 481.53 Tm
+-0.002 Tw
+[(Loc)-7(a)4(l)-8( Pol)-8(ici)-8(es)]TJ
+ET
+endstream
+endobj
+115 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+/F7 33 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+117 0 obj
+<<
+/Length 4975
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(34)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.002 Tc
+0.001 Tw
+(Sample Auxiliary Box Topology)Tj
+ET
+0 G
+3.96 w 
+230.49 320.49 m
+274.41 370.41 l
+S
+0 0.801 0.602 rg
+1 J 0.96 w 
+222.45 611.97 m
+196.17 611.97 174.93 571.89 174.93 522.45 c
+174.93 472.89 196.17 432.93 222.45 432.93 c
+248.61 432.93 269.97 472.89 269.97 522.45 c
+269.97 571.89 248.61 611.97 222.45 611.97 c
+b*
+228.45 341.97 m
+202.17 341.97 180.93 301.89 180.93 252.45 c
+180.93 202.89 202.17 162.93 228.45 162.93 c
+254.61 162.93 275.97 202.89 275.97 252.45 c
+275.97 301.89 254.61 341.97 228.45 341.97 c
+b*
+378.45 629.97 m
+352.17 629.97 330.93 589.89 330.93 540.45 c
+330.93 490.89 352.17 450.93 378.45 450.93 c
+404.61 450.93 425.97 490.89 425.97 540.45 c
+425.97 589.89 404.61 629.97 378.45 629.97 c
+b*
+0 J 2.04 w 
+349.41 498.45 m
+377.49 474.45 l
+366.45 606.45 m
+354.45 570.45 l
+397.41 570.45 m
+413.49 540.45 l
+S
+3.96 w 
+356.49 570.45 m
+376.41 474.45 l
+356.49 570.45 m
+394.41 570.45 l
+396.45 570.45 m
+378.45 474.45 l
+338.49 630.45 m
+352.41 570.45 l
+432.45 630.45 m
+396.45 570.45 l
+S
+0.199 0.199 0.801 rg
+1 J 0 j 0.96 w 
+353.85 586.65 m
+370.65 571.05 l
+355.05 554.25 l
+338.25 569.85 l
+b*
+395.85 586.65 m
+412.65 571.05 l
+397.05 554.25 l
+380.25 569.85 l
+b*
+0.988 0.004 0.156 rg
+342.93 503.97 11.04 -11.04 re
+B*
+360.93 611.97 11.04 -11.04 re
+B*
+408.93 545.97 11.04 -11.04 re
+B*
+0 0.801 0.602 rg
+1 j 
+378.45 335.97 m
+352.17 335.97 330.93 295.89 330.93 246.45 c
+330.93 196.89 352.17 156.93 378.45 156.93 c
+404.61 156.93 425.97 196.89 425.97 246.45 c
+425.97 295.89 404.61 335.97 378.45 335.97 c
+b*
+0.199 0.199 0.801 rg
+0 j 
+479.85 116.25 m
+496.65 131.85 l
+481.05 148.65 l
+464.25 133.05 l
+b*
+0.988 0.004 0.156 rg
+504.93 137.97 11.04 -11.04 re
+B*
+0 J 1 j 2.04 w 
+349.41 289.41 m
+377.49 311.49 l
+366.45 181.41 m
+354.45 215.49 l
+397.41 217.41 m
+413.49 245.49 l
+S
+3.96 w 
+356.49 218.49 m
+376.41 310.41 l
+378.45 314.49 m
+318.45 370.41 l
+356.49 216.45 m
+394.41 216.45 l
+396.45 218.49 m
+378.45 310.41 l
+338.49 158.49 m
+352.41 214.41 l
+432.45 158.49 m
+396.45 214.41 l
+S
+0.199 0.199 0.801 rg
+1 J 0 j 0.96 w 
+353.85 200.25 m
+370.65 215.85 l
+355.05 232.65 l
+338.25 217.05 l
+b*
+377.85 296.25 m
+394.65 311.85 l
+379.05 328.65 l
+362.25 313.05 l
+b*
+395.85 200.25 m
+412.65 215.85 l
+397.05 232.65 l
+380.25 217.05 l
+b*
+0.988 0.004 0.156 rg
+342.93 293.97 11.04 -11.04 re
+B*
+360.93 185.97 11.04 -11.04 re
+B*
+408.93 251.97 11.04 -11.04 re
+B*
+0 J 1 j 3.96 w 
+270.45 416.49 m
+222.45 454.41 l
+204.45 554.49 m
+168.45 610.41 l
+S
+2.04 w 
+223.41 457.41 m
+251.49 479.49 l
+246.45 553.41 m
+234.45 587.49 l
+187.41 523.41 m
+203.49 551.49 l
+S
+3.96 w 
+224.49 458.49 m
+244.41 550.41 l
+206.49 552.45 m
+244.41 552.45 l
+222.45 458.49 m
+204.45 550.41 l
+248.49 554.49 m
+262.41 610.41 l
+S
+0.199 0.199 0.801 rg
+1 J 0 j 0.96 w 
+245.85 536.25 m
+262.65 551.85 l
+247.05 568.65 l
+230.25 553.05 l
+b*
+221.85 440.25 m
+238.65 455.85 l
+223.05 472.65 l
+206.25 457.05 l
+b*
+203.85 536.25 m
+220.65 551.85 l
+205.05 568.65 l
+188.25 553.05 l
+b*
+0.988 0.004 0.156 rg
+246.93 485.97 11.04 -11.04 re
+B*
+228.93 593.97 11.04 -11.04 re
+B*
+180.93 527.97 11.04 -11.04 re
+B*
+0 J 1 j 3.96 w 
+378.45 474.45 m
+318.45 420.45 l
+S
+2.04 w 
+258.45 295.41 m
+228.45 317.49 l
+241.41 187.41 m
+251.49 221.49 l
+210.45 223.41 m
+192.45 251.49 l
+S
+3.96 w 
+252.45 224.49 m
+228.45 316.41 l
+252.45 222.45 m
+210.45 222.45 l
+212.49 224.49 m
+226.41 316.41 l
+270.45 164.49 m
+252.45 220.41 l
+176.49 164.49 m
+208.41 220.41 l
+S
+0.199 0.199 0.801 rg
+1 J 0 j 0.96 w 
+253.05 206.25 m
+236.25 221.85 l
+251.85 238.65 l
+268.65 223.05 l
+b*
+229.05 302.25 m
+212.25 317.85 l
+227.85 334.65 l
+244.65 319.05 l
+b*
+211.05 206.25 m
+194.25 221.85 l
+209.85 238.65 l
+226.65 223.05 l
+b*
+0.988 0.004 0.156 rg
+252.93 299.97 11.04 -11.04 re
+B*
+234.93 191.97 11.04 -11.04 re
+B*
+186.93 257.97 11.04 -11.04 re
+B*
+BT
+/F7 1 Tf
+0 24 -24 0 519.21 162.45 Tm
+0 g
+0 Tc
+0 Tw
+(S-BGP box)Tj
+0.095 1.25 TD
+(Border Router)Tj
+3.275 7.5 TD
+[(FDDI)-6( Ring)]TJ
+ET
+0.199 0.199 0.801 rg
+377.85 490.65 m
+394.65 475.05 l
+379.05 458.25 l
+362.25 473.85 l
+b*
+0 0.801 0.602 rg
+1 j 
+534.45 149.97 m
+531.33 149.97 528.93 142.05 528.93 132.45 c
+528.93 122.73 531.33 114.93 534.45 114.93 c
+537.45 114.93 539.97 122.73 539.97 132.45 c
+539.97 142.05 537.45 149.97 534.45 149.97 c
+b*
+BT
+0 24 -24 0 548.01 157.53 Tm
+0 g
+0.003 Tc
+(AS)Tj
+ET
+3.96 w 
+297.45 430.41 m
+280.29 430.41 266.49 415.17 266.49 396.45 c
+266.49 377.61 280.29 362.49 297.45 362.49 c
+314.49 362.49 328.41 377.61 328.41 396.45 c
+328.41 415.17 314.49 430.41 297.45 430.41 c
+s
+BT
+0 20.04 -20.04 0 304.65 375.81 Tm
+(NAP)Tj
+ET
+endstream
+endobj
+118 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+/F7 33 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+120 0 obj
+<<
+/Length 17278
+>>
+stream
+1 g
+/GS1 gs
+1 i 
+36.45 756.33 539.88 -719.88 re
+f
+0 0.199 0.602 RG
+0 J 1 j 0.96 w 10 M []0 d
+126.45 91.05 m
+126.45 701.97 l
+S
+BT
+/F4 1 Tf
+0 14.04 -14.04 0 565.29 47.37 Tm
+0 g
+-0.004 Tc
+(35)Tj
+/F1 1 Tf
+0 32.04 -32.04 0 120.45 97.53 Tm
+0 0 0.398 rg
+-0.001 Tc
+0 Tw
+(Sample Peering of one Auxiliary Box)Tj
+/F5 1 Tf
+0 21.96 -21.96 0 165.21 97.53 Tm
+0 0 0.602 rg
+0 Tc
+(l)Tj
+ET
+0 G
+3.96 w 
+230.49 320.49 m
+274.41 370.41 l
+S
+0 0.801 0.602 rg
+1 J 0.96 w 
+222.45 611.97 m
+196.17 611.97 174.93 571.89 174.93 522.45 c
+174.93 472.89 196.17 432.93 222.45 432.93 c
+248.61 432.93 269.97 472.89 269.97 522.45 c
+269.97 571.89 248.61 611.97 222.45 611.97 c
+b*
+228.45 341.97 m
+202.17 341.97 180.93 301.89 180.93 252.45 c
+180.93 202.89 202.17 162.93 228.45 162.93 c
+254.61 162.93 275.97 202.89 275.97 252.45 c
+275.97 301.89 254.61 341.97 228.45 341.97 c
+b*
+378.45 629.97 m
+352.17 629.97 330.93 589.89 330.93 540.45 c
+330.93 490.89 352.17 450.93 378.45 450.93 c
+404.61 450.93 425.97 490.89 425.97 540.45 c
+425.97 589.89 404.61 629.97 378.45 629.97 c
+b*
+0 J 2.04 w 
+349.41 498.45 m
+377.49 474.45 l
+366.45 606.45 m
+354.45 570.45 l
+397.41 570.45 m
+413.49 540.45 l
+S
+3.96 w 
+356.49 570.45 m
+376.41 474.45 l
+356.49 570.45 m
+394.41 570.45 l
+396.45 570.45 m
+378.45 474.45 l
+338.49 630.45 m
+352.41 570.45 l
+432.45 630.45 m
+396.45 570.45 l
+S
+0.199 0.199 0.801 rg
+1 J 0 j 0.96 w 
+353.85 586.65 m
+370.65 571.05 l
+355.05 554.25 l
+338.25 569.85 l
+b*
+395.85 586.65 m
+412.65 571.05 l
+397.05 554.25 l
+380.25 569.85 l
+b*
+0.988 0.004 0.156 rg
+342.93 503.97 11.04 -11.04 re
+B*
+360.93 611.97 11.04 -11.04 re
+B*
+408.93 545.97 11.04 -11.04 re
+B*
+0 0.801 0.602 rg
+1 j 
+378.45 335.97 m
+352.17 335.97 330.93 295.89 330.93 246.45 c
+330.93 196.89 352.17 156.93 378.45 156.93 c
+404.61 156.93 425.97 196.89 425.97 246.45 c
+425.97 295.89 404.61 335.97 378.45 335.97 c
+b*
+0.199 0.199 0.801 rg
+0 j 
+479.85 116.25 m
+496.65 131.85 l
+481.05 148.65 l
+464.25 133.05 l
+b*
+0.988 0.004 0.156 rg
+504.93 137.97 11.04 -11.04 re
+B*
+0 J 1 j 2.04 w 
+349.41 289.41 m
+377.49 311.49 l
+366.45 181.41 m
+354.45 215.49 l
+397.41 217.41 m
+413.49 245.49 l
+S
+3.96 w 
+356.49 218.49 m
+376.41 310.41 l
+378.45 314.49 m
+318.45 370.41 l
+356.49 216.45 m
+394.41 216.45 l
+396.45 218.49 m
+378.45 310.41 l
+338.49 158.49 m
+352.41 214.41 l
+432.45 158.49 m
+396.45 214.41 l
+S
+0.199 0.199 0.801 rg
+1 J 0 j 0.96 w 
+353.85 200.25 m
+370.65 215.85 l
+355.05 232.65 l
+338.25 217.05 l
+b*
+377.85 296.25 m
+394.65 311.85 l
+379.05 328.65 l
+362.25 313.05 l
+b*
+395.85 200.25 m
+412.65 215.85 l
+397.05 232.65 l
+380.25 217.05 l
+b*
+0.988 0.004 0.156 rg
+342.93 293.97 11.04 -11.04 re
+B*
+360.93 185.97 11.04 -11.04 re
+B*
+408.93 251.97 11.04 -11.04 re
+B*
+0 J 1 j 3.96 w 
+270.45 416.49 m
+222.45 454.41 l
+204.45 554.49 m
+168.45 610.41 l
+S
+2.04 w 
+223.41 457.41 m
+251.49 479.49 l
+246.45 553.41 m
+234.45 587.49 l
+187.41 523.41 m
+203.49 551.49 l
+S
+3.96 w 
+224.49 458.49 m
+244.41 550.41 l
+206.49 552.45 m
+244.41 552.45 l
+222.45 458.49 m
+204.45 550.41 l
+248.49 554.49 m
+262.41 610.41 l
+S
+0.199 0.199 0.801 rg
+1 J 0 j 0.96 w 
+245.85 536.25 m
+262.65 551.85 l
+247.05 568.65 l
+230.25 553.05 l
+b*
+221.85 440.25 m
+238.65 455.85 l
+223.05 472.65 l
+206.25 457.05 l
+b*
+203.85 536.25 m
+220.65 551.85 l
+205.05 568.65 l
+188.25 553.05 l
+b*
+0.988 0.004 0.156 rg
+246.93 485.97 11.04 -11.04 re
+B*
+228.93 593.97 11.04 -11.04 re
+B*
+180.93 527.97 11.04 -11.04 re
+B*
+0 J 1 j 3.96 w 
+378.45 474.45 m
+318.45 420.45 l
+S
+2.04 w 
+258.45 295.41 m
+228.45 317.49 l
+241.41 187.41 m
+251.49 221.49 l
+210.45 223.41 m
+192.45 251.49 l
+S
+3.96 w 
+252.45 224.49 m
+228.45 316.41 l
+252.45 222.45 m
+210.45 222.45 l
+212.49 224.49 m
+226.41 316.41 l
+270.45 164.49 m
+252.45 220.41 l
+176.49 164.49 m
+208.41 220.41 l
+S
+0.199 0.199 0.801 rg
+1 J 0 j 0.96 w 
+253.05 206.25 m
+236.25 221.85 l
+251.85 238.65 l
+268.65 223.05 l
+b*
+229.05 302.25 m
+212.25 317.85 l
+227.85 334.65 l
+244.65 319.05 l
+b*
+211.05 206.25 m
+194.25 221.85 l
+209.85 238.65 l
+226.65 223.05 l
+b*
+0.988 0.004 0.156 rg
+252.93 299.97 11.04 -11.04 re
+B*
+234.93 191.97 11.04 -11.04 re
+B*
+186.93 257.97 11.04 -11.04 re
+B*
+BT
+/F7 1 Tf
+0 24 -24 0 519.21 162.45 Tm
+0 g
+(S-BGP box)Tj
+0.095 1.25 TD
+(Border Router)Tj
+3.275 7.5 TD
+[(FDDI)-6( Ring)]TJ
+ET
+0.199 0.199 0.801 rg
+377.85 490.65 m
+394.65 475.05 l
+379.05 458.25 l
+362.25 473.85 l
+b*
+0 0.801 0.602 rg
+1 j 
+534.45 149.97 m
+531.33 149.97 528.93 142.05 528.93 132.45 c
+528.93 122.73 531.33 114.93 534.45 114.93 c
+537.45 114.93 539.97 122.73 539.97 132.45 c
+539.97 142.05 537.45 149.97 534.45 149.97 c
+b*
+3.96 w 
+297.45 430.41 m
+280.29 430.41 266.49 415.17 266.49 396.45 c
+266.49 377.61 280.29 362.49 297.45 362.49 c
+314.49 362.49 328.41 377.61 328.41 396.45 c
+328.41 415.17 314.49 430.41 297.45 430.41 c
+s
+BT
+0 20.04 -20.04 0 304.65 375.81 Tm
+0 g
+0.003 Tc
+(NAP)Tj
+ET
+0.98 0.992 0 RG
+2.04 w 
+258.45 300.45 m
+259.89 298.41 l
+259.41 299.49 l
+258.45 299.97 l
+257.49 300.93 l
+256.89 301.89 l
+255.93 302.49 l
+254.97 304.41 l
+253.89 304.89 l
+253.41 305.97 l
+252.45 306.45 l
+252.45 307.41 l
+251.49 307.89 l
+251.49 308.97 l
+250.89 309.93 l
+251.49 310.89 l
+251.49 313.89 l
+251.97 314.97 l
+251.97 315.93 l
+252.45 316.89 l
+252.93 317.97 l
+253.89 319.89 l
+254.49 320.97 l
+255.45 321.45 l
+255.93 322.41 l
+256.89 322.89 l
+258.93 324.93 l
+259.89 325.41 l
+260.49 326.49 l
+261.45 326.97 l
+261.93 327.93 l
+263.49 328.41 l
+264.45 329.49 l
+265.41 330.45 l
+266.49 330.93 l
+266.97 331.89 l
+267.93 332.49 l
+268.89 332.97 l
+269.49 333.93 l
+271.41 334.89 l
+271.89 335.97 l
+272.97 336.45 l
+273.93 336.93 l
+274.41 338.49 l
+275.49 338.97 l
+277.41 339.93 l
+277.89 340.89 l
+278.97 341.49 l
+279.93 341.97 l
+280.41 342.93 l
+281.49 343.89 l
+282.45 344.49 l
+283.41 344.97 l
+284.49 345.93 l
+285.45 346.89 l
+286.41 347.49 l
+287.49 348.45 l
+289.41 349.41 l
+290.49 349.89 l
+291.93 350.49 l
+292.89 350.97 l
+294.93 350.97 l
+296.49 351.45 l
+303.45 351.45 l
+304.89 350.97 l
+305.97 350.97 l
+306.93 350.49 l
+307.89 349.89 l
+309.45 349.41 l
+310.41 349.41 l
+311.49 348.45 l
+313.41 347.49 l
+314.49 346.89 l
+314.97 345.93 l
+315.93 345.45 l
+316.41 344.49 l
+320.49 340.41 l
+321.45 339.93 l
+321.93 338.97 l
+323.49 338.49 l
+323.97 337.41 l
+325.41 336.93 l
+325.89 335.97 l
+326.97 334.89 l
+327.93 334.41 l
+328.89 333.45 l
+329.97 332.97 l
+330.45 331.89 l
+331.41 330.93 l
+332.49 329.97 l
+333.45 328.89 l
+334.41 327.93 l
+334.89 326.97 l
+335.97 325.89 l
+337.41 323.97 l
+338.49 322.41 l
+339.93 320.49 l
+340.41 319.41 l
+341.49 317.97 l
+342.45 316.89 l
+342.45 318.45 l
+342.45 316.41 l
+343.41 315.93 l
+344.49 315.45 l
+345.45 314.97 l
+346.41 313.89 l
+347.49 313.41 l
+347.97 312.45 l
+348.93 311.49 l
+349.89 310.89 l
+350.49 309.93 l
+351.45 309.45 l
+351.93 308.49 l
+352.89 307.89 l
+353.49 306.93 l
+353.97 305.97 l
+354.93 304.89 l
+355.89 303.93 l
+356.49 302.97 l
+356.97 301.89 l
+356.49 300.93 l
+355.89 299.97 l
+354.93 298.89 l
+353.97 297.93 l
+353.49 296.97 l
+352.41 296.49 l
+351.45 295.89 l
+350.97 294.93 l
+349.89 294.45 l
+348.93 293.97 l
+348.45 292.89 l
+347.49 292.41 l
+S
+258.45 294.45 m
+255.93 296.49 l
+255.45 297.45 l
+255.45 298.41 l
+254.49 298.89 l
+254.49 299.97 l
+253.89 300.93 l
+253.41 301.89 l
+252.93 302.97 l
+251.97 303.93 l
+251.49 304.89 l
+250.89 305.97 l
+249.93 307.89 l
+249.45 308.97 l
+249.45 309.93 l
+248.97 310.89 l
+248.97 314.97 l
+249.45 315.93 l
+249.45 316.89 l
+250.41 317.97 l
+250.89 318.93 l
+251.49 319.89 l
+251.97 320.97 l
+252.93 321.45 l
+253.41 322.41 l
+254.49 322.89 l
+254.97 323.97 l
+255.93 324.93 l
+256.41 325.89 l
+256.89 326.97 l
+257.49 327.93 l
+257.97 328.89 l
+258.93 329.97 l
+259.89 331.89 l
+260.49 332.97 l
+260.97 333.93 l
+261.93 335.49 l
+262.89 336.45 l
+263.97 337.41 l
+264.93 338.49 l
+265.89 339.45 l
+266.97 339.93 l
+267.93 340.41 l
+268.89 340.41 l
+270.45 341.49 l
+271.41 341.97 l
+272.49 342.45 l
+273.45 342.93 l
+272.49 342.93 l
+272.49 343.89 l
+273.45 344.97 l
+273.93 346.41 l
+274.41 347.49 l
+274.89 348.45 l
+275.49 349.41 l
+275.97 350.49 l
+275.97 351.45 l
+276.93 352.41 l
+277.89 353.49 l
+278.49 354.93 l
+279.45 355.89 l
+280.41 356.49 l
+280.89 357.45 l
+281.97 357.93 l
+282.93 358.41 l
+283.41 359.49 l
+284.49 359.97 l
+285.45 360.45 l
+285.93 361.41 l
+286.89 361.89 l
+287.97 362.49 l
+288.93 362.97 l
+289.89 363.93 l
+290.97 363.93 l
+291.93 364.41 l
+292.89 364.41 l
+293.97 364.89 l
+294.93 365.49 l
+295.89 365.97 l
+296.97 366.45 l
+297.93 366.93 l
+299.97 367.41 l
+300.45 368.49 l
+301.41 368.49 l
+302.97 368.97 l
+304.41 369.93 l
+304.89 370.89 l
+305.97 371.49 l
+306.93 371.97 l
+307.41 372.93 l
+307.89 374.49 l
+308.49 375.45 l
+308.97 376.89 l
+308.97 377.97 l
+309.45 378.93 l
+309.45 380.97 l
+309.93 381.93 l
+309.93 385.41 l
+310.41 386.49 l
+310.41 387.45 l
+310.89 388.89 l
+311.49 390.45 l
+311.49 394.89 l
+311.97 395.97 l
+311.97 400.89 l
+312.45 401.97 l
+313.41 403.89 l
+313.89 404.97 l
+314.49 405.93 l
+315.45 406.41 l
+315.93 407.97 l
+316.89 408.93 l
+318.45 409.89 l
+319.41 410.97 l
+320.49 411.45 l
+321.93 411.93 l
+322.89 412.41 l
+324.45 413.49 l
+325.41 413.97 l
+326.49 414.93 l
+327.93 415.41 l
+328.41 416.49 l
+329.49 416.97 l
+330.45 417.45 l
+331.89 418.89 l
+332.97 419.49 l
+333.93 420.45 l
+334.89 420.45 l
+335.97 421.89 l
+336.45 422.97 l
+337.41 423.45 l
+337.89 424.41 l
+339.45 425.49 l
+339.93 426.45 l
+341.49 427.41 l
+341.97 428.49 l
+342.45 429.45 l
+342.45 430.41 l
+342.93 431.49 l
+343.89 431.97 l
+344.49 432.93 l
+345.45 433.41 l
+346.41 434.49 l
+347.97 435.45 l
+349.89 436.41 l
+350.49 437.49 l
+351.45 437.97 l
+352.89 438.93 l
+353.97 439.89 l
+354.93 440.49 l
+355.41 441.93 l
+356.49 442.41 l
+357.45 443.97 l
+358.89 444.93 l
+359.49 445.89 l
+359.97 446.97 l
+360.93 447.45 l
+361.41 448.41 l
+361.89 449.49 l
+362.49 450.45 l
+363.45 451.89 l
+363.45 452.97 l
+364.41 454.89 l
+364.41 455.97 l
+364.89 456.93 l
+364.89 458.97 l
+365.49 459.93 l
+365.49 460.89 l
+365.97 461.97 l
+365.97 466.41 l
+365.49 467.49 l
+365.49 468.45 l
+364.89 469.89 l
+363.93 471.45 l
+362.97 472.41 l
+362.49 473.49 l
+361.89 474.45 l
+360.93 475.41 l
+360.45 476.49 l
+359.97 477.93 l
+359.49 478.89 l
+358.89 479.97 l
+357.93 480.93 l
+357.45 481.89 l
+357.45 482.97 l
+356.49 483.45 l
+355.89 484.41 l
+355.41 485.49 l
+354.45 485.97 l
+354.45 486.93 l
+353.49 487.89 l
+353.49 488.97 l
+352.89 490.41 l
+352.41 491.49 l
+352.41 492.45 l
+351.45 492.93 l
+351.45 493.89 l
+350.49 493.89 l
+S
+252.45 294.45 m
+253.89 291.93 l
+253.41 292.89 l
+252.45 293.49 l
+252.45 294.45 l
+251.97 295.41 l
+250.89 296.49 l
+250.89 297.45 l
+249.93 298.89 l
+249.45 299.97 l
+248.97 300.93 l
+247.89 302.49 l
+247.41 303.93 l
+246.93 304.89 l
+246.45 305.97 l
+245.49 307.89 l
+245.49 309.45 l
+244.89 310.41 l
+244.41 311.49 l
+244.89 312.45 l
+245.49 313.41 l
+245.49 315.45 l
+245.97 316.89 l
+246.45 317.97 l
+246.93 319.41 l
+247.89 320.49 l
+248.49 321.45 l
+248.97 322.41 l
+249.93 322.89 l
+250.41 323.97 l
+251.49 324.93 l
+251.97 325.89 l
+252.93 326.97 l
+253.41 327.93 l
+254.49 328.41 l
+254.97 329.97 l
+255.93 330.93 l
+256.41 331.89 l
+256.89 332.97 l
+257.97 334.41 l
+258.45 335.49 l
+259.41 336.45 l
+260.49 337.41 l
+260.97 338.49 l
+261.93 338.97 l
+262.41 339.93 l
+263.49 341.49 l
+263.49 342.45 l
+264.45 342.93 l
+264.93 343.89 l
+265.89 344.49 l
+266.49 345.45 l
+266.97 346.41 l
+267.93 346.89 l
+268.41 347.97 l
+268.89 348.93 l
+269.97 349.41 l
+269.49 350.49 l
+268.89 351.45 l
+269.97 351.93 l
+269.97 352.89 l
+270.45 353.97 l
+270.93 355.41 l
+271.89 355.89 l
+272.49 356.97 l
+272.97 357.93 l
+272.97 358.89 l
+273.93 359.97 l
+274.89 360.45 l
+274.89 361.41 l
+275.97 361.41 l
+276.45 362.49 l
+277.41 362.97 l
+278.49 363.93 l
+279.45 364.41 l
+279.93 365.49 l
+280.89 365.49 l
+281.97 365.97 l
+283.89 366.93 l
+284.97 367.41 l
+285.93 367.89 l
+286.89 367.89 l
+287.97 368.49 l
+289.41 368.49 l
+290.49 368.97 l
+291.45 368.97 l
+292.41 369.45 l
+294.45 369.45 l
+295.41 369.93 l
+296.49 370.41 l
+297.45 370.89 l
+298.41 371.49 l
+299.49 372.45 l
+300.45 372.93 l
+300.93 373.89 l
+301.89 374.49 l
+301.89 375.93 l
+302.49 376.89 l
+302.97 377.97 l
+303.93 378.93 l
+304.41 380.49 l
+305.49 381.93 l
+305.97 382.89 l
+305.97 384.45 l
+306.93 385.41 l
+306.93 386.49 l
+307.41 387.45 l
+307.41 389.49 l
+307.89 390.93 l
+308.49 392.49 l
+308.49 394.89 l
+308.97 395.97 l
+308.97 396.93 l
+309.45 397.89 l
+309.45 403.41 l
+308.97 404.49 l
+308.49 405.45 l
+308.49 406.41 l
+307.89 407.49 l
+307.41 408.93 l
+307.41 409.89 l
+306.93 410.97 l
+306.45 411.93 l
+305.49 412.41 l
+304.89 413.49 l
+303.93 413.97 l
+302.97 414.93 l
+301.89 415.41 l
+300.93 415.89 l
+299.97 415.89 l
+298.89 416.49 l
+297.45 417.45 l
+289.89 417.45 l
+288.93 416.97 l
+287.49 416.49 l
+286.41 416.49 l
+285.93 415.41 l
+284.97 415.41 l
+283.89 414.93 l
+282.93 413.97 l
+281.97 413.97 l
+280.89 414.93 l
+279.45 415.89 l
+278.97 416.97 l
+277.89 417.45 l
+276.93 418.41 l
+276.45 419.49 l
+275.49 420.93 l
+274.89 421.89 l
+274.41 422.97 l
+273.45 423.45 l
+271.89 424.89 l
+270.93 425.49 l
+270.45 426.45 l
+269.49 427.89 l
+268.41 428.49 l
+266.49 429.45 l
+265.41 429.93 l
+264.45 430.41 l
+263.97 431.49 l
+263.49 432.45 l
+262.89 433.41 l
+261.93 434.97 l
+261.45 435.93 l
+261.45 436.89 l
+260.49 438.45 l
+259.89 439.41 l
+258.45 440.97 l
+257.49 442.41 l
+257.49 443.49 l
+256.41 444.45 l
+255.93 445.41 l
+255.45 446.49 l
+254.49 446.97 l
+253.41 447.93 l
+252.45 448.41 l
+251.97 449.49 l
+250.89 449.97 l
+250.41 450.93 l
+249.45 451.89 l
+248.49 452.49 l
+247.41 452.97 l
+246.45 453.45 l
+245.49 454.89 l
+244.89 455.97 l
+243.93 456.45 l
+243.45 457.41 l
+242.97 458.49 l
+242.49 459.93 l
+242.49 461.97 l
+242.97 462.93 l
+242.97 463.89 l
+243.93 464.49 l
+244.41 465.45 l
+245.49 466.41 l
+246.45 466.89 l
+246.93 467.97 l
+247.89 467.97 l
+248.97 468.93 l
+250.89 469.89 l
+251.97 470.49 l
+252.45 471.45 l
+253.41 471.93 l
+254.97 472.89 l
+255.45 473.97 l
+256.41 474.93 l
+S
+0.801 0.801 1 RG
+198.45 252.45 m
+195.93 253.41 l
+196.89 252.45 l
+196.89 251.49 l
+197.97 250.89 l
+197.97 249.93 l
+198.45 248.97 l
+199.41 248.49 l
+199.89 247.41 l
+200.49 246.45 l
+200.97 245.49 l
+201.93 244.41 l
+202.41 243.45 l
+203.49 243.45 l
+204.45 242.97 l
+205.41 243.45 l
+205.89 244.41 l
+206.49 245.49 l
+206.97 246.93 l
+207.45 247.89 l
+207.45 248.97 l
+207.93 250.41 l
+207.93 251.49 l
+208.41 252.45 l
+208.41 253.89 l
+208.89 254.97 l
+208.89 256.41 l
+209.49 257.97 l
+209.49 258.93 l
+210.45 260.49 l
+210.45 261.45 l
+210.93 262.41 l
+210.93 263.49 l
+211.89 264.45 l
+211.89 265.89 l
+212.49 266.97 l
+212.97 268.41 l
+213.45 269.97 l
+214.41 271.89 l
+214.41 282.45 l
+214.89 283.41 l
+214.89 284.97 l
+215.49 285.93 l
+215.49 289.41 l
+215.97 290.97 l
+215.97 291.93 l
+216.45 292.89 l
+216.45 294.93 l
+216.93 295.89 l
+216.93 296.97 l
+217.89 298.89 l
+218.49 299.97 l
+220.41 300.93 l
+221.49 301.41 l
+222.93 301.89 l
+223.89 302.49 l
+224.97 302.97 l
+225.93 302.97 l
+226.89 303.45 l
+230.49 303.45 l
+231.45 302.97 l
+233.97 302.97 l
+234.93 302.49 l
+235.89 301.89 l
+236.97 301.41 l
+237.93 300.45 l
+238.89 299.97 l
+239.97 299.49 l
+240.45 298.41 l
+241.41 298.41 l
+241.89 297.45 l
+242.97 297.45 l
+243.93 296.49 l
+244.89 295.89 l
+245.97 295.41 l
+246.93 294.93 l
+248.97 293.97 l
+249.93 293.49 l
+250.89 293.49 l
+251.97 292.89 l
+252.45 291.93 l
+253.41 291.93 l
+258.45 288.45 m
+256.41 289.89 l
+254.49 288.93 l
+253.41 288.45 l
+251.49 288.45 l
+250.41 288.93 l
+249.45 289.41 l
+248.49 289.41 l
+247.41 289.89 l
+246.45 290.49 l
+245.49 290.49 l
+244.41 290.97 l
+243.45 290.97 l
+242.97 289.89 l
+242.97 287.97 l
+243.45 286.41 l
+243.93 285.45 l
+243.93 284.49 l
+244.41 283.41 l
+244.89 281.97 l
+245.49 280.89 l
+245.49 279.93 l
+245.97 278.97 l
+246.45 277.89 l
+246.45 275.49 l
+246.93 273.93 l
+246.93 272.97 l
+247.41 270.93 l
+247.41 268.89 l
+247.89 267.45 l
+247.89 266.49 l
+248.49 264.93 l
+248.49 263.97 l
+248.97 262.89 l
+249.93 260.97 l
+250.41 259.89 l
+250.41 257.97 l
+250.89 256.89 l
+250.89 255.93 l
+251.49 254.97 l
+251.49 252.93 l
+251.97 251.97 l
+251.97 250.41 l
+252.45 248.97 l
+252.93 247.89 l
+253.89 245.97 l
+254.49 244.89 l
+254.49 242.97 l
+254.97 241.89 l
+254.97 240.93 l
+255.45 239.97 l
+255.45 235.89 l
+254.97 234.93 l
+254.97 233.49 l
+254.49 232.41 l
+254.49 230.97 l
+253.89 229.41 l
+254.97 228.93 l
+255.93 229.89 l
+254.97 227.97 l
+254.49 226.89 l
+254.49 222.93 l
+253.89 221.97 l
+253.89 219.93 l
+253.41 218.97 l
+253.41 217.41 l
+252.45 215.49 l
+252.45 214.41 l
+251.49 212.49 l
+251.49 210.93 l
+250.89 209.49 l
+250.41 207.93 l
+249.93 206.97 l
+249.93 203.97 l
+249.45 202.89 l
+249.45 200.97 l
+248.97 199.89 l
+248.97 197.97 l
+248.49 196.41 l
+247.89 195.45 l
+247.41 194.49 l
+246.93 193.41 l
+246.45 192.45 l
+246.45 191.49 l
+245.97 189.93 l
+244.89 188.97 l
+244.89 187.89 l
+S
+0.98 0.992 0 RG
+0 J 
+480.45 373.41 m
+480.45 413.49 l
+S
+0.801 0.801 1 RG
+510.45 373.41 m
+510.45 419.49 l
+S
+BT
+0 24 -24 0 489.21 427.53 Tm
+0 Tc
+(External Peer)Tj
+0.11 -1.25 TD
+(Internal Peer)Tj
+-11.19 -0.99 TD
+0.003 Tc
+(AS)Tj
+ET
+endstream
+endobj
+121 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 4 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F7 33 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+122 0 obj
+<<
+/Type /Halftone
+/HalftoneType 1
+/HalftoneName (Default)
+/Frequency 60
+/Angle 45
+/SpotFunction /Round
+>>
+endobj
+7 0 obj
+<<
+/Type /ExtGState
+/SA false
+/OP false
+/HT /Default
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F2
+/Encoding 123 0 R
+/BaseFont /Helvetica-Bold
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F3
+/BaseFont /Helvetica
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F4
+/BaseFont /Times-Roman
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F5
+/BaseFont /ZapfDingbats
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F6
+/Encoding 123 0 R
+/BaseFont /Helvetica
+>>
+endobj
+33 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F7
+/BaseFont /Times-Bold
+>>
+endobj
+60 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F8
+/Encoding 123 0 R
+/BaseFont /Times-Roman
+>>
+endobj
+70 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F9
+/BaseFont /Symbol
+>>
+endobj
+108 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F10
+/BaseFont /Courier
+>>
+endobj
+123 0 obj
+<<
+/Type /Encoding
+/Differences [ 0/grave/acute/circumflex/tilde/macron/breve/dotaccent/dieresis
+/ring/cedilla/hungarumlaut/ogonek/caron/dotlessi/fi/fl
+/Lslash/lslash/Zcaron/zcaron/minus 39/quotesingle 96/grave 130/quotesinglbase
+/florin/quotedblbase/ellipsis/dagger/daggerdbl/circumflex/perthousand/Scaron
+/guilsinglleft/OE 145/quoteleft/quoteright/quotedblleft/quotedblright/bullet/endash
+/emdash/tilde/trademark/scaron/guilsinglright/oe 159/Ydieresis 164/currency
+ 166/brokenbar 168/dieresis/copyright/ordfeminine 172/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior/acute/mu 183/periodcentered/cedilla
+/onesuperior/ordmasculine 188/onequarter/onehalf/threequarters 192/Agrave/Aacute/Acircumflex
+/Atilde/Adieresis/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex
+/Edieresis/Igrave/Iacute/Icircumflex/Idieresis/Eth/Ntilde/Ograve
+/Oacute/Ocircumflex/Otilde/Odieresis/multiply/Oslash/Ugrave/Uacute
+/Ucircumflex/Udieresis/Yacute/Thorn/germandbls/agrave/aacute/acircumflex
+/atilde/adieresis/aring/ae/ccedilla/egrave/eacute/ecircumflex
+/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve
+/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute
+/ucircumflex/udieresis/yacute/thorn/ydieresis
+]
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+/Rotate 90
+>>
+endobj
+9 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 11 0 R
+/Contents 10 0 R
+/Rotate 90
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 17 0 R
+/Contents 16 0 R
+/Rotate 90
+>>
+endobj
+18 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 20 0 R
+/Contents 19 0 R
+/Rotate 90
+>>
+endobj
+21 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 23 0 R
+/Contents 22 0 R
+/Rotate 90
+>>
+endobj
+24 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 26 0 R
+/Contents 25 0 R
+/Rotate 90
+>>
+endobj
+27 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 29 0 R
+/Contents 28 0 R
+/Rotate 90
+>>
+endobj
+30 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 32 0 R
+/Contents 31 0 R
+/Rotate 90
+>>
+endobj
+34 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 36 0 R
+/Contents 35 0 R
+/Rotate 90
+>>
+endobj
+37 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 39 0 R
+/Contents 38 0 R
+/Rotate 90
+>>
+endobj
+40 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources 42 0 R
+/Contents 41 0 R
+/Rotate 90
+>>
+endobj
+45 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources 47 0 R
+/Contents 46 0 R
+/Rotate 90
+>>
+endobj
+48 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources 50 0 R
+/Contents 49 0 R
+/Rotate 90
+>>
+endobj
+51 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources 53 0 R
+/Contents 52 0 R
+/Rotate 90
+>>
+endobj
+54 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources 56 0 R
+/Contents 55 0 R
+/Rotate 90
+>>
+endobj
+57 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources 59 0 R
+/Contents 58 0 R
+/Rotate 90
+>>
+endobj
+61 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources 63 0 R
+/Contents 62 0 R
+/Rotate 90
+>>
+endobj
+64 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources 66 0 R
+/Contents 65 0 R
+/Rotate 90
+>>
+endobj
+67 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources 69 0 R
+/Contents 68 0 R
+/Rotate 90
+>>
+endobj
+71 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources 73 0 R
+/Contents 72 0 R
+/Rotate 90
+>>
+endobj
+74 0 obj
+<<
+/Type /Page
+/Parent 77 0 R
+/Resources 76 0 R
+/Contents 75 0 R
+/Rotate 90
+>>
+endobj
+78 0 obj
+<<
+/Type /Page
+/Parent 77 0 R
+/Resources 80 0 R
+/Contents 79 0 R
+/Rotate 90
+>>
+endobj
+81 0 obj
+<<
+/Type /Page
+/Parent 77 0 R
+/Resources 83 0 R
+/Contents 82 0 R
+/Rotate 90
+>>
+endobj
+84 0 obj
+<<
+/Type /Page
+/Parent 77 0 R
+/Resources 86 0 R
+/Contents 85 0 R
+/Rotate 90
+>>
+endobj
+87 0 obj
+<<
+/Type /Page
+/Parent 77 0 R
+/Resources 89 0 R
+/Contents 88 0 R
+/Rotate 90
+>>
+endobj
+90 0 obj
+<<
+/Type /Page
+/Parent 77 0 R
+/Resources 92 0 R
+/Contents 91 0 R
+/Rotate 90
+>>
+endobj
+93 0 obj
+<<
+/Type /Page
+/Parent 77 0 R
+/Resources 95 0 R
+/Contents 94 0 R
+/Rotate 90
+>>
+endobj
+96 0 obj
+<<
+/Type /Page
+/Parent 77 0 R
+/Resources 98 0 R
+/Contents 97 0 R
+/Rotate 90
+>>
+endobj
+99 0 obj
+<<
+/Type /Page
+/Parent 77 0 R
+/Resources 101 0 R
+/Contents 100 0 R
+/Rotate 90
+>>
+endobj
+102 0 obj
+<<
+/Type /Page
+/Parent 77 0 R
+/Resources 104 0 R
+/Contents 103 0 R
+/Rotate 90
+>>
+endobj
+105 0 obj
+<<
+/Type /Page
+/Parent 109 0 R
+/Resources 107 0 R
+/Contents 106 0 R
+/Rotate 90
+>>
+endobj
+110 0 obj
+<<
+/Type /Page
+/Parent 109 0 R
+/Resources 112 0 R
+/Contents 111 0 R
+/Rotate 90
+>>
+endobj
+113 0 obj
+<<
+/Type /Page
+/Parent 109 0 R
+/Resources 115 0 R
+/Contents 114 0 R
+/Rotate 90
+>>
+endobj
+116 0 obj
+<<
+/Type /Page
+/Parent 109 0 R
+/Resources 118 0 R
+/Contents 117 0 R
+/Rotate 90
+>>
+endobj
+119 0 obj
+<<
+/Type /Page
+/Parent 109 0 R
+/Resources 121 0 R
+/Contents 120 0 R
+/Rotate 90
+>>
+endobj
+8 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 9 0 R 15 0 R 18 0 R 21 0 R 24 0 R 27 0 R 30 0 R 34 0 R 37 0 R]
+/Count 10
+/Parent 43 0 R
+>>
+endobj
+44 0 obj
+<<
+/Type /Pages
+/Kids [40 0 R 45 0 R 48 0 R 51 0 R 54 0 R 57 0 R 61 0 R 64 0 R 67 0 R 71 0 R]
+/Count 10
+/Parent 43 0 R
+>>
+endobj
+77 0 obj
+<<
+/Type /Pages
+/Kids [74 0 R 78 0 R 81 0 R 84 0 R 87 0 R 90 0 R 93 0 R 96 0 R 99 0 R 102 0 R]
+/Count 10
+/Parent 43 0 R
+>>
+endobj
+109 0 obj
+<<
+/Type /Pages
+/Kids [105 0 R 110 0 R 113 0 R 116 0 R 119 0 R]
+/Count 5
+/Parent 43 0 R
+>>
+endobj
+43 0 obj
+<<
+/Type /Pages
+/Kids [8 0 R 44 0 R 77 0 R 109 0 R ]
+/Count 35
+/MediaBox [0 0 612 792]
+>>
+endobj
+124 0 obj
+<<
+/Type /Catalog
+/Pages 43 0 R
+>>
+endobj
+125 0 obj
+<<
+/CreationDate (D:19990218142838)
+/Producer (\376\377\000A\000c\000r\000o\000b\000a\000t\000 \000D\000i\000s\000t\000i\000l\000l\000e\000r\000 \0003\000.\0000\0001\000 \000f\000o\000r\000 \000W\000i\000n\000d\000o\000w\000s)
+/Creator (Windows NT 4.0)
+/Title (Microsoft PowerPoint - S-BGP-NDSS99.990204.ppt)
+>>
+endobj
+xref
+0 126
+0000000000 65535 f
+0000169759 00000 n
+0000000017 00000 n
+0000000927 00000 n
+0000167520 00000 n
+0000167613 00000 n
+0000167725 00000 n
+0000167441 00000 n
+0000173410 00000 n
+0000169859 00000 n
+0000001054 00000 n
+0000003449 00000 n
+0000167813 00000 n
+0000167904 00000 n
+0000167996 00000 n
+0000169961 00000 n
+0000003602 00000 n
+0000005392 00000 n
+0000170064 00000 n
+0000005533 00000 n
+0000007511 00000 n
+0000170167 00000 n
+0000007664 00000 n
+0000009997 00000 n
+0000170270 00000 n
+0000010150 00000 n
+0000013016 00000 n
+0000170373 00000 n
+0000013134 00000 n
+0000015160 00000 n
+0000170476 00000 n
+0000015278 00000 n
+0000017718 00000 n
+0000168104 00000 n
+0000170579 00000 n
+0000017859 00000 n
+0000020140 00000 n
+0000170682 00000 n
+0000020258 00000 n
+0000022143 00000 n
+0000170785 00000 n
+0000022261 00000 n
+0000025347 00000 n
+0000173962 00000 n
+0000173553 00000 n
+0000170889 00000 n
+0000025488 00000 n
+0000027311 00000 n
+0000170993 00000 n
+0000027464 00000 n
+0000029834 00000 n
+0000171097 00000 n
+0000029987 00000 n
+0000032483 00000 n
+0000171201 00000 n
+0000032636 00000 n
+0000036665 00000 n
+0000171305 00000 n
+0000036795 00000 n
+0000042637 00000 n
+0000168194 00000 n
+0000171409 00000 n
+0000042779 00000 n
+0000048788 00000 n
+0000171513 00000 n
+0000048906 00000 n
+0000051173 00000 n
+0000171617 00000 n
+0000051314 00000 n
+0000057028 00000 n
+0000168304 00000 n
+0000171721 00000 n
+0000057170 00000 n
+0000059976 00000 n
+0000171825 00000 n
+0000060129 00000 n
+0000062445 00000 n
+0000173699 00000 n
+0000171929 00000 n
+0000062610 00000 n
+0000065512 00000 n
+0000172033 00000 n
+0000065665 00000 n
+0000067935 00000 n
+0000172137 00000 n
+0000068088 00000 n
+0000069971 00000 n
+0000172241 00000 n
+0000070112 00000 n
+0000072219 00000 n
+0000172345 00000 n
+0000072372 00000 n
+0000075416 00000 n
+0000172449 00000 n
+0000075569 00000 n
+0000077139 00000 n
+0000172553 00000 n
+0000077292 00000 n
+0000077647 00000 n
+0000172657 00000 n
+0000077765 00000 n
+0000084600 00000 n
+0000172763 00000 n
+0000084719 00000 n
+0000089666 00000 n
+0000172870 00000 n
+0000089785 00000 n
+0000136349 00000 n
+0000168390 00000 n
+0000173846 00000 n
+0000172978 00000 n
+0000136482 00000 n
+0000140479 00000 n
+0000173086 00000 n
+0000140598 00000 n
+0000144528 00000 n
+0000173194 00000 n
+0000144659 00000 n
+0000149694 00000 n
+0000173302 00000 n
+0000149825 00000 n
+0000167164 00000 n
+0000167307 00000 n
+0000168479 00000 n
+0000174076 00000 n
+0000174134 00000 n
+trailer
+<<
+/Size 126
+/Root 124 0 R
+/Info 125 0 R
+/ID [<4b6ef6ddaefc1437a51d1a5ee9aad3dc><4b6ef6ddaefc1437a51d1a5ee9aad3dc>]
+>>
+startxref
+174471
+%%EOF
